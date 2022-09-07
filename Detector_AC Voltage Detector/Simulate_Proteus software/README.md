@@ -1,1 +1,6 @@
-It's a file for simulation and will open with Proteus software. I use it for check and upgrade schematic.
+It has included simulator file and will open with Proteus software. I use it for check and upgrade schematic.
+
+History of last opened files:
+- V1.0.pdsprj:	Proteus 8 Professional v8.13 SP0
+- V2.0.pdsprj:	Proteus 8 Professional v8.13 SP0
+- V3.0.pdsprj:	Proteus 8 Professional v8.13 SP0
