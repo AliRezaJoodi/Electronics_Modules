@@ -1,2 +1,1 @@
-# Electronic Modules
- Electronic Modules
+It's free **electronic modules** for study or use in projects
