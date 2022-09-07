@@ -1,2 +1,2 @@
-It will include many schematics of **electronic module** for use in projects.
+It will include many schematics of **electronic modules** for use in projects.
 
