@@ -1,1 +1,2 @@
-It's free **electronic modules** for study or use in projects
+It will include many schematics of **electronic module** for use in projects.
+
