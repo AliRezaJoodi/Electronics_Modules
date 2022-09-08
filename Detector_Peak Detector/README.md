@@ -3,4 +3,4 @@ It's a schematic for **Peak Detector**. I tested it for many times and worked gr
 - Simulate <sub>(It has included simulator file and will open with Proteus software.)</sub>
 
 
-![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detector_Peak%20Detector/Schematic_Altium%20Designer%20software/V1.0.jpg?raw=true)
+![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detector_Peak%20Detector/Schematic/V1.0.jpg?raw=true)
