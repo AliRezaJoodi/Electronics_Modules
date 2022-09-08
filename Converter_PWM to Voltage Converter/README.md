@@ -1,4 +1,4 @@
-It's a schematic for **Converter_PWM to Voltage Converter**. I tested it for many times and worked great. It has included:
+It's a schematic for **PWM to Voltage Converter**. I tested it for many times and worked great. It has included:
 - Schematic (It has included schematic file and will open with Altium Designer software.)
 
 
