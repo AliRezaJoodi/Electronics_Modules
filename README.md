@@ -1,2 +1,3 @@
-It will include many schematics and PCBs of **electronic modules** for use in projects.
+It's my personal archive of useful **electronic module**. I'm uploading them from my hard to GitHub. 
+
 
