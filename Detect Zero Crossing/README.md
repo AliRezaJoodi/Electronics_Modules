@@ -8,4 +8,4 @@ It's a schematic for **Detect Zero Crossing**. I tested it for many times and wo
 
 
 ### Picture
-![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detect%20Zero%20Crossing/Pictures/V1.0.png?raw=true)
+![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detect%20Zero%20Crossing/Pictures/V1.0.jpg?raw=true)
