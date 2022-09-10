@@ -1,4 +1,4 @@
-It's a schematic for **xxx**. I tested it for many times and worked great. It has included:
+It's a schematic for **Drive LCD16x2**. I tested it for many times and worked great. It has included:
 - Pictures (It has included photos of samples I made.)
 - Schematic (It has included schematic file and will open with Altium Designer software.)
 
