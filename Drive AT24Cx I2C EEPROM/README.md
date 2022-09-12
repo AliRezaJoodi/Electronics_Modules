@@ -1,4 +1,4 @@
-It's about **Drive AT24Cx I2C EEPROM**. I tested it for many times and worked great. Description for the content:
+It's about **Drive AT24Cx I2C EEPROM**. I tested it for many times and worked great. It has included:
 
 Pictures:
 - It has included photos of samples I made.
@@ -9,7 +9,7 @@ Schematic & PCB/V1.0:
 - Last opened with Altium Designer Version 15.0.15
 - Not yet make
 
-Schematic & PCB/V1.0:
+Schematic & PCB/V2.0:
 - Included schematic and PCB Layout
 - Used of THD Components. 
 - Last opened with Altium Designer Version 15.0.15
