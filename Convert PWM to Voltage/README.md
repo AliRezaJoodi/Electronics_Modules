@@ -1,5 +1,8 @@
-It's a schematic for **Convert PWM to Voltage**. I tested it for many times and worked great. It has included:
-- Schematic (It has included schematic file and will open with Altium Designer software.)
+It's about **Convert PWM to Voltage**. I tested it for many times and worked great. It has included:
 
+Schematic/V1.0:
+- Included schematic
+- Last opened with Altium Designer Version 15.0.15
+- Made and tested successfully
 
 ![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Convert%20PWM%20to%20Voltage/Schematic/V1.0.jpg?raw=true)

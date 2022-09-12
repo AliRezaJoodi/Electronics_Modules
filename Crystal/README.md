@@ -1,5 +1,9 @@
-It's a schematic for **Crystal**. I tested it for many times and worked great. It has included:
-- Schematic (It has included schematic file and will open with Altium Designer software.)
+It's about **Crystal**. I tested it for many times and worked great. It has included:
+
+Schematic/V1.0:
+- Included schematic.
+- Last opened with Altium Designer Version 15.0.15
+- Made and tested successfully.
 
 
 ![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Crystal/Schematic/V1.0.png?raw=true)
