@@ -1,4 +1,4 @@
-It's a schematic for **Pulse Stabilization**. I tested it and worked great. It has included:
+It's a schematic for **Pulse Stabilization**. I tested it for many times and worked great. It has included:
 - Schematic (It has included schematic file and will open with Altium Designer software.)
 
 ### Schematic
