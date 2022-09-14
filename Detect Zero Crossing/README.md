@@ -4,12 +4,12 @@ Pictures:
 - It has included photos of samples I made.
 
 Schematic/V1.0:
-- Included schematic and PCB Layout.
+- Included schematic.
 - Last opened with Altium Designer Version 15.0.15
 - Made and tested successfully.
 
 Schematic/V2.0:
-- Included schematic and PCB Layout.
+- Included schematic.
 - Last opened with Altium Designer Version 15.0.15
 - Made and tested successfully.
 
