@@ -1,23 +1,11 @@
 It's about **Detect AC Voltage**. I tested it for many times and worked great. It has included:
 
-Pictures:
-- It has included photos of samples I made.
+- Hardware Design (Included hardware layers.)
+- Pictures (Included photos samples made.)
+- Simulate (Included simulator file)
 
-Schematic/V1.0:
-- Included schematic.
-- Last opened with Altium Designer Version 15.0.15
-- Made and tested successfully.
+### Schematic for V2.0
+![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detect%20AC%20Voltage/Hardware%20Design/V2.0.png?raw=true)
 
-Schematic/V2.0:
-- Included schematic.
-- Last opened with Altium Designer Version 15.0.15
-- Made and tested successfully.
-
-Simulate:
-- Last opened with Proteus 8 Professional v8.13 SP0
-
-### Schematic V2.0
-![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detect%20AC%20Voltage/Schematic/V2.0.png?raw=true)
-
-### Picture V2.0
+### Picture for V2.0
 ![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detect%20AC%20Voltage/Pictures/V2.0.jpg?raw=true)

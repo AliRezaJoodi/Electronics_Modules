@@ -1,12 +1,8 @@
 It's about **Detect Peak Voltage**. I tested it for many times and worked great. It has included:
 
-Schematic/V1.0:
-- Included schematic.
-- Last opened with Altium Designer Version 15.0.15
-- Made and tested successfully.
-
-Simulate:
-- Last opened with Proteus 8 Professional v8.13 SP0
+- Hardware Design (Included hardware layers.)
+- Pictures (Included photos samples made.)
+- Simulate (Included simulator file)
 
 ### Schematic V1.0
-![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detect%20Peak%20Voltage/Schematic/V1.0.png?raw=true)
+![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detect%20Peak%20Voltage/Hardware%20Design/V1.0.png?raw=true)
