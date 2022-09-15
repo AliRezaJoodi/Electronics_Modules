@@ -1,7 +1,6 @@
 It's about **Detect Peak Voltage**. I tested it for many times and worked great. It has included:
 
 - Hardware Design (Included hardware layers.)
-- Pictures (Included photos samples made.)
 - Simulate (Included simulator file)
 
 ### Schematic V1.0
