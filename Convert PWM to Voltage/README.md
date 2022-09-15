@@ -6,4 +6,4 @@ Schematic/V1.0:
 - Made and tested successfully
 
 ### Schematic V1.0
-![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Convert%20PWM%20to%20Voltage/Schematic/V1.0.jpg?raw=true)
+![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Convert%20PWM%20to%20Voltage/Schematic/V1.0.png?raw=true)
