@@ -5,7 +5,7 @@ It's about **Pulse Width Correction with 50%**. I tested it for many times and w
 - Simulate (Included simulator file)
 
 ### Schematic for V1.0
-![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Pulse%20Width%20Correction%20with%2050%/Hardware%20Design/V1.0.png?raw=true)
+![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Pulse%20Width%20Correction%20with%2050%25/Hardware%20Design/V1.0.png?raw=true)
 
 ### Picture for V1.0
-![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Pulse%20Width%20Correction%20with%2050%/Pictures/V1.0.jpg?raw=true)
+![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Pulse%20Width%20Correction%20with%2050%25/Pictures/V1.0.jpg?raw=true)
