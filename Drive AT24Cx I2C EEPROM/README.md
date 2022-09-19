@@ -8,3 +8,5 @@ It's about **Drive AT24Cx I2C EEPROM**. I tested it for many times and worked gr
 
 ### Picture for V2.0
 ![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Drive%20AT24Cx%20I2C%20EEPROM/Pictures/V2.0.jpg?raw=true)
+
+**Note**: [You can go here to download a single folder or file link from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)

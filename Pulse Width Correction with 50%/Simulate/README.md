@@ -11,4 +11,6 @@ V2.0:
 - Using CD4013 and drive with 15V/DC
 - Made and tested successfully.
 
+**Note**: [You can go here to download a single folder or file link from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+
 
