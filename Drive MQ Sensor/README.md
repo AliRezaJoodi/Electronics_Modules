@@ -9,4 +9,4 @@ It's about **Drive MQ Sensor**. I tested it for many times and worked great. It 
 ### Picture V1.0
 ![This is an image](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Drive%20MQ%20Sensor/Pictures/V1.0.jpg?raw=true)
 
-**Note**: [You can go here to download a single folder or file link from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
