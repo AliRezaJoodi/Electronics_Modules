@@ -1,4 +1,6 @@
-It's about **ADC Module with HX711**. I tested it and worked great.  
+It's about **ADC Module with HX711**. 
+The HX711 is a precision 24-bit ADC that is designed for weighing scales and industrial control applications to interface directly with a bridge sensor. 
+I tested it and worked great.  
 It has included:
 
 - Hardware Design (Included hardware layers.)
