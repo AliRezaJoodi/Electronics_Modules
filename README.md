@@ -4,6 +4,7 @@ It's my personal archive of useful **electronic module**. I'm uploading them to 
 
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/_Album/5.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/_Album/4.jpg?raw=true)
+![ATmega328 Full Module V1.2](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU%20Using%20AVR/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/_Album/11.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/_Album/6.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/_Album/8.jpg?raw=true)
