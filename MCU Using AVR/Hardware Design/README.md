@@ -1,0 +1,20 @@
+### Description
+
+ATmega328 Full Module V1.0:
+- Included schematic and PCB Layout.
+- Using ATmega328P (DIP-28N) and other THD and SMD Components.
+- Last opened with Altium Designer Version 15.0.15
+- Made and tested successfully.
+
+ATmega328 Full Module V1.1:
+- Included schematic and PCB Layout.
+- Using ATmega328P (DIP-28N) and other THD and SMD Components.
+- Last opened with Altium Designer Version 15.0.15
+- Made and tested successfully. It's best Version.
+
+ATmega328 V1.2:
+- Included schematic.
+- Using ATmega328P (DIP-28N).
+- Last opened with Altium Designer Version 15.0.15
+
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
