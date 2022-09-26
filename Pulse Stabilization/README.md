@@ -1,5 +1,6 @@
-It's about **Pulse Stabilization**. I tested it for many times and worked great. It has included:
+It's about **Pulse Stabilization**. I tested it for many times and worked great.
 
+It has included:
 - Hardware Design (Included hardware layers.)
 
 ### Schematic for V1.0

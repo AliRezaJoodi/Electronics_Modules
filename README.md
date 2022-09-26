@@ -4,7 +4,7 @@ It's my personal archive of useful **electronic module**. I'm uploading them to 
 ![EEPROM_AT24Cx](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/EEPROM_AT24Cx/Pictures/Album.jpg?raw=true)
 ![MCU_AI](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_AI/Pictures/Album.jpg?raw=true)
 ![MCU_AVR](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_AVR/Pictures/Album.jpg?raw=true)
-![Protecting IGBT Gate](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Protecting%20IGBT%20Gate/Pictures/Album.jpg?raw=true)
+![Protective_IGBT Gate](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Protective_IGBT%20Gate/Pictures/Album.jpg?raw=true)
 ![Module_IR](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Module_IR/Pictures/Album.jpg?raw=true)
 ![Sensor_MQ](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_MQ/Pictures/Album.jpg?raw=true)
 ![MCU_WatchDog](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_WatchDog/Pictures/Album.jpg?raw=true)

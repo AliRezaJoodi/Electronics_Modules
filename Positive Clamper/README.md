@@ -1,5 +1,6 @@
-It's about **Positive Clamper**. I tested it for many times and worked great. It has included:
+It's about **Positive Clamper**. I tested it for many times and worked great.
 
+It has included:
 - Hardware Design (Included hardware layers.)
 - Simulate (Included simulator file)
 

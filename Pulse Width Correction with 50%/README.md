@@ -1,5 +1,6 @@
-It's about **Pulse Width Correction with 50%**. I tested it for many times and worked great. It has included:
+It's about **Pulse Width Correction with 50%**. I tested it for many times and worked great.
 
+It has included:
 - Hardware Design (Included hardware layers.)
 - Pictures (Included photos samples made.)
 - Simulate (Included simulator file)
