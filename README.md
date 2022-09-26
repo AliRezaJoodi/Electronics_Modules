@@ -2,7 +2,7 @@ It's my personal archive of useful **electronic module**. I'm uploading them to 
 
 ### Pictures of the Repository
 ![Drive AT24Cx I2C EEPROM](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Drive%20AT24Cx%20I2C%20EEPROM/Pictures/Album.jpg?raw=true)
-![ADC Input for MCU](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/ADC%20Input%20for%20MCU/Pictures/Album.jpg?raw=true)
+![MCU_Analog Input](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_Analog%20Input/Pictures/Album.jpg?raw=true)
 ![ATmega328 Full Module V1.2](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU%20Using%20AVR/Pictures/Album.jpg?raw=true)
 ![Protecting IGBT Gate](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Protecting%20IGBT%20Gate/Pictures/Album.jpg?raw=true)
 ![Drive IR Module](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Drive%20IR%20Module/Pictures/Album.jpg?raw=true)

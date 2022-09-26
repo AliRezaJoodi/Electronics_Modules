@@ -4,7 +4,7 @@ V4.0:
 - Included schematic.
 - Last opened with Altium Designer Version 15.0.15
 - Used of **10K NTC**.
-- Made and tested **successfully**.
+- Made and tested successfully. It's **best version**.
 
 V3.0:
 - Included schematic.
