@@ -1,6 +1,6 @@
 It's about **Analog Input Driver for Microcontroller**. I tested it for many times and worked great.
 
-It has included:   
+It has included:
 - Hardware Design (Included hardware layers.)
 - Pictures (Included photos samples made.)
 
