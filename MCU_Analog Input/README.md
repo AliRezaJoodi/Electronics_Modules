@@ -1,4 +1,4 @@
-It's about **Analog Input Driver for Microcontroller**. I tested it for many times and worked great.
+It's about **Analog Input to Microcontroller**. I tested it for many times and worked great.
 
 It has included:
 - Hardware Design (Included hardware layers.)
