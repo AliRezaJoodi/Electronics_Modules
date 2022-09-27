@@ -4,13 +4,13 @@ V3.0:
 - Included schematic.
 - Last opened with Altium Designer Version 15.0.15
 - Error detector with competitive output for 3 LM35 sensors
-- Made and tested successfully.
+- Used successfully.
 
 V2.0:
 - Included schematic.
 - Last opened with Altium Designer Version 15.0.15
 - Error detector with competitive output for 2 LM35 sensors
-- Made and tested successfully.
+- Used successfully.
 
 V1.0:
 - Included schematic and PCB layout.
