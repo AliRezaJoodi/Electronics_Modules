@@ -1,12 +1,8 @@
 ### Description
 
 V1.0:
-- Included schematic and PCB layout.
+- Included schematic.
 - Last opened with Altium Designer Version 15.0.15
-- Used of SMD components.
-- Used of THD components.
-- Not tested.
-- Made and tested successfully.
-- Used successfully
+- It has no hysteresis.
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
