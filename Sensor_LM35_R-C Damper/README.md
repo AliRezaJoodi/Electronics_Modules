@@ -6,9 +6,9 @@ It has included:
 - Pictures (Included photos samples made)
 
 ### Schematic: V1.0
-![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_LM35_R-C Damper/Hardware/Figure.png?raw=true)
+![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_LM35_R-C%20Damper/Hardware/Figure.png?raw=true)
 
 ### Picture: V1.0
-![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_LM35_R-C Damper/Pictures/V1.0.jpg?raw=true)
+![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_LM35_R-C%20Damper/Pictures/V1.0.jpg?raw=true)
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
