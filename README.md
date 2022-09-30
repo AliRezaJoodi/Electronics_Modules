@@ -9,7 +9,7 @@ It's my personal archive of useful **electronic module**. I'm uploading them to 
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Module_IR/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_MQ/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_WatchDog/Pictures/Album.jpg?raw=true)
-![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Converter_Frequency%20to%20Voltage/Pictures/V1.1.jpg?raw=true)
+![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Converter_Frequency%20to%20Voltage/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detector_Water%20Flow/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detector_AC%20Voltage/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detector_Zero%20Crossing/Pictures/Album.jpg?raw=true)
