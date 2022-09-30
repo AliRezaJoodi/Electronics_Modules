@@ -6,7 +6,7 @@ It has included:
 - Pictures (Included photos samples made)
 
 ### Schematic: V1.0
-![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_LM35_R-C%20Damper/Hardware/Figure.png?raw=true)
+![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_LM35_R-C%20Damper/Hardware/V1.0.png?raw=true)
 
 ### Picture: V1.0
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Sensor_LM35_R-C%20Damper/Pictures/V1.0.jpg?raw=true)
