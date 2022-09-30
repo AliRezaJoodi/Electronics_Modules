@@ -1,4 +1,4 @@
-It's about **Two-Wire Temperature Sensor Using LM35 **.
+It's about **Two-Wire Temperature Sensor Using LM35**.
 I tested it and worked great.
 
 It has included:
