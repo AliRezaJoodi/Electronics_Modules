@@ -1,4 +1,4 @@
-It's my personal archive of useful **Electronic Modules**. I'm uploading them to GitHub. 
+It's an archive of **Electronic Modules**. There are simple circuits, but useful. I'm uploading more file from personal archive. 
 
 ### Pictures of the Repository
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/EEPROM_AT24Cx/Pictures/Album.jpg?raw=true)
