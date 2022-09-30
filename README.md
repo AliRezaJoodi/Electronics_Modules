@@ -1,4 +1,4 @@
-It's my personal archive of useful **electronic module**. I'm uploading them to GitHub. 
+It's my personal archive of useful **Electronic Modules**. I'm uploading them to GitHub. 
 
 ### Pictures of the Repository
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/EEPROM_AT24Cx/Pictures/Album.jpg?raw=true)
@@ -11,9 +11,9 @@ It's my personal archive of useful **electronic module**. I'm uploading them to 
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_WatchDog/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Converter_Frequency%20to%20Voltage/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detector_Water%20Flow/Pictures/Album.jpg?raw=true)
+![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Driver_Buzzer/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detector_AC%20Voltage/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Detector_Zero%20Crossing/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Display_LCD16x2/Pictures/Album.jpg?raw=true)
-![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Driver_Buzzer/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Module_RF_ASK_Receiver_RR3-XXX/Pictures/Album.jpg?raw=true)
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/Module_RF_ASK_Transmitter_TX-13952/Pictures/Album.jpg?raw=true)
