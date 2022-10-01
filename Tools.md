@@ -57,7 +57,8 @@ V1.0:
 - Used of THD components.
 - Not tested.
 - Used successfully
-- Made and tested successfully. It's **Best Version**.
+- Made and tested successfully. 
+- It's **Best Version**.
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
 ```
