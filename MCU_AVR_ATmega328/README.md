@@ -7,7 +7,7 @@ It has included:
 - Pictures (Included photos samples made)
 
 ### Schematic: V2.1
-![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_AVR_ATmega328/Hardware/V2.1/V2.1.png?raw=true)
+![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_AVR_ATmega328/Hardware/V2.1.png?raw=true)
 
 ### Picture: V2.0
 ![](https://github.com/AliRezaJoodi/Electronic-Modules/blob/main/MCU_AVR_ATmega328/Pictures/V2.0.jpg?raw=true)
