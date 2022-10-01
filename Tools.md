@@ -2,8 +2,10 @@ Note: It's a personal help to manage files.
 
 We need to create few folders and files on the main page. Included:
 - `Hardware` (It's a folder)
+  - `README.md` (It's a file)
 - `Pictures` (It's a folder)
 - `Simulate` (It's a folder)
+  - `README.md` (It's a file)
 - `.gitignor` (It's a file)
 - `README.md` (It's a file)
 
