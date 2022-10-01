@@ -1,3 +1,5 @@
+Note: It's a personal help to manage files. 
+
 # Main Page
 We need to create few folders and files on the main page. Included:
 - `Hardware` (It's a folder)
