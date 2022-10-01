@@ -1,9 +1,9 @@
-# Personal
+# Personal folders and files for ignore
 _Pending
 
-# Altium Designer
-Hardware/History
-Hardware/__Previews
+# Altium Designer folders and files for ignore
+__Previews
+History
 
-# Proteus
-Simulate/Project Backups
+# Proteus folders and files for ignore
+Project Backups
