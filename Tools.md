@@ -6,22 +6,7 @@ We need to create few folders and files on the main page. Included:
 - `Pictures` (It's a folder)
 - `Simulate` (It's a folder)
   - `README.md` (It's a file)
-- `.gitignor` (It's a file)
 - `README.md` (It's a file)
-
-## .gitignor
-It's a file. Its name is `.gitignore`. Its content is:	
-```
-# Personal folders and files for ignore
-_Pending
-
-# Altium Designer folders and files for ignore
-__Previews
-History
-
-# Proteus folders and files for ignore
-Project Backups
-```
 
 ## README.md
 It's a file. Its name is `README.md`. Its content is:	
