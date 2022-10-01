@@ -1,3 +1,9 @@
+# Personal folders and files for ignore
 _Pending
-desktop.ini
 
+# Altium Designer folders and files for ignore
+__Previews
+History
+
+# Proteus folders and files for ignore
+Project Backups
