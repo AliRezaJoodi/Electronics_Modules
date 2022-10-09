@@ -19,3 +19,4 @@ It's an archive of **Electronic Modules**. There are simple circuits, but useful
 ![](Display_LCD16x2/Pictures/Album.jpg?raw=true)
 ![](Module_RF_ASK_Receiver_RR3-XXX/Pictures/Album.jpg?raw=true)
 ![](Module_RF_ASK_Transmitter_TX-13952/Pictures/Album.jpg?raw=true)
+![](Power%20Supply_Rectifier/Pictures/Album.jpg?raw=true)
