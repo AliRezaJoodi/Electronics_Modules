@@ -2,7 +2,7 @@ It's about **Frequency to Voltage Converter**.
 I tested it for many times and worked great.
 
 It has included:
-- Hardware Design (Included hardware layers)
+- Hardware (Included hardware layers)
 - Pictures (Included photos samples made)
 
 ### Schematic: V1.1
