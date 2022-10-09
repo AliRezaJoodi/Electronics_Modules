@@ -10,6 +10,6 @@ It has included:
 ![](Hardware/V2.1.png?raw=true)
 
 ### Picture: V2.0
-![](V2.0.jpg?raw=true)
+![](Pictures/V2.0.jpg?raw=true)
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
