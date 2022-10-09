@@ -13,10 +13,11 @@ It's an archive of **Electronic Modules**. There are simple circuits, but useful
 ![](Converter_Voltage%20to%20Current/Pictures/Album.jpg?raw=true)
 ![](Power%20Supply_Reference%20Voltage_LM336/Pictures/Album.jpg?raw=true)
 ![](Detector_Water%20Flow/Pictures/Album.jpg?raw=true)
+![](Power%20Supply_Rectifier/Pictures/Album.jpg?raw=true)
 ![](Driver_Buzzer/Pictures/Album.jpg?raw=true)
 ![](Detector_AC%20Voltage/Pictures/Album.jpg?raw=true)
 ![](Detector_Zero%20Crossing/Pictures/Album.jpg?raw=true)
 ![](Display_LCD16x2/Pictures/Album.jpg?raw=true)
 ![](Module_RF_ASK_Receiver_RR3-XXX/Pictures/Album.jpg?raw=true)
 ![](Module_RF_ASK_Transmitter_TX-13952/Pictures/Album.jpg?raw=true)
-![](Power%20Supply_Rectifier/Pictures/Album.jpg?raw=true)
+
