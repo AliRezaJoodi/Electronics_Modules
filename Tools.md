@@ -30,7 +30,7 @@ It has included:
 
 ## Hardware
 It's a folder and will be included hardware layers. We should create a file inside this folder. Included:
-- `README.md`   
+- `ReadMe.md`   
 Its content is:	
 ```
 ### Description
@@ -49,7 +49,7 @@ V1.0:
 ```
 ## Simulate
 It's a folder and will be included simulator file. We should create a file inside this folder. Included:
-- `README.md`   
+- `ReadMe.md`   
 Its content is:	
 ```
 ### Description
