@@ -20,10 +20,10 @@ It has included:
 - Simulate (Included simulator file)
 
 ### Schematic: V1.0
-![](Hardware/V1.0.png?raw=true)
+![](Hardware/V1.0.png)
 
 ### Picture: V1.0
-![](Pictures/V1.0.jpg?raw=true)
+![](Pictures/V1.0.jpg)
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
 ```
