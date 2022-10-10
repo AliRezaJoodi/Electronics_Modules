@@ -20,4 +20,6 @@ It's an archive of **Electronic Modules**. There are simple circuits, but useful
 ![](Display_LCD16x2/Pictures/Album.jpg?raw=true)
 ![](Module_RF_ASK_Receiver_RR3-XXX/Pictures/Album.jpg?raw=true)
 ![](Module_RF_ASK_Transmitter_TX-13952/Pictures/Album.jpg?raw=true)
+![](Driver_Thyristor_TLP521/Pictures/Album.jpg?raw=true)
+![](Driver_Triac_MOC3021/Pictures/Album.jpg?raw=true)
 
