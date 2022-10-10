@@ -6,7 +6,7 @@ V2.0:
 - Used successfully
 - Inverting + Positive Clamper
 
-V1.1:
+V1.0:
 - Included schematic.
 - Last opened with Altium Designer Version 15.0.15
 - Not tested.
