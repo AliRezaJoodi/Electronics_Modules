@@ -10,7 +10,7 @@ It has included:
 ![](Hardware/V1.0.png)
 
 ### Simulate (with PWM output): V1.0
-![](Simulates/V1.0.png)
+![](Simulate/V1.0.png)
 
 ### Picture: V1.0
 ![](Pictures/V1.0.jpg)
