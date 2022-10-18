@@ -1,12 +1,16 @@
 Note: It's a personal help to manage files. 
 
 We need to create few folders and files on the main page. Included:
-- `Hardware` (It's a folder)
-  - `ReadMe.md` (It's a file)
-- `Pictures` (It's a folder)
-- `Simulate` (It's a folder)
-  - `ReadMe.md` (It's a file)
-- `README.md` (It's a file)
+- `Hardware`
+  - `ReadMe.md`
+  - `V1.0.png`
+- `Pictures`
+  - `Album.jpg`
+  - `V1.0.jpg`
+- `Simulate`
+  - `ReadMe.md`
+  - `V1.0.png`
+- `README.md`
 
 ## README.md
 It's a file. Its name is `README.md`. Its content is:	
@@ -22,8 +26,13 @@ It has included:
 ### Schematic: V1.0
 ![](Hardware/V1.0.png)
 
+### Simulate: V1.0
+![](Simulates/V1.0.jpg)
+
 ### Picture: V1.0
 ![](Pictures/V1.0.jpg)
+
+My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
 ```
