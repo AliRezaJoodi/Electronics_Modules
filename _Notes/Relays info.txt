@@ -1,0 +1,9 @@
+
+SPST:	Single Pole Single Throw
+SPDT:	Single Pole Double Throw
+DPST:	Double Pole Single Throw
+DPDT:	Double Pole Double Throw
+
+Source Link: [DPDT Relay – Double Pole Double Throw Relay]{http://www.datasheetcafe.com/dpdt-relay-double-pole-double-throw-relay/}
+	
+			

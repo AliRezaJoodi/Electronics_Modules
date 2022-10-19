@@ -1,6 +1,7 @@
 Note: It's a personal help to manage files. 
 
 We need to create few folders and files on the main page. Included:
+- `README.md`
 - `Hardware`
   - `ReadMe.md`
   - `V1.0.png`
@@ -10,7 +11,6 @@ We need to create few folders and files on the main page. Included:
 - `Simulate`
   - `ReadMe.md`
   - `V1.0.png`
-- `README.md`
 
 ## README.md
 It's a file. Its name is `README.md`. Its content is:	

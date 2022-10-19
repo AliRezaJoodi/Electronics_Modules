@@ -24,3 +24,7 @@ It's an archive of **Electronic Modules**. There are simple circuits, but useful
 ![](MCU_AI/Pictures/Album2.jpg)
 ![](Driver_Triac_MOC3021/Pictures/Album.jpg)
 ![](Driver_Thyristor_TLP521/Pictures/Album.jpg)
+![](Module_RF_NRF24L01/Pictures/Album.jpg)
+![](Driver_Relay/Pictures/Album.jpg)
+
+
