@@ -9,7 +9,7 @@ It has included:
 ![](Hardware/V3.0.png)
 
 ### Picture: V3.0
-![](Pictures/V3.0.jpg)
+![](Pictures/V3.0.png)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
 
