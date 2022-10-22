@@ -14,7 +14,7 @@ It's an archive of **Electronic Modules**. There are simple circuits, but useful
 ![](Power%20Supply_Reference%20Voltage_LM336/Pictures/Album.jpg)
 ![](Detector_Water%20Flow/Pictures/Album.jpg)
 ![](Power%20Supply_Rectifier/Pictures/Album.jpg)
-![](Sensor_MQ/Pictures/Album.jpg)
+![](Sensor_MQ_AO/Pictures/Album.jpg)
 ![](Driver_Buzzer/Pictures/Album.jpg)
 ![](Detector_AC%20Voltage/Pictures/Album.jpg)
 ![](Detector_Zero%20Crossing/Pictures/Album.jpg)
@@ -30,4 +30,5 @@ It's an archive of **Electronic Modules**. There are simple circuits, but useful
 ![](Interface_USB%20to%20RS422/Pictures/Album.jpg)
 ![](Interface_RS232%20to%20TTL_1-Layer/Pictures/Album.jpg)
 ![](Interface_RS232%20to%20TTL_2-Layer/Pictures/Album.jpg)
+![](Sensor_MQ_DO/Pictures/Album.jpg)
 

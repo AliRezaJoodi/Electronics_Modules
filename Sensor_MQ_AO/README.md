@@ -7,6 +7,9 @@ It has included:
 ### Schematic V1.0
 ![](Hardware/V1.0.png?raw=true)
 
+### Picture V1.1
+![](Pictures/V1.1.jpg?raw=true)
+
 ### Picture V1.0
 ![](Pictures/V1.0.jpg?raw=true)
 
