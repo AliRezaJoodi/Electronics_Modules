@@ -54,8 +54,6 @@ V1.0:
 - Used successfully
 - Made and tested successfully. 
 - It's **Best Version**.
-
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
 ```
 ## Simulate
 It's a folder and will be included simulator file. We should create a file inside this folder. Included:
