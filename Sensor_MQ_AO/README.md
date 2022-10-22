@@ -4,8 +4,8 @@ It has included:
 - Hardware (Included hardware layers.)
 - Pictures (Included photos samples made.)
 
-### Schematic V1.0
-![](Hardware/V1.0.png?raw=true)
+### Schematic V1.1
+![](Hardware/V1.1.png?raw=true)
 
 ### Picture V1.1
 ![](Pictures/V1.1.jpg?raw=true)
