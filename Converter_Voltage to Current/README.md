@@ -10,7 +10,7 @@ It has included:
 ### Schematic: V1.1
 ![](Hardware/V1.1.png)
 
-### Picture: V1.0
+### Picture: V1.1
 ![](Pictures/V1.1.jpg)
 
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
