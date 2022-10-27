@@ -1,5 +1,8 @@
 ### Description
 
+Check for new version:
+- It will work more faster and reliable with NE5534
+
 V1.1:
 - Included schematic.
 - Last opened with Altium Designer Version 15.0.15

@@ -44,6 +44,9 @@ Its content is:
 ```
 ### Description
 
+Check for new version:
+- Null
+
 V1.0:
 - Included schematic and PCB layout.
 - Last opened with Altium Designer Version 15.0.15
