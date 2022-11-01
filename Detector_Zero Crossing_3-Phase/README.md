@@ -1,5 +1,5 @@
 It's a schematic for **Zero Crossing Detector** for a 3-phase dimmer. 
-It's useful for detecting 30^ to 150^
+It's useful for detecting 30^ to 150^ range.
 I tested it for many times and worked great.
 
 It has included:
