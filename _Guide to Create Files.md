@@ -4,13 +4,13 @@ We need to create few folders and files on the main page. Included:
 - `README.md`
 - `Hardware`
   - `ReadMe.md`
-  - `V1.0.png`
+  - `v1.0.png`
 - `Pictures`
   - `Album.jpg`
-  - `V1.0.jpg`
+  - `v1.0.jpg`
 - `Simulate`
   - `ReadMe.md`
-  - `V1.0.png`
+  - `v1.0.png`
 
 ## README.md
 It's a file. Its name is `README.md`. Its content is:	
@@ -23,14 +23,14 @@ It has included:
 - Pictures (Included photos samples made)
 - Simulate (Included simulator file)
 
-### Schematic: V1.0
-![](Hardware/V1.0.png)
+### Schematic: v1.0
+![](Hardware/v1.0.png)
 
-### Simulate: V1.0
-![](Simulates/V1.0.jpg)
+### Simulate: v1.0
+![](Simulates/v1.0.jpg)
 
-### Picture: V1.0
-![](Pictures/V1.0.jpg)
+### Picture: v1.0
+![](Pictures/v1.0.jpg)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
 
@@ -47,7 +47,7 @@ Its content is:
 Check for new version:
 - Null
 
-V1.0:
+v1.0:
 - Included schematic and PCB layout.
 - Last opened with Altium Designer Version 15.0.15
 - Last opened with Proteus 8 Professional v8.13 SP0
@@ -65,9 +65,9 @@ Its content is:
 ```
 ### Description
 
-V2.0:
+v2.0:
 - Last opened with Proteus 8 Professional v8.13 SP0
 
-V1.0:
+v1.0:
 - Last opened with Proteus 8 Professional v8.13 SP0
 ```

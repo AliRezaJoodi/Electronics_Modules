@@ -1,17 +1,12 @@
-It's a schematic for **Zero Crossing Detector** for a 3-phase dimmer. 
-It's useful for detecting 30^ to 150^
+It's a schematic for **Zero Crossing Detector** for a 1-phase dimmer. 
 I tested it for many times and worked great.
 
 It has included:
-- Hardware (Included hardware layers.)
-- Pictures (Included photos samples made.)
+- Hardware (Included hardware layers)
 - Simulate (Included simulator file)
 
-### Schematic: v1.0
+### Schematic: V1.0
 ![](Hardware/v1.0.png)
-
-### Picture: v1.0
-![](Pictures/v1.0.jpg)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
   
