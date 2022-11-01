@@ -5,7 +5,7 @@ It has included:
 - Hardware (Included hardware layers)
 - Simulate (Included simulator file)
 
-### Schematic: V1.0
+### Schematic: v1.0
 ![](Hardware/v1.0.png)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
