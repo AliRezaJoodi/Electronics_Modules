@@ -8,7 +8,7 @@ It has included:
 - Simulate (Included simulator file)
 
 ### Schematic: V1.0
-![](Hardware/V1.0.png)
+![](Hardware/v1.0.png)
 
 ### Picture: V1.0
 ![](Pictures/V1.0.jpg)

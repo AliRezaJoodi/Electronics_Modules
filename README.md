@@ -27,7 +27,7 @@ There are simple circuits, but useful.
 ![](Driver_Triac_MOC3021/Pictures/Album.jpg)
 ![](Driver_Thyristor_TLP521/Pictures/Album.jpg)
 ![](Module_RF_NRF24L01/Pictures/Album.jpg)
-![](Detector_Zero%20Crossing%20for%203-Phase/Pictures/Album.jpg)
+![](Detector_Zero%20Crossing_3-Phase/Pictures/Album.jpg)
 ![](Display_LCD16x2/Pictures/Album.jpg)
 ![](Module_RF_ASK_Receiver_RR3-XXX/Pictures/Album.jpg)
 ![](Module_RF_ASK_Transmitter_TX-13952/Pictures/Album.jpg)
