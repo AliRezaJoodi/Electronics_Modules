@@ -15,7 +15,7 @@ There are simple circuits, but useful.
 ![](Converter_Voltage%20to%20Current/Pictures/Album.jpg)
 ![](Detector_Phase%20Difference/Pictures/Album.jpg)
 ![](Power%20Supply_Reference%20Voltage_LM336/Pictures/Album.jpg)
-![](Interface_USB%20to%20TTL/Pictures/Album.jpg)
+![](Interface_USB%20to%20TTL_CH340G/Pictures/Album.jpg)
 ![](Interface_USB%20to%20RS422/Pictures/Album.jpg)
 ![](Interface_RS232%20to%20TTL_1-Layer/Pictures/Album.jpg)
 ![](Interface_RS232%20to%20TTL_2-Layer/Pictures/Album.jpg)
