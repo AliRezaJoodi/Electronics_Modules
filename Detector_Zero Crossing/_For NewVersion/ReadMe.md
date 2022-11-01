@@ -6,5 +6,9 @@ The diodes will open after the voltage reaches their opening voltage and keeps t
 Let's calculate with only 10mA current. This current heats the limiting resistors. 230V * 10mA = 2.3W to be dissipated!!!
 Parasite circuit works of only 5mW effective.
 
+Schematic:
+![](X1.jpg)
+
+Thanks to: Szoke Janos  
 Link:
 https://www.facebook.com/groups/653362674740718/posts/5428736950536576/?comment_id=5431120110298260&reply_comment_id=5431145846962353&notif_id=1667301910039294&notif_t=group_comment_mention
