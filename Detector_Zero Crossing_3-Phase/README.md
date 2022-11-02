@@ -1,6 +1,6 @@
-It's a schematic for **Zero Crossing Detector** for a 3-phase dimmer. 
-It's useful for detecting 30^ to 150^ range.
-I tested it for many times and worked great.
+**Zero Crossing Detector** for a 3-phase dimmer.  
+It's useful for detecting 30^ to 150^ range.  
+It has been successfully tested several times.
 
 It has included:
 - Hardware (Included hardware layers.)
@@ -13,6 +13,5 @@ It has included:
 ### Picture: v1.0
 ![](Pictures/v1.0.jpg)
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
-  
+My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)    
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
