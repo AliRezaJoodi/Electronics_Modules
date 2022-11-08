@@ -1,5 +1,5 @@
-### Project Description
-**TTL UART to RS232 Converter Using MAX232** with single layer PCB.  
+## TTL UART to RS232 Converter Using MAX232 with Single Layer PCB
+
 I have tested it many times and worked great.
 
 ### Folders and Files Description

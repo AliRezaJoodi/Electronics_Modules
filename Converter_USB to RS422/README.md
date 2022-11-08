@@ -1,5 +1,5 @@
-### Project Description
-**USB to RS422 Converter Using CH340G**.  
+## USB to RS422 Converter Using CH340G
+ 
 I have tested it many times and worked great.
 
 ### Folders and Files Description

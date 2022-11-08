@@ -1,5 +1,5 @@
-### Project Description
-**TTL UART to USB Converter Using CH340G**.  
+## TTL UART to USB Converter Using CH340G
+
 I have tested it many times and worked great.
 
 ### Folders and Files Description

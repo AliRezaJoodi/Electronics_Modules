@@ -1,5 +1,5 @@
-### Project Description
-**TTL UART to RS422 Converter Using MAX485**.  
+## TTL UART to RS422 Converter Using MAX485
+  
 I have tested it many times and worked great.
 
 ### Folders and Files Description
