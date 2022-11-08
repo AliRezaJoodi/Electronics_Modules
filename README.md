@@ -1,7 +1,8 @@
-It's an archive of **Electronic Modules**.  
+## Electronic Modules 
+It's an archive of Electronic Modules.  
 There are simple circuits, but useful.
 
-### Pictures of the Repository
+### Gallery of the Repository
 ![](Sensor_MQ_DO/Pictures/Album.jpg)
 ![](EEPROM_AT24Cx/Pictures/Album.jpg)
 ![](Driver_Relay_4CH/Pictures/Album.jpg)
