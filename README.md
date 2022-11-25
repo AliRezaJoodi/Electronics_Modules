@@ -40,4 +40,5 @@ There are simple circuits, but useful.
 ![](Phone%20Line_Call%20Detector/Pictures/Album.jpg)
 ![](Phone%20Line_Dialing/Pictures/Album.jpg)
 ![](Phone%20Line_DTMF%20Detector/Pictures/Album.jpg)
+![](Display_GLCD_KS0108_64x128/Pictures/Album.jpg)
 
