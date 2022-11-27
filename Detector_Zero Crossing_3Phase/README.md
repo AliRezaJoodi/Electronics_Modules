@@ -1,7 +1,8 @@
-**Zero Crossing Detector** for a 3-phase dimmer.  
+## Zero Crossing Detector for 3-phase dimmer  
 It's useful for detecting 30^ to 150^ range.  
 It has been successfully tested several times.
 
+### Folders and Files Description
 It has included:
 - Hardware (Included hardware layers.)
 - Pictures (Included photos samples made.)

@@ -1,6 +1,7 @@
-It's a schematic for **Zero Crossing Detector** for a 1-phase dimmer. 
+## Zero Crossing Detector for 1-phase dimmer
 I tested it for many times and worked great.
 
+### Folders and Files Description
 It has included:
 - Hardware (Included hardware layers)
 - Simulate (Included simulator file)
@@ -8,6 +9,5 @@ It has included:
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
-  
+My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)   
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
