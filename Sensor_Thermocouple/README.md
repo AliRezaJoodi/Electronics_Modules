@@ -1,4 +1,5 @@
-## Thermocouple Sensor
+## Thermocouple Sensor Drive
+Differential amplifier for thermocouples
 
 ### Folders and Files Description
 It has included:
