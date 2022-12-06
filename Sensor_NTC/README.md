@@ -13,13 +13,13 @@ It has included:
 
 ```
 For: 
-	      NTC 10K
-	      NTC Bus Power=5V
-	      MCU Voltage Reference=5V
+	      	NTC 10K
+	      	NTC Bus Power=5V
+	      	MCU Voltage Reference=5V
 Is:
-	      R2=0
-	      R1=4K7
-	      D1=5V
+		R2=0
+	      	R1=4K7
+	      	D1=5V
 
 In 0^C: 	NTC=33K	I=0.130mA	V=0.613V		
 In 100^C:       NTC=0.67K	I=0.940mA	V=4.395V	
@@ -27,13 +27,13 @@ In 125^C:       NTC=K33
 ```
 ```
 For: 
-	      NTC 10K
-	      NTC Bus Power=9V
-	      MCU Voltage Reference=2.56V
+	      	NTC 10K
+	      	NTC Bus Power=9V
+	      	MCU Voltage Reference=2.56V
 Is:
-	      R2=5K6
-	      R1=2K2
-	      D1=2V7
+	      	R2=5K6
+	      	R1=2K2
+	      	D1=2V7
 
 In 0^C: 	NTC=33K	I=0.22mA	V=0.488V		
 In 100^C:       NTC=0.67K	I=1.07mA	V=2.345V	
@@ -41,13 +41,13 @@ In 125^C:       NTC=K33
 ```
 ```
 For: 
-	      NTC 10K
-	      NTC Bus Power=5V
-	      MCU Voltage Reference=1.1V
+	      	NTC 10K
+	      	NTC Bus Power=5V
+	      	MCU Voltage Reference=1.1V
 Is:
-	      R2=3K3
-	      R1=1K
-	      D1=2V
+	      	R2=3K3
+	      	R1=1K
+	      	D1=2V
 
 In 0^C: 	NTC=33K	I=0.132mA	V=0.132V		
 In 100^C:       NTC=0.67K	I=1.010mA	V=1.010V	
