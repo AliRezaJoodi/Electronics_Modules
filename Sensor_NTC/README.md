@@ -5,10 +5,10 @@ Note:	The sensor should be connect to high level voltage. Because there are the 
 
 ### Folders and Files Description
 It has included:
-- Hardware (Included hardware layers.)
+- Hardware (Included hardware layers)
 - Simulate (Included simulator file)
 
-### Schematic for V1.0
+### Schematic: V4.0
 ![](Hardware/V4.0.png)
 
 ```
