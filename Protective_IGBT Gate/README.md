@@ -1,13 +1,17 @@
-It's about **IGBT Gate Protective**. I tested it for many times and worked great.
+## IGBT Gate Protective
+![](Help.png)
+I tested it for many times and worked great.
 
+### Folders and Files Description
 It has included:
-- Hardware (Included hardware layers.)
-- Pictures (Included photos samples made.)
+- Hardware (Included hardware layers)
+- Pictures (Included photos samples made)
 
-### Schematic for V1.0
-![](Hardware/V1.0/Main.png?raw=true)
+### Schematic: V1.0
+![](Hardware/V1.0/Main.png)
 
-### Picture for V1.0
-![](Pictures/V1.0.jpg?raw=true)
+### Picture: V1.0
+![](Pictures/V1.0.jpg)
 
+My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
