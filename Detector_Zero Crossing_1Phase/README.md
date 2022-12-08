@@ -1,4 +1,4 @@
-## Zero Crossing Detector for 1-phase dimmer
+## Zero Crossing Detector for 1-Phase Dimmer
 I tested it for many times and worked great.
 
 ### Folders and Files Description
@@ -6,8 +6,11 @@ It has included:
 - Hardware (Included hardware layers)
 - Simulate (Included simulator file)
 
-### Schematic: v1.0
-![](Hardware/v1.0.png)
+### Schematic: v2.0
+![](Hardware/v2.0.png)
+
+### Simulate: v2.0
+![](Simulates/v2.0.png)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)   
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)

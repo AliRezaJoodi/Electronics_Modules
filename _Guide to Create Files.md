@@ -29,7 +29,7 @@ It has included:
 ![](Hardware/v1.0.png)
 
 ### Simulate: v1.0
-![](Simulates/v1.0.jpg)
+![](Simulates/v1.0.png)
 
 ### Picture: v1.0
 ![](Pictures/v1.0.jpg)
