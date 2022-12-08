@@ -42,3 +42,4 @@ There are simple circuits, but useful.
 ![](Display_GLCD_KS0108_64x128/Pictures/Album.jpg)
 ![](Driver_Relay/Pictures/Album.jpg)
 ![](IR_Sender/Pictures/Album.jpg)
+![](Detector_Zero%20Crossing_1Phase/Pictures/Album.jpg)

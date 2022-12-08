@@ -6,6 +6,9 @@ It has included:
 - Hardware (Included hardware layers)
 - Simulate (Included simulator file)
 
+### Picture: v2.0
+![](Pictures/v2.0.jpg)
+
 ### Schematic: v2.0
 ![](Hardware/v2.0.png)
 
