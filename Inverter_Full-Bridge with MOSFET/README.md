@@ -1,5 +1,4 @@
 ## High Power Full-Bridge Inverter with MOSFET Switches  
-I used it for a UPS and worked great.
 
 ### Folders and Files Description
 It has included:
