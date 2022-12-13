@@ -4,6 +4,9 @@
 It has included:
 - Hardware (Included hardware layers)
 
+### Schematic: v2.0
+![](Hardware/v2.0.png)
+
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
 
