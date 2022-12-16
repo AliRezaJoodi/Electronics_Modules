@@ -43,3 +43,4 @@ There are simple circuits, but useful.
 ![](Driver_Relay/Pictures/Album.jpg)
 ![](IR_Sender/Pictures/Album.jpg)
 ![](Detector_Zero%20Crossing_1Phase/Pictures/Album.jpg)
+![](Driver_Triac_MOC3021/Pictures/Album2.jpg)
