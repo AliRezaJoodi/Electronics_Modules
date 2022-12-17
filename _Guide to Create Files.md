@@ -15,8 +15,7 @@ We need to create few folders and files on the main page. Included:
 ## README.md
 It's a file. Its name is `README.md`. Its content is:	
 ```
-## Title
-  
+## Title 
 I have tested it many times and worked great.
 
 ### Folders and Files Description
