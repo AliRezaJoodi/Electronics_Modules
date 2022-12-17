@@ -12,13 +12,13 @@ v2.1:
 - Used of THD components
 - Made and tested successfully
 
-V2.0:
+v2.0:
 - Included schematic
 - Last opened with Altium Designer Version 15.0.15
 - Made and tested successfully 
 - It's **Best Version**
 
-V1.0:
+v1.0:
 - Included schematic
 - Last opened with Altium Designer Version 15.0.15
 - Made and tested successfully
