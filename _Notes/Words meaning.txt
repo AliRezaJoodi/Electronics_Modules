@@ -1,0 +1,15 @@
+PCB:			Printed circuit board
+SMD:			surface-mount device
+SMT:			surface-mount technology
+Thru-Hole:		Through-hole technology (also spelled "thru-hole") THT
+LED:			Light Emitting Diode
+SOT-23 Package:		Small-outline transistor
+TSOT-23 package:	thin small outline transistor
+W2B Connectors:		Wire-to-Board Connectors
+SOP:			Small Outline Package
+
+Pitch:			The "pitch" is the center-to-center spacing of pins or holes
+
+
+
+
