@@ -48,15 +48,15 @@ Check for new version:
 - Null
 
 v1.0:
-- Included schematic and PCB layout.
+- Included schematic and PCB layout
 - Last opened with Altium Designer Version 15.0.15
 - Last opened with Proteus 8 Professional v8.13 SP0
-- Used of SMD components.
-- Used of THD components.
-- Not tested.
+- Used of SMD components
+- Used of THD components
+- Not tested
 - Used successfully
-- Made and tested successfully. 
-- It's **Best Version**.
+- Made and tested successfully 
+- It's **Best Version**
 ```
 ## Simulate
 It's a folder and will be included simulator file. We should create a file inside this folder. Included:
