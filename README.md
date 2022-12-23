@@ -24,7 +24,7 @@ There are simple circuits, but useful.
 ![](PowerSupply_Rectifier/Pictures/Album.jpg)
 ![](Sensor_MQ_AO/Pictures/Album.jpg)
 ![](Driver_Buzzer/Pictures/Album.jpg)
-![](Detector_AC%20Voltage/Pictures/Album.jpg)
+![](Detector_AC-Voltage/Pictures/Album.jpg)
 ![](Driver_Triac_MOC3021/Pictures/Album.jpg)
 ![](Driver_Thyristor_TLP521/Pictures/Album.jpg)
 ![](RF_NRF24L01/Pictures/Album.jpg)
