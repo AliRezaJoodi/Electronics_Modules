@@ -44,7 +44,7 @@ Its content is:
 ```
 ### Description
 
-Check for new version:
+Research:
 - Null
 
 v1.0:

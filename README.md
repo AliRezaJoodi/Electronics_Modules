@@ -45,3 +45,4 @@ There are simple circuits, but useful.
 ![](Detector_ZeroCrossing_1Phase/Pictures/Album.jpg)
 ![](Driver_Triac_MOC3021/Pictures/Album2.jpg)
 ![](PowerSupply_Rectifier/Pictures/Album2.jpg)
+![](PowerSupply_Regulator_LM25xx/Pictures/Album.jpg)
