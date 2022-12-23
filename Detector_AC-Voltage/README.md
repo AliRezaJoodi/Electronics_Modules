@@ -1,4 +1,5 @@
 ## AC Voltage Detector
+Dust on the high voltage component is dangerous.Hot melt glue is useful to be safe high voltage side.  
 I tested it for many times and worked great.
 
 ### Folders and Files Description
