@@ -1,4 +1,4 @@
-## Peak Voltage Detector*
+## Peak Voltage Detector
 I tested it for many times and worked great.
 
 ### Folders and Files Description
