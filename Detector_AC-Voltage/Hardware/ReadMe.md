@@ -1,8 +1,12 @@
 ### Description
 
 Research:
-- R1 replace with several series resistors.
 - Use of a LTV814S 
+
+v1.2:
+- Included schematic
+- Last opened with Altium Designer Version 15.0.15
+- It's **Best Version**
 
 v1.1:
 - Included schematic
