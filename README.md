@@ -46,4 +46,4 @@ There are simple circuits, but useful.
 ![](Driver_Relay/Pictures/Album.jpg)
 ![](Detector_ZeroCrossing_1Phase/Pictures/Album.jpg)
 ![](Driver_Triac_MOC3021/Pictures/Album2.jpg)
-
+![](PowerSupply_Regulator_78xx_HighCurrent/Pictures/Album.jpg)
