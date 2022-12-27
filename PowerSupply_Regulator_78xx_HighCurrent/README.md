@@ -1,6 +1,7 @@
-## High Current Voltage Regulator Using 78x
+## High Current Voltage Regulator Using 78xx
 I tested it for many times and worked great.
 
+### Folders and Files Description
 It has included:
 - Hardware (Included hardware layers)
 - Pictures (Included photos samples made)
