@@ -22,6 +22,7 @@ There are simple circuits, but useful.
 ![](Converter_1~5Vto4~20mA/Pictures/Album.jpg)
 ![](Detector_PhaseDifference/Pictures/Album.jpg)
 ![](PowerSupply_ReferenceVoltage_LM336/Pictures/Album.jpg)
+![](PowerSupply_Regulator_78xx_HighCurrent/Pictures/Album.jpg)
 ![](Interfacing_UARTtoUSB_CH340G/Pictures/Album.jpg)
 ![](Interfacing_UARTtoRS232_1Layer/Pictures/Album.jpg)
 ![](Interfacing_UARTtoRS232_2Layer/Pictures/Album.jpg)
@@ -46,4 +47,3 @@ There are simple circuits, but useful.
 ![](Driver_Relay/Pictures/Album.jpg)
 ![](Detector_ZeroCrossing_1Phase/Pictures/Album.jpg)
 ![](Driver_Triac_MOC3021/Pictures/Album2.jpg)
-![](PowerSupply_Regulator_78xx_HighCurrent/Pictures/Album.jpg)
