@@ -1,4 +1,4 @@
-## DC Dual Power Supply
+## Dual Power Supply Using 3-Wire Transformer
 I tested it for many times and worked great.
 
 ### Folders and Files Description
