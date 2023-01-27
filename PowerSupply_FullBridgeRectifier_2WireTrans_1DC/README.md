@@ -1,4 +1,4 @@
-## Rectifier for Power Supply
+## Full Bridge Rectifier Using 2-Wire Transformer
 I tested it for many times and worked great.
 
 ### Folders and Files Description

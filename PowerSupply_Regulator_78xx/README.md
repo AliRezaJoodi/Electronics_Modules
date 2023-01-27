@@ -1,4 +1,4 @@
-## Voltage Regulator Using 78x
+## Voltage Regulator Using 78xx
 I tested it for many times and worked great.
 
 It has included:
