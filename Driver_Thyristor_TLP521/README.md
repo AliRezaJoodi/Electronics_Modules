@@ -1,7 +1,7 @@
 ## Thyristor Gate Driver Using TLP521
 I tested it for many times and worked great.
 
-Note: Use isolated power supply for Thyristor side
+Note: Use isolated power supply for the thyristor side
 Note: It usable for a triac gate
 
 ### Folders and Files Description
