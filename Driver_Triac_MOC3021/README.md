@@ -1,16 +1,10 @@
-## MOC3021 Opto Isolator Driver
+## Triac Gate Driver Using MOC3021
 I tested it for many times and worked great.
 
 ### Folders and Files Description
 It has included:
 - Hardware (Included hardware layers)
 - Pictures (Included photos samples made)
-
-### Picture: v2.0
-![](Pictures/v2.0.jpg)
-
-### Schematic: v2.0
-![](Hardware/v2.0.png)
 
 ### Picture: v1.0
 ![](Pictures/v1.0.jpg)
