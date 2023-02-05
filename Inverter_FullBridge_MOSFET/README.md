@@ -1,4 +1,4 @@
-## High Power Full-Bridge Inverter with MOSFET Switches  
+## Isolated High Power Full-Bridge Inverter with MOSFET Switches  
 
 ### Folders and Files Description
 It has included:
