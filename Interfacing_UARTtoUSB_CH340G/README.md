@@ -1,5 +1,8 @@
 ## TTL UART to USB Converter Using CH340G
+It can be used as a programmer when you make a arduino with AVR and bootloader.
 I have tested it many times and worked great.
+
+Note: Included schematic and PCB layout with Altium
 
 ### Folders and Files Description
 It has included:
