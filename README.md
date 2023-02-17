@@ -15,7 +15,7 @@ There are simple circuits, but useful.
 ![](MCU_AVR_ATmega328/Pictures/Album.jpg)
 ![](Protective_IGBT-Gate/Pictures/Album.jpg)
 ![](IR_Receiver/Pictures/Album.jpg)
-![](PhoneLine_CallDetector/Pictures/Album.jpg)
+![](PhoneLine_RingTone/Pictures/Album.jpg)
 ![](Driver_ULN2003_2Layer/Pictures/Album.jpg)
 ![](MCU_WatchDog/Pictures/Album.jpg)
 ![](Converter_FrequencyToVoltage/Pictures/Album.jpg)
