@@ -1,15 +1,18 @@
-## Water Flow Detector 
-I tested it for many times and worked great. It has included:
+## MQ Series Sensors Drive
+I tested it for many times and worked great.
 
 ### Folders and Files Description
 It has included:
-- Hardware (Included hardware layers)
+- Hardware (Included hardware layers.)
 - Pictures (Included photos samples made)
 
-### Schematic: v1.0
-![](Hardware/v1.0.png)
+### Picture v1.1
+![](Pictures/V1.1.jpg)
 
-### Pictures: v1.0
+### Schematic v1.1
+![](Hardware/v1.1.png)
+
+### Picture v1.0
 ![](Pictures/v1.0.jpg)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  

@@ -13,7 +13,7 @@ There are simple circuits, but useful.
 ![](MCU_AnalogInput/Pictures/Album.jpg)
 ![](PhoneLine_DTMF-Detector/Pictures/Album.jpg)
 ![](MCU_AVR_ATmega328/Pictures/Album.jpg)
-![](Protective_IGBT-Gate/Pictures/Album.jpg)
+![](Protector_IGBT-Gate/Pictures/Album.jpg)
 ![](IR_Receiver/Pictures/Album.jpg)
 ![](PhoneLine_RingTone/Pictures/Album.jpg)
 ![](Driver_ULN2003_2Layer/Pictures/Album.jpg)
