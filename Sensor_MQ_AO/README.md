@@ -7,7 +7,7 @@ It has included:
 - Pictures (Included photos samples made)
 
 ### Picture v1.1
-![](Pictures/V1.1.jpg)
+![](Pictures/v1.1.jpg)
 
 ### Schematic v1.1
 ![](Hardware/v1.1.png)
