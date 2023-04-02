@@ -31,6 +31,7 @@ There are simple circuits, but useful.
 ![](PowerSupply_Rectifier_2WireTrans_1DC_FullBridge/Pictures/Album.jpg)
 ![](Sensor_MQ_AO/Pictures/Album.jpg)
 ![](Driver_Buzzer/Pictures/Album.jpg)
+![](Driver_Buzzer/Pictures/Album2.jpg)
 ![](Detector_AC-Voltage/Pictures/Album.jpg)
 ![](Driver_Triac_MOC3021/Pictures/Album.jpg)
 ![](Driver_Thyristor_TLP521/Pictures/Album.jpg)

@@ -1,7 +1,7 @@
 ##  NTC Sensor Driver
 I tested it for many times and worked great.
 
-Note:	The sensor should be connect to high level voltage. Because there are the most changes in voltage.
+Note: The sensor should be connect to high level voltage. Because there are the most changes in voltage.
 
 ### Folders and Files Description
 It has included:
@@ -23,7 +23,6 @@ Is:
 
 In 0^C: 	NTC=33K		I=0.130mA	V=0.613V		
 In 100^C:       NTC=0.67K	I=0.940mA	V=4.395V	
-In 125^C:       NTC=K33
 ```
 ```
 For: 
@@ -37,7 +36,6 @@ Is:
 
 In 0^C: 	NTC=33K		I=0.22mA	V=0.488V		
 In 100^C:       NTC=0.67K	I=1.07mA	V=2.345V	
-In 125^C:       NTC=K33
 ```
 ```
 For: 
@@ -51,7 +49,6 @@ Is:
 
 In 0^C: 	NTC=33K		I=0.132mA	V=0.132V		
 In 100^C:       NTC=0.67K	I=1.010mA	V=1.010V	
-In 125^C:       NTC=K33
 ```
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
