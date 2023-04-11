@@ -1,4 +1,4 @@
-## DC Motor Direction Controller 
+## Isolated DC Motor Direction Controller with Two Relays
 I have tested it many times and worked great.
 
 ### Folders and Files Description
