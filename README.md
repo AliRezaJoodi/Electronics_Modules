@@ -44,6 +44,6 @@ There are simple circuits, but useful.
 ![](RF_ASK_Receiver_RR3-XXX/Pictures/Album.jpg)
 ![](RF_ASK_Transmitter_TX-13952/Pictures/Album.jpg)
 ![](MCU_AnalogInput/Pictures/Album2.jpg)
-![](Driver_Relay/Pictures/Album.jpg)
+![](Driver_Relay_Non-Isolated/Pictures/Album.jpg)
 ![](Detector_ZeroCrossing_1Phase/Pictures/Album.jpg)
 ![](Driver_Triac_MOC3021/Pictures/Album2.jpg)
