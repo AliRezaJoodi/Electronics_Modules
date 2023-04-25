@@ -5,6 +5,9 @@ I tested it for many times and worked great.
 It has included:
 - Hardware (Included hardware layers)
 
+### Picture: v1.0
+![](Pictures/v1.0.jpg)
+
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
 
