@@ -4,6 +4,7 @@ I tested it and worked great.
 ### Folders and Files Description
 It has included:
 - Hardware (Included hardware layers)
+- Simulate (Included simulator file)
 
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
