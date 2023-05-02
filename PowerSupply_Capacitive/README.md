@@ -19,5 +19,9 @@ More info:
 [The Shocking Truth About Transformerless Power Supplies](https://hackaday.com/2017/04/04/the-shocking-truth-about-transformerless-power-supplies/)  
 [4 Simple Transformerless Power Supply Circuits Explained](https://www.homemade-circuits.com/cheap-yet-useful-transformerless-power/)  
 
+Tools:
+[Capacitor Impedance Calculator](https://www.allaboutcircuits.com/tools/capacitor-impedance-calculator/)
+[Transformerless power supply calculator](http://www.nomad.ee/micros/transformerless/index.shtml)
+
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
