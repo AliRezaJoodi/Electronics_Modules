@@ -1,5 +1,5 @@
 ## Power Supply Auto Switch with Relay
-I have tested it and worked great.
+Note: It's not fast but reliability.
 
 ### Folders and Files Description
 It has included:
