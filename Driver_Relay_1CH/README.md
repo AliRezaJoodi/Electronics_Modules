@@ -1,4 +1,4 @@
-## Non-Isolated Relay Driver
+## Relay Driver
 I tested it for many times and worked great.
 
 ### Folders and Files Description

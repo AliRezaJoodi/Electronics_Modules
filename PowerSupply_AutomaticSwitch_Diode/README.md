@@ -1,5 +1,6 @@
 ## Power Supply Auto Switch with Diode
-I have tested it and worked great.
+I have tested it and worked great.  
+It's fast and reliability.  
 
 ### Folders and Files Description
 It has included:

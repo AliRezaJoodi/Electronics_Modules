@@ -1,6 +1,5 @@
 ## 4-Channel Relay Module
-I tested it and worked great.
-
+I tested it and worked great.  
 Note: Included schematic and PCB layout with Proteus 
 
 ### Folders and Files Description
