@@ -41,6 +41,7 @@ There are simple circuits, but useful.
 ![](Display_LCD16x2/Pictures/Album.jpg)
 ![](Interfacing_USBtoRS422/Pictures/Album.jpg)
 ![](IR_Sender/Pictures/Album.jpg)
+![](PowerSupply_Flyback/Pictures/Album.jpg)
 ![](PowerSupply_Regulator_LM25xx/Pictures/Album.jpg)
 ![](RF_ASK_Receiver_RR3-XXX/Pictures/Album.jpg)
 ![](RF_ASK_Transmitter_TX-13952/Pictures/Album.jpg)
