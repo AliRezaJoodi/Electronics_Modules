@@ -1,6 +1,6 @@
-## Current Limiter
+## Current Limiter Using TL431
 
-Note: The output limited to 250mA
+Note: An example that limited to 250mA
 
 ### Folders and Files Description
 It has included:
