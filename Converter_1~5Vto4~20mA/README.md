@@ -1,4 +1,4 @@
-## 1-5V to 4-20mA Converter    
+## 1~5V to 4~20mA Converter    
 I tested it for many times and worked great.
 
 Note: It's not fast. but useful for a dimmer.
