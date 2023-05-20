@@ -1,4 +1,4 @@
-## ADC Input Filter for 4~20mA and 1~5V
+## ADC Input For 4-20mA and 1-5V
 
 ### Folders and Files Description
 It has included:
