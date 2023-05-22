@@ -1,6 +1,8 @@
 ## Negative Voltage Generator Using HCPL3120
 I tested it and worked great.
 
+Note: It was a practice. There are better alternatives.
+
 ### Folders and Files Description
 It has included:
 - Hardware (Included hardware layers)
