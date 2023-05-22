@@ -1,8 +1,7 @@
 ## ADC Input For 4-20mA and 1-5V
-If we turn off a board power supply while a ADC input connect to 4~20mA external source, The microcontroller does not turn off completely.  
-So, after turn on the board power supply, the micro will behave unreliably.  
+About a board that includes an AVR and connects to a 4~20mA external source.  
+If we turn off the power supply while a ADC input connect to 4~20mA, The MCU does not turn off completely. So, after turn on the power supply, the micro will behave unreliably.  
 It was my experience about control board that use a ATmega2560 for induction furnace. I had to use a switch before ADC for disconnect the external source.  
-I tested it for many times and worked great.  
 
 ### Folders and Files Description
 It has included:
