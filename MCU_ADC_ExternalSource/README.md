@@ -1,4 +1,4 @@
-## ADC Input For 4-20mA and 1-5V
+﻿## ADC Input For 4-20mA
 About a board that includes an AVR and connects to a 4-20mA external source.  
 If you turn off the power supply while a ADC input connected to 4-20mA, The MCU won’t turn off completely.  
 Therefore, after turn on the power supply, the MCU will behave unreliable.  
