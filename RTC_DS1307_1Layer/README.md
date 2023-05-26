@@ -6,11 +6,11 @@ It has included:
 - Hardware (Included hardware layers)
 - Pictures (Included photos samples made)
 
+### Picture: v1.0
+![](Pictures/v1.0.jpg)
+
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
-
-### Picture: v1.0
-![](Pictures/vv1.0.jpg)
 
 ### Picture:
 ![](Pictures/v1.0_2.jpg)
