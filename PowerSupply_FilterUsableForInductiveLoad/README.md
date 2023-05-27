@@ -1,4 +1,4 @@
-## Safe Power Supply for Relays
+## Power Supply Filter Usable For Inductive Load
 
 ### Folders and Files Description
 It has included:
