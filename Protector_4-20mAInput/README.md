@@ -1,4 +1,6 @@
 ## Protect a 4~20mA Current Input
+A circuit that design by Jefferson Pehls for Protection a 4~20mA Current Input.
+I just tried to understand it in Proteus.
 
 ### Folders and Files Description
 It has included:
