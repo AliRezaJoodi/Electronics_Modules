@@ -1,5 +1,8 @@
-## Triac Gate Driver Using MOC3021
+## Triac Gate Driver With MOC30xx
 I tested it for many times and worked great.
+
+Note: MOC302x series is random-phase
+Note: MOC304x have zero-cross
 
 ### Folders and Files Description
 It has included:
