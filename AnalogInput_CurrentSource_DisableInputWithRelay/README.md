@@ -1,4 +1,4 @@
-﻿## 4~20mA Analog Input With A Relay Switch 
+﻿## 4~20mA Analog Input With A Relay Switch For Disable Input 
 About a board that includes an AVR and connects to a 4-20mA external source.  
 If you turn off the power supply while a ADC input connected to 4-20mA, The MCU won’t turn off completely.  
 Therefore, after turn on the power supply, the MCU will behave unreliable.  
