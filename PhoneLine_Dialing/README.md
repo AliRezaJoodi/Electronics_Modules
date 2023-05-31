@@ -1,6 +1,7 @@
-## Dialing on the Phone Line
-  
-I have tested it many times and worked great.
+## Dialing on the Phone Line 
+I have tested it many times and worked great.  
+
+For new version: Use transistors Drive for right side of the choke
 
 ### Folders and Files Description
 It has included:
