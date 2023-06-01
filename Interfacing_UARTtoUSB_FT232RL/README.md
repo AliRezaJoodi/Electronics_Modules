@@ -1,4 +1,4 @@
-## TTL UART to USB Converter Using FT232RL 
+## TTL UART To USB Converter With FT232RL 
 I have tested it many times and worked great.
 
 ### Folders and Files Description
