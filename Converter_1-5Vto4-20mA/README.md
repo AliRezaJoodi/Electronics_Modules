@@ -1,7 +1,7 @@
-## 1-5V to 4-20mA Converter    
+## 0-5V to 0-20mA Converter
 I tested it for many times and worked great.
 
-Note: It's not fast. but useful for a dimmer.
+Note: It's not fast. but useful for a dimmer control.
 
 ### Folders and Files Description
 It has included:
