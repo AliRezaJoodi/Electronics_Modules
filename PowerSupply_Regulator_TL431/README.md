@@ -1,5 +1,4 @@
 ## Precision Regulator With TL431
-Note: It's my tring to understand it
 
 ### Folders and Files Description
 It has included:
