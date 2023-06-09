@@ -1,5 +1,4 @@
-## Current Limiter With TL431 
-Note: An example that limited to 250mA  
+## Current Limiter With TL431
 
 ### Folders and Files Description
 It has included:
