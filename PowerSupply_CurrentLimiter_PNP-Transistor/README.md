@@ -1,6 +1,6 @@
-## Current Limiter
+## Current Limiter With PNP Transistor
 
-Note: An example that limited to 250mA
+Note: An example that limited to 30mA
 
 ### Folders and Files Description
 It has included:
