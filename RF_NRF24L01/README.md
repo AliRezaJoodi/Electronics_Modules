@@ -1,4 +1,4 @@
-## NRF24L01 Convert Board for use with 5V
+## NRF24L01 Convert Board For Use With 5V
 I tested it for many times and worked great.
 
 Note: Included schematic and PCB layout with Altium Designer 
