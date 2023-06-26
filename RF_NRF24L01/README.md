@@ -1,7 +1,7 @@
-## NRF24L01 Convert Board For Use With 5V
+## Adapter Board For NRF24L01 Wireless Module (5V-3.3V)
 I tested it for many times and worked great.
 
-Note: Included schematic and PCB layout with Altium Designer 
+Note: Included schematic and PCB layout with Altium Designer that used DIP Components
 
 ### Folders and Files Description
 It has included:
