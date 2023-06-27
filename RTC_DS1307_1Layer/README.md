@@ -1,5 +1,8 @@
-## Real Time Clock Using DS1307
+## Real Time Clock With DS1307
 I tested it for many times and worked great.
+
+Note: Included schematic and PCB layout with Proteus  
+Note: It's a prototype and should get better  
 
 ### Folders and Files Description
 It has included:
@@ -12,8 +15,8 @@ It has included:
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
 
-### Picture:
-![](Pictures/v1.0_2.jpg)
+### More Picture: v1.0
+![](Pictures/v1.0_1.jpg)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)

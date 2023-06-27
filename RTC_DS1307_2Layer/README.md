@@ -1,5 +1,8 @@
-## Real Time Clock Using DS1307
+## Real Time Clock With DS1307
 I tested it for many times and worked great.
+
+Note: Included schematic and PCB layout with Proteus  
+Note: It's a prototype and should get better  
 
 ### Folders and Files Description
 It has included:
