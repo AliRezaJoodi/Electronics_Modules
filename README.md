@@ -43,7 +43,7 @@ There are simple circuits, but useful.
 ![](Interfacing_USBtoRS422/Pictures/Album.jpg)
 ![](IR_Sender/Pictures/Album.jpg)
 ![](PowerSupply_Flyback/Pictures/Album.jpg)
-![](PowerSupply_Regulator_LM25xx/Pictures/Album.jpg)
+![](PowerSupply_Regulator_LM2576/Pictures/Album.jpg)
 ![](RF_ASK_Receiver_RR3-XXX/Pictures/Album.jpg)
 ![](RF_ASK_Transmitter_TX-13952/Pictures/Album.jpg)
 ![](AnalogInput_CurrentSource_DisableInputWithRelay/Pictures/Album.jpg)

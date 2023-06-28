@@ -1,4 +1,4 @@
-## Voltage Regulator Using LM25xx
+## 3.0A Step Down Switching Voltage Regulator With LM2576
 I tested it for many times and worked great.
 
 ### Folders and Files Description
