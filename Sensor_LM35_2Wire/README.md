@@ -13,6 +13,9 @@ It has included:
 ### Schematic: v2.0
 ![](Simulate/v2.0.jpg)
 
+### Schematic: v1.0
+![](Simulate/v1.0.jpg)
+
 Source: LM35 Datasheet (National Semiconductor), Figure 6
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
