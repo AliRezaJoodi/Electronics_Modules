@@ -11,7 +11,9 @@ It has included:
 ![](Pictures/v2.0.jpg)
 
 ### Schematic: v2.0
-![](Hardware/v2.0.jpg)
+![](Simulate/v2.0.jpg)
+
+Source: LM35 Datasheet (National Semiconductor), Figure 6
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
