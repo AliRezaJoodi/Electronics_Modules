@@ -7,11 +7,8 @@ It has included:
 - Pictures (Included photos samples made)
 - Simulate (Included simulator file)
 
-### Picture: v2.0
-![](Pictures/v2.0.jpg)
-
-### Schematic: v2.0
-![](Simulate/v2.0.jpg)
+### Picture: v1.0
+![](Pictures/v1.0.jpg)
 
 ### Schematic: v1.0
 ![](Simulate/v1.0.jpg)
