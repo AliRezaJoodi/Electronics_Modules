@@ -1,4 +1,4 @@
-## Two-Wire Temperature Sensor Using LM35
+## Two-Wire Temperature Sensor With LM35
 I tested it and worked great.
 
 ### Folders and Files Description
@@ -16,7 +16,7 @@ It has included:
 ### Schematic: v1.0
 ![](Simulate/v1.0.jpg)
 
-Source: LM35 Datasheet (National Semiconductor), Figure 6
+Source: LM35 Datasheet (National Semiconductor), Figure 5
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
