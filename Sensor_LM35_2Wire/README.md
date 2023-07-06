@@ -11,7 +11,7 @@ It has included:
 ![](Pictures/v1.0.jpg)
 
 ### Schematic: v1.0
-![](Simulate/v1.0.jpg)
+![](Simulate/v1.0.png)
 
 Source: LM35 Datasheet (National Semiconductor), Figure 5
 
