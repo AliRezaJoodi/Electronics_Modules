@@ -54,7 +54,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KUYDEEIB
 
 [Document2]
-DocumentPath=PCB2.PcbDoc
+DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
