@@ -1,4 +1,4 @@
-## A Board for ATmega328
+## Header Board for ATmega328
 
 ### Folders and Files Description
 It has included:
