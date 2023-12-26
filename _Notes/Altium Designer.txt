@@ -1,0 +1,1 @@
+Best grid for 1-layer PCB nad DIP component is 0.635mm
