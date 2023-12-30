@@ -12,5 +12,8 @@ It has included:
 ### Schematic: v1.0
 ![](Hardware/v1.0/Main.png)
 
+### Schematic: v2.0
+![](Hardware/v2.0/Main.png)
+
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
