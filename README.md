@@ -34,7 +34,7 @@ There are simple circuits, but useful.
 ![](Sensor_MQ_AO/Pictures/Album.jpg)
 ![](Driver_Buzzer/Pictures/Album.jpg)
 ![](Driver_Buzzer/Pictures/Album2.jpg)
-![](Detector_1Phase/Pictures/Album.jpg)
+![](Detector_AcVoltage_Isolated/Pictures/Album.jpg)
 ![](Driver_TRIAC_MOC30xx/Pictures/Album.jpg)
 ![](Driver_Thyristor_TLP521/Pictures/Album.jpg)
 ![](RF_NRF24L01/Pictures/Album.jpg)

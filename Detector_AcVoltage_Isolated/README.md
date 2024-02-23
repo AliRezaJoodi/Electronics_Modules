@@ -1,6 +1,8 @@
-## AC Voltage Detector
-Dust on the high voltage component is dangerous.Hot melt glue is useful to be safe high voltage side.  
+## Isolated AC Voltage Detector
+
 I tested it for many times and worked great.
+
+Note: Dust on the high voltage component is dangerous.Hot melt glue is useful to be safe high voltage side.  
 
 ### Folders and Files Description
 It has included:
@@ -11,8 +13,8 @@ It has included:
 ### Picture: v1.1
 ![](Pictures/v1.1.jpg)
 
-### Schematic: v1.2
-![](Hardware/v1.2.png)
+### Schematic: v1.3
+![](Hardware/v1.3.png)
 
 ### Simulate: v1.1
 ![](Simulate/v1.1.png)
