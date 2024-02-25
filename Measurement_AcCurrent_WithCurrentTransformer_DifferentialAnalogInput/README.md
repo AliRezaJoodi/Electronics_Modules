@@ -1,4 +1,4 @@
-## AC Current Measurement Using Current Transformer for Differential Input
+## AC Current Measurement Using Current Transformer for Differential Analog Input
 
 ### Folders and Files Description
 It has included:
