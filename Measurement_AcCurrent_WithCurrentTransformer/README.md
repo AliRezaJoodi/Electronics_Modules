@@ -1,5 +1,9 @@
 ## AC Current Measurement Using Current Transformer for Differential Analog Input
 
+Note: These voltage input pairs have a maximum differential signal of ±0.5V. In addition, the maximum signal level on analog inputs is ±0.5V with respect to AGND.
+
+Note: It's usable for ADE7858 IC. ADE7858 is a energy metering IC. 
+
 ### Folders and Files Description
 It has included:
 - Hardware (Included hardware layers)
