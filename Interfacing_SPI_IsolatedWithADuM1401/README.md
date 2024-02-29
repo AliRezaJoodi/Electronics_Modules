@@ -1,14 +1,8 @@
 ## Isolated SPI Interfacing With ADuM1401
 
-It's usable for MAX11198 ADC.  
-The ADC Features:  
-- Input Voltage Range is ±VREF
-- Absolute Input Voltage Range is AGND to AVDD
-
 ### Folders and Files Description
 It has included:
 - Hardware (Included hardware layers)
-- Pictures (Included photos samples made)
 
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
