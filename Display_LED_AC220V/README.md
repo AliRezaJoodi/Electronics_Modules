@@ -1,4 +1,4 @@
-## A LED For Phase Detection
+## A LED For Phase Display
 
 I tested it and worked great.
 
