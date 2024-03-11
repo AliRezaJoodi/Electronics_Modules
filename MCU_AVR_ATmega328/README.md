@@ -6,7 +6,7 @@ It has included:
 - Pictures (Included photos samples made)
 
 ### Schematic: v2.1
-![](Hardware/v2.1/MCU_ATmega328.png)
+![](Hardware/v2.1/Main.png)
 
 ### Picture: v2.0
 ![](Pictures/v2.0.jpg)
