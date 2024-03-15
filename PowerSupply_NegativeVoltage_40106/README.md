@@ -6,7 +6,7 @@ It has included:
 - Simulate (Included simulator file)
 
 ### Schematic: v2.0
-![](Hardware/v2.0.jpg)
+![](Hardware/v2.0.png)
 
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
