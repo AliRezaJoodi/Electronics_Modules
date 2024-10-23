@@ -4,8 +4,11 @@ It has included:
 - Hardware (Included hardware layers.)
 - Pictures (Included photos samples made)
 
-### Schematic: v1.0
-![](Hardware/v1.0.png)
+### Schematic, SWD + JTAG: v1.0
+![](Hardware/SWJ_v1.0.png)
+
+### Schematic, SWD: v1.0
+![](Hardware/SWD_v1.0.png)
 
 ### Picture: JLink Programmer, Pinout
 ![](Pictures/JLink_20Pin.jpg)
