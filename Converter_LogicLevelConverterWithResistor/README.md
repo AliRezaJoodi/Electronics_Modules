@@ -1,18 +1,17 @@
-## Voltage Level Converter
+## Logic Level Converter, Voltage Divider with Resistor
 
-It has included:
-- Hardware (Included hardware layers)
-- Simulate (Included simulator file)
+Note: It's Bi-Directional.
 
-### Solution 1
-#### Voltage Divider with Resistor, Bi-Directional, 5V to 3V3  
+### Folders and Files Description
+It has included:  
+- Hardware (Included hardware layers)  
+- Simulate (Included simulator file)  
 
-Schematic: v1.0
-![](Hardware/Mode1_v1.0.png)
+### Schematic: 5V to 3V3, v1.0
+![](Hardware/5Vto3V3_v1.0.png)
 
-#### Voltage Divider with Resistor, Bi-Directional, 4V to 3V3 
-Schematic: v1.0
-![](Hardware/Mode2_v1.0.png)
+### Schematic: 4V to 3V3, v1.0
+![](Hardware/4Vto3V3_v1.0.png)
 
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
