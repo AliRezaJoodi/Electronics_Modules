@@ -6,7 +6,10 @@ It has included:
 - Simulate (Included simulator file)  
 
 ### Schematic: 5V to 3V3, Unidirectional, Model 1, v1.0  
-![](Hardware/Model_v1.0.png)
+![](Hardware/Model1_v1.0.png)
+
+### Schematic: 5V to 3V3, Unidirectional, Model 2, v1.0  
+![](Hardware/Model2_v1.0.png)
 
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
