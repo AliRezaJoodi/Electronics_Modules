@@ -1,6 +1,6 @@
 ## Current Limiter With MOSFET
 
-Note: An example that limited to 30mA
+Note: An example that limited to 2A
 
 ### Folders and Files Description
 It has included:
