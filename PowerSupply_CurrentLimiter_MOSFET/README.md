@@ -6,7 +6,11 @@ Note: An example that limited to 2A
 It has included:
 - `Simulate` — Simulating the project with Proteus
 
-### Simulate: v1.0
+### Simulate
+v2.0  
+![](Simulate/v2.0.png)
+
+v1.0  
 ![](Simulate/v1.0.png)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
