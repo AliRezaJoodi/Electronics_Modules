@@ -1,10 +1,10 @@
 ## Non-Inverting Amplifier
 ![](Guid.png)
 
-### Folders and Files
+### Folders
 - `Simulate` — Simulation file
 
-### Schematic
+### Simulate
 v1.0, Schematic  
 ![](Simulate/v1.0_Schematic.png)
 
