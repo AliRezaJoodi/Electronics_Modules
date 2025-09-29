@@ -1,15 +1,22 @@
 ## Full Bridge Rectifier Using 2-Wire Transformer
-I tested it for many times and worked great.
-
-### Folders and Files Description
-It has included:
-- Pictures (Included photos samples made)
 
 ### Picture: v1.0
 ![](Pictures/v1.x.jpg)
 
-### Schematic: v1.0
-![](Simulate/v1.0.png)
+### Folders
+- `Pictures` — Project photos
+- `Simulate` — Simulation file
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+### Simulate for 2.5W Load (5V, 500mA)
+v2.0, Schematic  
+![](Simulate/v2.0_Schematic.png)
+
+v2.0, Plot  
+![](Simulate/v2.0_Plot.png)
+
+### Guid
+![](Guid.png)
+
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
