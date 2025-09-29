@@ -15,7 +15,7 @@ v2.0, Plot
 ![](Simulate/v2.0_Plot.png)
 
 ### Guid
-![](Guid.png)
+![](Guid.jpg)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
