@@ -8,17 +8,17 @@ Note: $Xc={{1\over 2πfC}}$ (`f` is frequency and `C` is the capacitance)
 
 ### 12V/40mA Load
 v1.0, Schematic  
-![](Simulate/v1.0_Schematic.png)
+![](Simulate_12V40mA/v1.0_Schematic.png)
 
 v1.0, Plot  
-![](Simulate/v1.0_Plot.png)
+![](Simulate_12V40mA/v1.0_Plot.png)
 
 ### 24V/500mA Load
 v1.0, photo  
 ![](Pictures_24V500mA/v1.0.jpg)
 
 v1.0, Schematic  
-![](Hardware/v2.0.png)
+![](Hardware_24V500mA/v2.0.png)
 
 ### Source
 [Capacitor Impedance Calculator](https://www.allaboutcircuits.com/tools/capacitor-impedance-calculator/)
