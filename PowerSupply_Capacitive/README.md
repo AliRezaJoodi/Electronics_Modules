@@ -1,27 +1,29 @@
-﻿## A Capacitive Power Supply
-I tested it and worked great.
+﻿## Capacitive Power Supply
+Note: $Xc={{1\over 2πfC}}$ (`f` is frequency and `C` is the capacitance)  
 
-Note: $Xc={{1\over 2πfC}}$ (`f` is frequency and `C` is the capacitance)
+### Folders
+- `Hardware` — Schematic files
+- `Pictures` — Project photos
+- `Simulate` — Simulation files
 
-### Folders and Files Description
-It has included:
-- Hardware (Included hardware layers)
-- Pictures (Included photos samples made)
+### 12V/40mA Load
+v1.0, Schematic  
+![](Simulate/v1.0_Schematic.png)
 
-### Picture: v2.0
-![](Pictures/v2.0.jpg)
+v1.0, Plot  
+![](Simulate/v1.0_Plot.png)
 
-### Schematic: v2.0
+### 24V/500mA Load
+v1.0, photo  
+![](Pictures_24V500mA/v1.0.jpg)
+
+v1.0, Schematic  
 ![](Hardware/v2.0.png)
 
-More info:
-[Transformerless Capacitor Dropper Power Supply](https://electrosome.com/capacitor-power-supply/)  
-[The Shocking Truth About Transformerless Power Supplies](https://hackaday.com/2017/04/04/the-shocking-truth-about-transformerless-power-supplies/)  
-[4 Simple Transformerless Power Supply Circuits Explained](https://www.homemade-circuits.com/cheap-yet-useful-transformerless-power/)  
-
-Tools:
+### Source
 [Capacitor Impedance Calculator](https://www.allaboutcircuits.com/tools/capacitor-impedance-calculator/)
 [Transformerless power supply calculator](http://www.nomad.ee/micros/transformerless/index.shtml)
 
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)

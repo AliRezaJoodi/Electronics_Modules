@@ -1,6 +1,6 @@
 ## Current Limiter With MOSFET
-Note: Mosfet was very high temp
-Note: An example that limited to 2A
+Note: The MOSFET was very high temp
+Note: Limited to 2A
 
 ### Folders and Files Description
 It has included:
