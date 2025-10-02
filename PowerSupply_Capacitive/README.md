@@ -18,7 +18,7 @@ v1.0, photo
 ![](Pictures_24V500mA/v1.0.jpg)
 
 v1.0, Schematic  
-![](Hardware_24V500mA/v2.0.png)
+![](Hardware_24V500mA/v1.0.png)
 
 ### Source
 [Capacitor Impedance Calculator](https://www.allaboutcircuits.com/tools/capacitor-impedance-calculator/)
