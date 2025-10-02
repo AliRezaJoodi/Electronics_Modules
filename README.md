@@ -15,7 +15,7 @@ There are simple circuits, but useful.
 ![](PhoneLine_DTMF-Detector/Pictures/Album.jpg)
 ![](PowerSupply_NegativeVoltage_ICL7660/Pictures/Album.jpg)
 ![](MCU_AVR_ATmega328/Pictures/Album.jpg)
-![](Protector_IGBT-Gate/Pictures/Album.jpg)
+![](Protector_GateUsingTVS/Pictures/Album.jpg)
 ![](IR_Receiver/Pictures/Album.jpg)
 ![](PhoneLine_RingTone/Pictures/Album.jpg)
 ![](Driver_ULN2003_2Layer/Pictures/Album.jpg)

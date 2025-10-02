@@ -1,4 +1,4 @@
-## IGBT Gate Protective
+## IGBT Gate Protection
 ![](Help.png)  
 
 ### Folders
