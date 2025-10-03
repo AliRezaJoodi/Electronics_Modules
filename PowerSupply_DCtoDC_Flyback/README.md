@@ -1,15 +1,11 @@
 ## Flyback Power Supply
-I tested it for many times and worked great.
 
-### Folders and Files Description
-It has included:
-- Hardware (Included hardware layers)
-- Pictures (Included photos samples made)
-
-### Picture: v1.0
+### Picture
+v1.0  
 ![](Pictures/v1.0.jpg)
 
-### Schematic: v1.0
+### Schematic
+v1.0  
 ![](Hardware/v1.0.png)
 
 More info:

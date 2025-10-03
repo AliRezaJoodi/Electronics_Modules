@@ -1,13 +1,16 @@
-### Description
-
-v1.1:
+### v1.2.SchDoc
+- **Best Version**
+- Built and tested successfully
 - Included schematic
-- Last opened with Altium Designer Version 15.0.15
-- Made and tested successfully
-- It's **Best Version**
+- Saved in **Altium Designer Version 15.0.15**
 
-v1.0:
+### v1.1.SchDoc
+- Built and tested successfully
 - Included schematic
-- Last opened with Altium Designer Version 15.0.15
-- Made and tested successfully
+- Saved in **Altium Designer Version 15.0.15**
+
+### v1.0.SchDoc
+- Built and tested successfully
+- Included schematic
+- Saved in **Altium Designer Version 15.0.15**
 

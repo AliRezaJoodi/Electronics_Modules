@@ -1,12 +1,9 @@
 ## Isolated Relay Driver
-I tested it and worked great.
 
-### Folders and Files Description
-It has included:
-- Hardware (Included hardware layers)
+### Schematic
+v1.2  
+![](Hardware/v1.2.png)
 
-### Schematic: v1.1
-![](Hardware/v1.1.png)
-
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
