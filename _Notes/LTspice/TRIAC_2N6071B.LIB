@@ -1,0 +1,56 @@
+* Spice Model
+* Item:2N6071B
+* Date:8/10/2017
+* Revision History:A
+*==========================================================
+* This model was developed by: 
+* Central Semiconductor Corp.
+* 145 Adams Avenue
+* Hauppauge, NY 11788
+*
+* These models are subject to change without notice.
+* Users may not directly or indirectly re-sell or 
+* re-distribute this model. This model may not 
+* be modified, or altered without the consent of Central Semiconductor Corp. 
+*
+* For more information on this model contact
+* Central Semiconductor Corp. at:
+* (631) 435-1110 or Engineering@centralsemi.com
+* http://www.centralsemi.com
+**==========================================================
+*SRC=2n6071b;2n6071b;TRIACs;General;200V 4.00A CentralSemi Triac
+*SYM=TRIAC
+* *******
+* Modeling Services by
+* Interface Technologies
+* www.i-t.com
+* dan@i-t.com
+* 20170810
+* ******
+.SUBCKT 2N6071B  1 2 3
+*     TERMINALS: MT2 G MT1
+QN1  5 4 3  NOUT OFF
+QN2 11 6 7  NOUT OFF
+QP1 6 11 3  POUT OFF
+QP2  4 5 7  POUT OFF
+DF  4  5  DZ
+DR  6 11  DZ
+RF  4 6  20.0Meg
+RT2 1 7  0.183
+RH  7 6  187
+RGP 8 3  170
+RG  2 8  230
+RS  8 4  97.9
+DN  9 2  DIN
+RN  9 3  40.0k
+GNN  6 7 9 3 4.13m
+GNP  4 5 9 3 4.32m
+DP 2 10  DIP
+RP 10 3  40.0k
+GP  7 6 10 3 2.29m
+.MODEL DIP D ( IS=21.4f N=1.50 )
+.MODEL DIN D ( IS=21.4f)
+.MODEL DZ D ( IS=21.4f N=1.5 IBV=10.0u BV=200 )
+.MODEL POUT PNP ( IS=21.4f BF=5 BR=.1 CJE=1.88n TF=38.2u )
+.MODEL NOUT NPN  ( IS=21.4f BF=20 BR=.1 CJE=1.88n CJC=375p TF=2.55u )
+.ENDS

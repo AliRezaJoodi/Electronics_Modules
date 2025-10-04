@@ -1,0 +1,111 @@
+******
+* Spice Model
+* Item: CMPS5064
+* Date: 12/12/13
+* Revision History: REV A
+*==========================================================
+* This model was developed by: 
+* Central Semiconductor Corp.
+* 145 Adams Avenue
+* Hauppauge, NY 11788
+*
+* Modeling services provided by     
+* Interface Technologies www.i-t.com 
+*
+* These models are subject to change without notice.
+* Users may not directly or indirectly re-sell or 
+* re-distribute this model. This model may not 
+* be modified, or altered without the consent of Central Semiconductor Corp. 
+*
+* For more information on this model contact
+* Central Semiconductor Corp. at:
+* (631) 435-1110 or Engineering@centralsemi.com
+* http://www.centralsemi.com
+*
+*==========================================================
+******
+*SRC=CMPS5064;CMPS5064;SCRs;General; Central Semi 400V 0.25A
+*SYM=SCR
+.SUBCKT CMPS5064 1 2 3 
+* EXTERNAL NODE DESIGNATIONS
+* 1 = Anode
+* 2 = Gate
+* 3 = Cathode
+* R1 5 3 1e8
+R1 5 3 1e9
+R2 6 7 1e9
+R3 1 4 100
+R4 2 7 1e9
+EK 8 3 2 7 1
+VFK 10 3 DC 0
+FK 6 7 VFK 1
+VFP 11 3 DC 0
+FP 3 7 VFP -1
+DA 9 6 DMDA OFF
+.MODEL DMDA D (IS=1.10417e-15 TT=2.88539e-05 CJO=2p EG=0.1 XTI=1)
+DG 7 6 DMDG OFF
+.MODEL DMDG D (IS=1.0919e-15 TT=1e-09 EG=0.1 XTI=1)
+DK 7 10 DMDK OFF
+.MODEL DMDK D (IS=1.0919e-15 BV=6 IBV=1e-3 EG=1.3 TT=1e-09 XTI=1)
+VFA 5 9 DC 0 
+FA 6 7 VFA 0.0111111
+RA 4 5 0.421428
+LA 1 4 1e-08
+RK 7 3 15000
+CK 7 3 2.56778e-09
+RG 55 7 1372.26
+RG1 55 2 1
+ERG1 20 3 2 55 1
+VFC 21 3 DC 0
+CG 6 7 3.482e-13
+R5 8 11 8158.15
+R9 20 21 10
+FC 55 3 VFC 0
+GBM 0 31 1 3 1
+* RBM 31 0 1
+RBM 31 0 1e-3
+CBM 31 0 1
+GBR 0 32 31 0 1m
+* RBR 32 0 1k
+RBR 32 0 1
+* RDRM 32 36 9.9825e+06
+* RRRM 32 37 9.9825e+06
+RDRM 32 36 800e+06
+RRRM 32 37 800e+06
+GBRK 0 38 1 3 .2
+RBRK 38 0 5
+DDRM 112 38 DDRM
+DRRM 112 111 DRRM
+.MODEL DDRM D (BV=404
++ IS=1e-14 RS=0 N=1 TT=0 CJO=0
++ VJ=1 M=0.5 EG=1.11 XTI=3 FC=0.5
++ KF=0 AF=1 IBV=1e-3 TNOM=27)
+.MODEL DRRM D (BV=404
++ IS=1e-14 RS=0 N=1 TT=0 CJO=0
++ VJ=1 M=0.5 EG=1.11 XTI=3 FC=0.5
++ KF=0 AF=1 IBV=1e-3 TNOM=27)
+VBK 111 0 DC 0
+FBK 1 3 VBK .95
+FBG 3 2 VBK .05
+DF1 36 41 DMDF
+DF2 42 37 DMDF
+.MODEL DMDF D (IS=1P RS=1)
+VDRM 41 0 DC 0
+FDRM 1 3 VDRM 1
+VRRM 42 0 DC 0
+FRRM 1 3 VRRM 1
+DF3 32 34 DBDR
+.MODEL DBDR D
+VBDR 34 0 DC 480
+FBDR 1 3 VBDR 1
+DF4 35 32 DBRR
+.MODEL DBRR D
+VBRR 0 35 DC 480
+FBRR 1 3 VBRR 1
+*-- SPICE3 DIODE MODEL DEFAULT PARAMETER
+*  VALUES ARE ASSUMED
+*IS=1e-14 RS=0 N=1 TT=0 CJO=0
+*VJ=1 M=0.5 EG=1.11 XTI=3 FC=0.5
+*KF=0 AF=1 BV=inf IBV=1e-3 TNOM=27
+.ENDS CMPS5064
+******

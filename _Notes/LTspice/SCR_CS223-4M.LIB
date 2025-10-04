@@ -1,0 +1,42 @@
+* Spice Model
+* Item: CS223-4M
+* Date: 6/19/20
+* Revision History: A
+*==========================================================
+* This model was developed by: 
+* Central Semiconductor Corp.
+* 145 Adams Avenue
+* Hauppauge, NY 11788
+*
+* These models are subject to change without notice.
+* Users may not directly or indirectly re-sell or 
+* re-distribute this model. This model may not 
+* be modified, or altered without the consent of Central Semiconductor Corp. 
+*
+* For more information on this model contact
+* Central Semiconductor Corp. at:
+* (631) 435-1110 or Engineering@centralsemi.com
+* http://www.centralsemi.com
+**==========================================================
+*SRC=sm_SCR;sm_SCR;SpiceMod;Test;DUT
+*DWG CIRCUITS\SpiceMod\SCR\SCR.DWG
+* SCRs;General;
+*SYM=SCR
+.SUBCKT CS223-4M 1 2 3
+*HELP issyntax.hlp "SCRs"
+* TERMINALS: A G K
+QP 6 4 1 POUT Temp = { Temp }
+QN 4 6 3 NOUT Temp = { Temp } OFF
+RGK 3 6 1.00k
+RG 2 6 356
+DF 6 4 ZF
+DR 1 4 ZR
+DGK 6 3 ZGK
+.MODEL ZF D ( IS=19.2f IBV=196n BV=600 )
+.MODEL ZR D ( IS=19.2f IBV=10.0n BV=600 )
+.MODEL ZGK D ( IS=19.2f IBV=10.0n BV=20.0 )
+.MODEL POUT PNP ( IS=19.2p BF=2 BR=2 CJE=83.4p
++ RC=0.331 ISE=29.6n ISC=5.00u NE=2.00 TF=55.2n TR=627n )
+.MODEL NOUT NPN ( IS=19.2p BF=50.0 BR= 2 CJE=417p CJC=83.4p
++ RC=0.331 ISE=54.5n ISC=5.00u NE=2.00 TF=18.4n TR=627n)
+.ENDS
