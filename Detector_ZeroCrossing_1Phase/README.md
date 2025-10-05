@@ -5,8 +5,8 @@ v2.0
 ![](Pictures/v2.0.jpg)
 
 ### Schematic
-v2.0  
-![](Hardware/v2.0.png)
+v2.1  
+![](Hardware/v2.1.png)
 
 ### Simulate
 v2.1, Schematic  
@@ -15,7 +15,7 @@ v2.1, Schematic
 v2.1, Plot  
 ![](Simulate/v2.1_Plot.png)
 
-v2.0  
+v2.0, Plot  
 ![](Simulate/v2.0.png)
 
 My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)   
