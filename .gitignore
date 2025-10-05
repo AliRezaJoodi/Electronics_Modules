@@ -15,6 +15,3 @@ Project Backups
 
 # LTspice folders and files for ignore
 *.log
-*.net
-*.op.raw
-*.raw

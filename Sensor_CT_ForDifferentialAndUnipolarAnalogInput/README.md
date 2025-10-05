@@ -22,6 +22,10 @@ v1.1, Schematic
 v1.1, Plot  
 ![](Simulate/v1.1_Plot.png)
 
+### Upgrade
+- Use a low-offset op-amp instead.
+- Generate offset using a voltage reference IC.
+
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
