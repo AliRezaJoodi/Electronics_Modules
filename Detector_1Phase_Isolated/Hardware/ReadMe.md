@@ -1,24 +1,18 @@
-### Description
-
-Research:
-- Use of a LTV814S 
-
-v1.3:
+v1.3.SchDoc
 - Included schematic
-- Last opened with Altium Designer Version 15.0.15
+- Saved in  **Altium Designer Version 15.0.15**
 
-v1.2:
+v1.2.SchDoc
 - Included schematic
-- Last opened with Altium Designer Version 15.0.15
+- Saved in  **Altium Designer Version 15.0.15**
 
-v1.1:
+v1.1.SchDoc
 - Included schematic
-- Last opened with Altium Designer Version 15.0.15
-- Made and tested successfully
+- Built and tested successfully
+- Saved in  **Altium Designer Version 15.0.15**
 
-v1.0:
+v1.0.SchDoc
 - Included schematic
-- Last opened with Altium Designer Version 15.0.15
-- Made and tested successfully
-
+- Built and tested successfully
+- Saved in  **Altium Designer Version 15.0.15**
 

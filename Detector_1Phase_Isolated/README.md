@@ -1,23 +1,21 @@
-## Isolated AC Voltage Detector
+## Isolated Single Phase Detector
 
-I tested it for many times and worked great.
-
-Note: Dust on the high voltage component is dangerous.Hot melt glue is useful to be safe high voltage side.  
-
-### Folders and Files Description
-It has included:
-- Hardware (Included hardware layers)
-- Pictures (Included photos samples made)
-- Simulate (Included simulator file)
-
-### Picture: v1.1
+### Picture
+v1.1  
 ![](Pictures/v1.1.jpg)
 
-### Schematic: v1.3
-![](Hardware/v1.3.png)
+### Simulate
+v1.4, Schematic  
+![](Simulate/v1.4_Schematic.png)
 
-### Simulate: v1.1
-![](Simulate/v1.1.png)
+v1.4, Plot  
+![](Simulate/v1.4_Plot.png)
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+Note: Delay by 150mS
+
+### Research
+- Use of a LTV814S 
+
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
