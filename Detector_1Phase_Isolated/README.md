@@ -1,14 +1,14 @@
 ## Isolated Single Phase Detector
 
-### Features, v2.1
-- **Active Level:** Low
-- **Isolation Type:** Opto
-- **Isolation IC:** LTV814
-- **Display Type:** LED
-
 ### Picture
 v1.1  
 ![](Pictures/v1.1.jpg)
+
+### Features, v2.1
+- **Isolation Type:** Opto
+- **Isolation IC:** LTV814
+- **Display Type:** LED
+- **Active Level:** Low
 
 ### Simulate
 v2.1, Schematic  
