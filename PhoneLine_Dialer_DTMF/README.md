@@ -1,4 +1,4 @@
-## Dialing on the Phone Line  
+## DTMF Dialer on the Phone Line  
 
 ### Picture
 v1.0  
@@ -10,6 +10,10 @@ v2.0, Schematic
 
 v2.0, Plot  
 ![](Simulate/v2.0_Plot.png)
+
+### Schematic
+Line side, v1.0  
+![](Hardware/v1.0.png)
 
 ### Upgrade
 - Change BJT to MOSFET
