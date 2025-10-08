@@ -1,5 +1,9 @@
+### v2.0.asc
+- Isolation using LTV814
+- Saved in **LTspice Version 24.1.10**
+
 ### v1.4.asc
-- Delay by 150mS
+- Delay by 100mS
 - Saved in **LTspice Version 24.1.10**
 
 ### v1.3.asc
