@@ -1,11 +1,10 @@
-## 3-Phase Detector
+## Isolated 3-Phase Detector
 
 ### Features, v2.0
 - **Isolation Type:** Opto
 - **Isolation IC:** LTV814 x3
 - **Display:** LED
 - **Output Rule:** Output is AND with all three phases
-
 
 ### Simulate
 v2.0, Schematic  
