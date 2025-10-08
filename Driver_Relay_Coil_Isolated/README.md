@@ -1,4 +1,18 @@
-## Relay Coil Drive, Isolated Using TLP521
+## Isolated Relay Driver Using Optocoupler
+
+### Features, v1.1
+- **Isolation Type:** Opto
+- **Isolation IC:** PC817
+- **Display Type:** LED
+- **Power Supply:** 12V, 3.3V
+- **Active Level:** High
+
+### Simulate
+v1.0, Schematic  
+![](Simulate/v1.0_Schematic.png)
+
+v1.0, Plot  
+![](Simulate/v1.0_Plot.png)
 
 ### Schematic
 v1.0  

@@ -1,18 +1,19 @@
-## Isolated 3-Phase Detector
+## Isolated 3-Phase Detector Using Optocoupler
 
-### Features, v2.0
+### Features, v3.0
 - **Isolation Type:** Opto
 - **Isolation IC:** LTV814 x3
 - **Display:** LED
 - **Output Rule:** Output is AND with all three phases
+- **Power Supply:** 3.3V
 - **Active Level:** Low
 
 ### Simulate
-v2.1, Schematic  
-![](Simulate/v2.1_Schematic.png)
+v3.0, Schematic  
+![](Simulate/v3.0_Schematic.png)
 
-v2.1, Plot  
-![](Simulate/v2.1_Plot.png)
+v3.0, Plot  
+![](Simulate/v3.0_Plot.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  

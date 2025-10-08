@@ -1,3 +1,10 @@
+### v3.0.asc
+- Changed from 5V to 3.3V
+- Changed from active high to active low
+- Removed a transistor
+- Isolation using LTV814
+- Saved in **LTspice Version 24.1.10**
+
 ### v2.1.asc
 - Changed from active high to active low
 - Removed a transistor

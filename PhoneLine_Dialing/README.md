@@ -1,18 +1,19 @@
-## Dialing on the Phone Line 
-I have tested it many times and worked great.  
+## Dialing on the Phone Line  
 
-For new version: Use transistors Drive for right side of the choke
-
-### Folders and Files Description
-It has included:
-- Hardware (Included hardware layers)
-- Pictures (Included photos samples made)
-
-### Picture: v1.0
+### Picture
+v1.0  
 ![](Pictures/v1.0.jpg)
 
-### Schematic: v1.0
-![](Hardware/v1.0.png)
+### Simulate
+v2.0, Schematic  
+![](Simulate/v2.0_Schematic.png)
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+v2.0, Plot  
+![](Simulate/v2.0_Plot.png)
+
+### Upgrade
+- Change BJT to MOSFET
+
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  

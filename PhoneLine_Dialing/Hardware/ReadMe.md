@@ -1,6 +1,3 @@
-### Description
-
-v1.0:
+### v1.0.pdsprj
 - Included schematic
-- Last opened with Proteus 8 Professional v8.13 SP0
-- Made and tested successfully
+- Saved in **Proteus 8 Professional v8.13 SP0**
