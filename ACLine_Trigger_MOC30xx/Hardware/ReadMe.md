@@ -1,11 +1,7 @@
-### Description
-
-v2.0:
+### v2.0
 - Included schematic
-- Last opened with Altium Designer Version 15.0.15
-- Tested successfully
+- Saved in **Altium Designer Version 15.0.15**
 
-v1.0:
+### v1.0
 - Included schematic
-- Last opened with Altium Designer Version 15.0.15
-- Tested successfully
+- Saved in **Altium Designer Version 15.0.15**
