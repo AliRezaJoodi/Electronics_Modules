@@ -7,11 +7,11 @@ v1.0
 ![](Pictures/v1.0.jpg)
 
 ### Simulate
-v1.1, Schematic  
-![](Simulate/v1.1_Schematic.png)
+v1.2, Schematic  
+![](Simulate/v1.2_Schematic.png)
 
-v1.1, Plot  
-![](Simulate/v1.1_Plot.png)
+v1.2, Plot  
+![](Simulate/v1.2_Plot.png)
 
 ### Schematic
 v1.0  
