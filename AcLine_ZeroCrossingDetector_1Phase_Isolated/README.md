@@ -1,22 +1,15 @@
-## Zero Crossing Detector for 1-Phase Dimmer
+## Zero Crossing Detector for Single Phase
 
 ### Picture
 v2.0  
 ![](Pictures/v2.0.jpg)
 
-### Schematic
-v2.1  
-![](Hardware/v2.1.png)
-
 ### Simulate
-v2.1, Schematic  
-![](Simulate/v2.1_Schematic.png)
+v3.1, Schematic  
+![](Simulate/v3.1_Schematic.png)
 
-v2.1, Plot  
-![](Simulate/v2.1_Plot.png)
-
-v2.0, Plot  
-![](Simulate/v2.0.png)
+v3.1, Plot  
+![](Simulate/v3.1_Plot.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
