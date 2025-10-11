@@ -1,12 +1,13 @@
-## Current Limiter With TL431
-Note: An example that limited to 30mA
+## Current Limiter using TL431
+Note: An example that limited to 30mA  
 
-### Folders and Files Description
-It has included:
-- Simulate (Included simulator file)
+### Simulate
+v1.1, Schematic  
+![](Simulate/v1.1_Schematic.png)
 
-### Simulate: v1.0
-![](Simulate/v1.0.png)
+v1.1, Plot  
+![](Simulate/v1.1_Plot.png)
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
