@@ -16,11 +16,13 @@ WINDOW 3 16 96 Left 2
 SYMATTR Value LM358
 SYMATTR Prefix X
 SYMATTR Description Basic Operational Amplifier symbol for use with subcircuits in the file ./lib/sub/LTC.lib.  You must give the value a name and include this file.
+SYMATTR SpiceModel LM358
+SYMATTR ModelFile MyLib/OpAmp/LM358.lib
 PIN -32 80 NONE 0
-PINATTR PinName In+
+PINATTR PinName In-
 PINATTR SpiceOrder 1
 PIN -32 48 NONE 0
-PINATTR PinName In-
+PINATTR PinName In+
 PINATTR SpiceOrder 2
 PIN 32 64 NONE 0
 PINATTR PinName OUT

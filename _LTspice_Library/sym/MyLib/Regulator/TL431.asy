@@ -11,13 +11,13 @@ LINE Normal 0 -48 0 -15
 LINE Normal 0 16 0 48
 LINE Normal -7 -1 -48 -1
 RECTANGLE Normal 48 48 -48 -48
-WINDOW 3 12 62 Left 0
-WINDOW 0 13 -61 Left 0
+WINDOW 3 65 -7 Left 2
+WINDOW 0 64 -32 Left 2
 SYMATTR Value TL431
-SYMATTR SpiceModel TL431.sub
+SYMATTR SpiceModel TL431
 SYMATTR Prefix X
-SYMATTR Value2 TL431
-SYMATTR Description Programmable Shunt Regulator TL431
+SYMATTR Description Adjustable Precision Shunt Regulators
+SYMATTR ModelFile MyLib/Regulator/TL431.lib
 PIN 0 -48 NONE 8
 PINATTR PinName CATHODE
 PINATTR SpiceOrder 1
