@@ -34,8 +34,6 @@ TEXT -43 80 Left 0 led-
 TEXT 62 -31 Left 0 mt2
 TEXT 62 79 Left 0 mt1
 WINDOW 0 32 -64 Center 2
-WINDOW 3 33 108 Center 2
-SYMATTR Value MOC3021
 SYMATTR Prefix X
 SYMATTR Description OPTO-TRIAC with zero crossing switching
 SYMATTR SpiceModel MOC3021

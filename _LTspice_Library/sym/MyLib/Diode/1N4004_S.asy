@@ -7,8 +7,6 @@ LINE Normal 0 20 16 44
 LINE Normal 16 0 16 20
 LINE Normal 16 44 16 64
 WINDOW 0 48 16 Left 2
-WINDOW 3 49 39 Left 2
-SYMATTR Value 1N4004_S
 SYMATTR Prefix x
 SYMATTR Description Diode
 SYMATTR SpiceModel 1N4004_S
