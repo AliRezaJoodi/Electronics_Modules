@@ -12,6 +12,7 @@ LINE Normal 4 44 12 44
 LINE Normal 8 40 8 48
 LINE Normal 4 84 12 84
 WINDOW 0 16 32 Left 2
+WINDOW 38 16 96 Left 2
 SYMATTR Prefix X
 SYMATTR Description Basic Operational Amplifier symbol for use with subcircuits in the file ./lib/sub/LTC.lib.  You must give the value a name and include this file.
 SYMATTR SpiceModel LM358

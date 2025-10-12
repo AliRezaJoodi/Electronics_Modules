@@ -10,7 +10,8 @@ LINE Normal 24 -7 16 -15
 LINE Normal 0 -48 0 -15
 LINE Normal 0 16 0 48
 RECTANGLE Normal 48 48 -48 -48
-WINDOW 0 64 -32 Left 2
+WINDOW 0 64 -41 Left 2
+WINDOW 38 65 -16 Left 2
 SYMATTR SpiceModel LM336Z_2V5
 SYMATTR Prefix X
 SYMATTR Description Adjustable Precision Shunt Regulators

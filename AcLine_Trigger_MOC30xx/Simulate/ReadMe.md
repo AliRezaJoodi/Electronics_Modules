@@ -1,10 +1,6 @@
 ### v2.1.asc
+- [LTspice Personal Libraries](https://github.com/AliRezaJoodi/Electronics_Modules/tree/main/_LTspice_Library) 
 - Saved in **LTspice Version 24.1.10**
-
-### Library for LTspice
-- `Opto_MOC30xx.ASY`
-- `Opto_MOC3021.lib`
-- `TRIAC_Q8004L4.lib`
 
 
 

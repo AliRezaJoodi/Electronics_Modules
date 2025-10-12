@@ -11,7 +11,8 @@ LINE Normal 0 -48 0 -15
 LINE Normal 0 16 0 48
 LINE Normal -7 -1 -48 -1
 RECTANGLE Normal 48 48 -48 -48
-WINDOW 0 64 -32 Left 2
+WINDOW 0 63 -40 Left 2
+WINDOW 38 64 -16 Left 2
 SYMATTR SpiceModel TL431
 SYMATTR Prefix X
 SYMATTR Description Adjustable Precision Shunt Regulators
