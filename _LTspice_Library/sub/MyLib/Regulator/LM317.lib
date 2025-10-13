@@ -1,0 +1,76 @@
+* 3-Terminal Adjustable Regulator
+* LM117 seems to be the same model.
+
+.SUBCKT LM317    1    2    3
+D4            4   3  D_Z6V0
+D3            5   6  D_Z6V3
+D2            7   1  D_Z6V3
+D1            3   8  D_Z6V3
+QT26          1  10   9  Q_NPN 20.0
+QT25          1  11  10  Q_NPN 2.0
+QT24_2       13  12   5  Q_NPN 0.1
+QT24         13  12  14  Q_NPN 0.1
+QT23         17  16  15  Q_NPN 1.0
+QT21         19  18   3  Q_NPN 0.1
+QT19         21   3  20  Q_NPN 1.0
+QT17         23   3  22  Q_NPN 0.1
+QT13          1  25  24  Q_NPN 0.1
+QT11         16  27  26  Q_NPN 0.1
+QT7          30  29  28  Q_NPN 0.1
+QT5          29  31   3  Q_NPN 0.1
+QT3          33  31  32  Q_NPN 0.1
+QT22_2       17  17   1  Q_PNP 1.0
+QT22         16  17   1  Q_PNP 1.0
+QT20          3  19  16  Q_PNP 0.1
+QT18         21  21  16  Q_PNP 0.1
+QT16         23  21  16  Q_PNP 0.1
+QT15          3  23  25  Q_PNP 0.1
+QT12          3  24  16  Q_PNP 0.1
+QT9          27  30  34  Q_PNP 0.1
+QT6           3  29  34  Q_PNP 0.1
+QT14         25  33  35  Q_PNP 0.1
+QT10         16  33  36  Q_PNP 0.1
+QT8          34  33  37  Q_PNP 0.1
+QT4          31  33  38  Q_PNP 0.1
+QT2          33  33  39  Q_PNP 0.1
+R27           4   2  50
+R26           9   3  100M
+R25           9  14  2
+R24           5  14  160
+R23           7   6  18K
+R22          10   3  160
+R21          12  13  400
+R20          18  13  13K
+R19          16  11  370
+R18          15  10  130
+R17          16  12  12K
+C3           19  18  5P
+R16          16  19  6.7K
+R15          20  22  2.4K
+R14          22   4  12K
+C2           23   4  30P
+C1           23   3  30P
+R13          24   3  5.1K
+R12          26   3  72
+R11          27   3  5.8K
+R10          28   3  4.1K
+R9           32   3  180
+R8           34  30  12.4K
+R7           31  29  130
+R6            8  31  100K
+R5            1  35  5.6K
+R4            1  36  82
+R3            1  37  190
+R2            1  38  310
+R1            1  39  310
+JT1           1   3   8  J_N
+
+.MODEL D_Z6V0 D( IS=10F N=1.04 BV=6.0 IBV=1M CJ0 = 1P TT = 10p )
+.MODEL D_Z6V3 D( IS=10F N=1.04 BV=6.3 IBV=1M CJ0 = 1P TT = 10p )
+.MODEL Q_NPN NPN( IS=10F NF=1.04 NR=1.04 BF=100 CJC=1P CJE=2P
++       TF=10P TR=1N VAF=90)
+.MODEL Q_PNP PNP( IS=10F NF=1.04 NR=1.04 BF=50 CJC=1P CJE=2P
++      TF=10P TR=1N VAF=45)
+.MODEL J_N NJF( VTO=-7 )
+
+.ENDS LM317

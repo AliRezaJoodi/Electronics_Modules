@@ -1,7 +1,6 @@
 ## Current Limiter using TL431
-Note: An example that limited to 30mA  
 
-### Simulate
+### Simulate, 30mA
 v1.1, Schematic  
 ![](Simulate/v1.1_Schematic.png)
 
