@@ -1,16 +1,19 @@
 ## High Current Voltage Regulator Using 78xx
-I tested it for many times and worked great.
 
-### Folders and Files Description
-It has included:
-- Hardware (Included hardware layers)
-- Pictures (Included photos samples made)
-
-### Picture: v1.0
+### Picture
+v1.0  
 ![](Pictures/v1.0.jpg)
 
-### Schematic: v1.0
+### Simulate, LM7805
+v1.1, Schematic  
+![](Simulate/v1.1_Schematic.png)
+
+v1.1, Plot  
+![](Simulate/v1.1_Plot.png)
+
+v1.0, Schematic  
 ![](Hardware/v1.0.png)
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  

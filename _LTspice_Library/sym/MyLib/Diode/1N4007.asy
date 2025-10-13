@@ -9,8 +9,8 @@ LINE Normal 16 44 16 64
 WINDOW 0 48 16 Left 2
 SYMATTR Prefix x
 SYMATTR Description Diode
-SYMATTR SpiceModel 1N4004_S
-SYMATTR ModelFile MyLib/Diode/1N4004_S.lib
+SYMATTR SpiceModel 1N4007
+SYMATTR ModelFile MyLib/Diode/1N4007.lib
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1
