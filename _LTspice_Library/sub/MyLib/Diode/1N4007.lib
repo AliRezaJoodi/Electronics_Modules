@@ -1,4 +1,0 @@
-.SUBCKT 1N4007 1 2
-D1 1 2 DUMMYD
-.model DUMMYD D(Is=90p Rs=40m Cjo=30p N=1.4 TT=5u Iave=1 Vpk=1000 type=silicon)
-.ENDS 1N4007

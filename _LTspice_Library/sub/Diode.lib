@@ -1,0 +1,8 @@
+.model 1N4004 D(IS=5.31656e-08 RS=0.0392384 N=2 EG=0.6 XTI=0.05 BV=400 IBV=5e-08 CJO=1e-11 VJ=0.7 M=0.5 FC=0.5 TT=1e-09 KF=0 AF=1)
+.model 1N4007 D(Is=90p Rs=40m Cjo=30p N=1.4 TT=5u Iave=1 Vpk=1000 type=silicon)
+
+* Zener Diode 180V 1W 5%
+.model ZGL41-180A-E3 D(IS=1.0E-12 N=1.0 Rs=900 Cjo=1.0E-12 M=0.5 Vj=0.7 Eg=1.1 Bv=180 Ibv=1.0E-6 Nbv=12.0)
+
+* Zener Diode 180V 1W 5%
+.model DFLZ180TP D(IS=1.0E-12 N=1.0 Rs=400 Cjo=1.0E-12 M=0.5 Vj=0.7 Eg=1.1 Bv=180 Ibv=1.0E-6 Nbv=12.0)

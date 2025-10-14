@@ -7,7 +7,7 @@ v1.1, Schematic
 v1.1, Plot  
 ![](Simulate/v1.1_Plot.png)
 
-v1.0, Schematic  
+v1.0  
 ![](Simulate/v1.0.png)
 
 ### More Information
