@@ -1,0 +1,169 @@
+*  File     : diacs.lib 
+*  Revision : 8.1            
+*  Date     : 26/01/2021 
+*
+**********************************************************************
+* Please Read Carefully:
+*Information in this document is provided solely in connection with ST products. STMicroelectronics NV and its subsidiaries (“ST”) reserve the
+*right to make changes, corrections, modifications or improvements, to this document, and the products and services described herein at any
+*time, without notice.
+*All ST products are sold pursuant to ST’s terms and conditions of sale.
+*Purchasers are solely responsible for the choice, selection and use of the ST products and services described herein, and ST assumes no
+*liability whatsoever relating to the choice, selection or use of the ST products and services described herein.
+*No license, express or implied, by estoppel or otherwise, to any intellectual property rights is granted under this document. If any part of this
+*document refers to any third party products or services it shall not be deemed a license grant by ST for the use of such third party products
+*or services, or any intellectual property contained therein or considered as a warranty covering the use in any manner whatsoever of such
+*third party products or services or any intellectual property contained therein.
+*UNLESS OTHERWISE SET FORTH IN ST’S TERMS AND CONDITIONS OF SALE ST DISCLAIMS ANY EXPRESS OR IMPLIED
+*WARRANTY WITH RESPECT TO THE USE AND/OR SALE OF ST PRODUCTS INCLUDING WITHOUT LIMITATION IMPLIED
+*WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE (AND THEIR EQUIVALENTS UNDER THE LAWS
+*OF ANY JURISDICTION), OR INFRINGEMENT OF ANY PATENT, COPYRIGHT OR OTHER INTELLECTUAL PROPERTY RIGHT.
+*UNLESS EXPRESSLY APPROVED IN WRITING BY AN AUTHORIZED ST REPRESENTATIVE, ST PRODUCTS ARE NOT
+*RECOMMENDED, AUTHORIZED OR WARRANTED FOR USE IN MILITARY, AIR CRAFT, SPACE, LIFE SAVING, OR LIFE SUSTAINING
+*APPLICATIONS, NOR IN PRODUCTS OR SYSTEMS WHERE FAILURE OR MALFUNCTION MAY RESULT IN PERSONAL INJURY,
+*DEATH, OR SEVERE PROPERTY OR ENVIRONMENTAL DAMAGE. ST PRODUCTS WHICH ARE NOT SPECIFIED AS "AUTOMOTIVE
+*GRADE" MAY ONLY BE USED IN AUTOMOTIVE APPLICATIONS AT USER’S OWN RISK.
+*Resale of ST products with provisions different from the statements and/or technical features set forth in this document shall immediately void
+*any warranty granted by ST for the ST product or service described herein and shall not create or extend in any manner whatsoever, any
+*liability of ST.
+*ST and the ST logo are trademarks or registered trademarks of ST in various countries.
+*Information in this document supersedes and replaces all information previously supplied.
+*The ST logo is a registered trademark of STMicroelectronics. All other names are the property of their respective owners.
+*© 2008 STMicroelectronics - All rights reserved
+*STMicroelectronics group of companies
+*Australia - Belgium - Brazil - Canada - China - Czech Republic - Finland - France - Germany - Hong Kong - India - Israel - Italy - Japan -
+*Malaysia - Malta - Morocco - Singapore - Spain - Sweden - Switzerland - United Kingdom - United States of America
+*www.st.com                              
+**********************************************************************
+*
+*
+***********************************************************************
+* 				DIAC PSpice Models                    *
+*********************************************************************** 
+* This DIAC model simulates:
+*Tr:      Rise time (in µs)
+*Vbo:	  Break over voltage	
+*Delta_V: Dynamic breakover voltage
+*Ibo:     Breakover current  
+*
+*All these parameters are constant, and don't vary neither 
+*with temperature nor other parameters.
+***********************************************************************
+
+*$
+.SUBCKT DIAC DIAC_IN DIAC_OUT PARAMS:
++Tr=0.342
++Vbo=13.6V
++Delta_V=19V
++Ibo=15uA
+*
+*Tr:      Rise time (in µs)
+*Vbo:	  Break over voltage	
+*Delta_V: Dynamic breakover voltage
+*Ibo:     Breakover current
+
+*******************************
+* Power circuit *
+*******************************
+*
+*******************************
+*Switch circuit*
+*******************************
+S_S1         N01041 N01060 N02098 DIAC_OUT _S1
+D_D1         N06161 N01041 DZ19V 
+D_D2         N06161 N01060 DZ19V 
+D_D3         N10655 N01060 DZ14V 
+D_D4         N10655 DIAC_OUT DZ14V 
+V_IDIAC1     DIAC_IN N01041 DC 0Vdc AC 0Vac      
+C_C1         N02098 DIAC_OUT 1u IC=0   
+*R_R1         N02098 TRG  1.462*{Tr}  ; <-- improper syntax
+R_R1         N02098 TRG  {1.462*Tr}  ; <-- fixed syntax
+RS_S1        N02098 DIAC_OUT 1G
+E_ABM1       TRG DIAC_OUT VALUE { IF(ABS(I(V_IDIAC1))>{Ibo},1,0)}    
+C_C2         DIAC_IN DIAC_OUT 10p
+
+*******************************
+* Switch Model *
+*******************************
+.MODEL        _S1 VSWITCH Roff=1e7 Ron=2.2 Voff=0.1V Von=0.99V
+*******************************
+* Diodes Model *
+*******************************
+.model DZ14V  	D(Is=3.142f Rs=0.1 Ikf=0 N=1 Xti=3 Eg=1.11 M=.3282
++		Vj=.75 Fc=.5 Isr=1.973n Nr=2 Bv={Vbo} Ibv=.14467 Nbv=1.093
++		Ibvl=.1m Nbvl=1.2722 Tbv1=001433.3u)
+*
+.model DZ19V D(Is=6.994f Rs=5.612 Ikf=0 N=1 Eg=1.11 M=.2906
++	     Vj=.75 Fc=.5 Isr=2.088n Nr=2 Bv={Delta_V} Ibv=.17098 Nbv=1.2072
++	     Ibvl=2.002m Nbvl=1.1457 Tbv1=888.89u)
+*	Vz = 18 @ 14mA, Zz = 37 @ 1mA, Zz = 11 @ 5mA, Zz = 7.9 @ 20mA
+.ends   
+*
+*********************************************************************
+* 				Standard DIACs definition			    *
+*********************************************************************
+*
+*$
+.subckt DB3G1 DIAC_IN DIAC_OUT
+X1 DIAC_IN DIAC_OUT DIAC params:
++Tr=0.342
++Vbo=10V
++Delta_V=22V
++Ibo=10uA
+* 2017 / ST / Rev 0
+.ends
+*$
+.subckt DB3TG DIAC_IN DIAC_OUT
+X1 DIAC_IN DIAC_OUT DIAC params:
++Tr=0.342
++Vbo=13.6V
++Delta_V=19V
++Ibo=6uA
+* 2008 / ST / Rev 1
+.ends
+*$
+.subckt DB3 DIAC_IN DIAC_OUT
+X1 DIAC_IN DIAC_OUT DIAC params:
++Tr=0.342
++Vbo=13.6V
++Delta_V=19V
++Ibo=10uA
+* 2008 / ST / Rev 0
+.ends
+*$
+.subckt DB4 DIAC_IN DIAC_OUT
+X1 DIAC_IN DIAC_OUT DIAC params:
++Tr=0.342
++Vbo=21.6V
++Delta_V=19V
++Ibo=10uA
+* 2008 / ST / Rev 1
+.ends
+*$
+.subckt SMDB3 DIAC_IN DIAC_OUT
+X1 DIAC_IN DIAC_OUT DIAC params:
++Tr=0.102
++Vbo=13.6V
++Delta_V=19V
++Ibo=4uA
+* 2008 / ST / Rev 0
+.ends
+*$
+.subckt TMMDB3TG DIAC_IN DIAC_OUT
+X1 DIAC_IN DIAC_OUT DIAC params:
++Tr=0.342
++Vbo=13.6V
++Delta_V=19V
++Ibo=6uA
+* 2010 / ST / Rev 0
+.ends
+*$
+.subckt TMMDB3 DIAC_IN DIAC_OUT
+X1 DIAC_IN DIAC_OUT DIAC params:
++Tr=0.342
++Vbo=13.6V
++Delta_V=19V
++Ibo=10uA
+* 2010 / ST / Rev 0
+.ends
+*$

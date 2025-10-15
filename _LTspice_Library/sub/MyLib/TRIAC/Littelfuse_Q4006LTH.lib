@@ -1,0 +1,59 @@
+**********
+* Littelfuse, LP
+* QUADRAC, SPICE Model
+* Q4006LTH
+*
+* T. Chenoski, 11/29/2007
+*
+**********
+**********
+.SUBCKT Q4006LTH  1  2  3
+*    TERMINALS:  MT2 G MT1
+Xchip1 2 4 DIAC
+Xchip2 1 4 3 ALTERNISTOR
+
+.SUBCKT DIAC  1   2
+* TERMINALS: MT1 MT2
+V1   17 3  DC 28 ac 0
+V2   16 15 DC 28 ac 0
+Srev 3 1 7 1  DIACtrigg  
+Sfor 15 2 4 2 DIACtrigg  
+Dfor 1 4 DN4148
+Drev 2 7 DN4148
+D1 7 17  Zone
+D2 4 16  Zone
+.MODEL Zone      D  (BV=100 CJO=4PF IS=7E-09 M=.45 N=.1 RS=.8 VJ=.6V)
+.MODEL DN4148    D  (BV=100 CJO=4PF IS=7E-09 M=.45 N=2 RS=.8 TT=6E-09 VJ=.6V)
+.MODEL DIACtrigg SW (VT=33.1 VH=5 RON=7.5 ROFF=500meg)
+.ENDS
+
+.SUBCKT ALTERNISTOR  1  2  3
+*       TERMINALS:  MT2 G MT1
+Qnpn1  5 4 3  NoutF OFF
+Qpnp1  4 5 7  PoutF OFF
+Qnpn2 11 6 7  NoutR OFF
+Qpnp2 6 11 3  PoutR OFF
+Dfor  4  5 DZ OFF
+Drev  6 11 DZ OFF
+Rfor  4 6  12MEG
+Ron   1 7  61.6M
+Rhold 7 6  50
+RGP   8 3  13
+RG    2 8  5.8
+RS    8 4  100
+DN    9 2  DIN OFF
+RN    9 3  6.12
+GNN   6 7 9 3 1.100
+GNP   4 5 9 3 0.521
+DP    2 10  DIP OFF
+RP    10 3  3.56
+.MODEL DIN   D   (IS=382F)
+.MODEL DIP   D   (IS=382F N=1.19)
+.MODEL DZ    D   (IS=382F N=1.5 IBV=50U BV=400)
+.MODEL PoutF PNP (IS=382F BF=1 CJE=761P TF=0.3U)
+.MODEL NoutF NPN (IS=382F BF=3 CJE=761P CJC=152P TF=0.3U)
+.MODEL PoutR PNP (IS=382F BF=5 CJE=761P TF=0.3U)
+.MODEL NoutR NPN (IS=382F BF=0.5 CJE=761P CJC=152P TF=0.3U)
+.ENDS
+.ENDS
+**********
