@@ -5,26 +5,26 @@
 v1.0  
 ![](Pictures/v1.0.png)
 
-### Simulate, 4xRed
+### Simulate, Red LED x4
 v1.0, Schematic  
-![](Simulate/v1.0_Schematic.png)
+![](Simulate_4xRed/v1.0_Schematic.png)
 
 v1.0, Plot  
-![](Simulate/v1.0_Plot.png)
+![](Simulate_4xRed/v1.0_Plot.png)
 
-### Simulate, 6xRed
+### Simulate, Red LED x6
 v1.0, Schematic  
-![](Simulate/v1.0_Schematic.png)
+![](Simulate_6xRed/v1.0_Schematic.png)
 
 v1.0, Plot  
-![](Simulate/v1.0_Plot.png)
+![](Simulate_6xRed/v1.0_Plot.png)
 
-### Simulate, 6xOrang
+### Simulate, Orang LED x6
 v1.0, Schematic  
-![](Simulate/v1.0_Schematic.png)
+![](Simulate_6xOrang/v1.0_Schematic.png)
 
 v1.0, Plot  
-![](Simulate/v1.0_Plot.png)
+![](Simulate_6xOrang/v1.0_Plot.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
