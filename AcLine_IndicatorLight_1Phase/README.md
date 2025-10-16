@@ -1,10 +1,6 @@
 ## Single-Phase Indicator Light 
 ![](Cover.jpg)
 
-### Picture
-v1.0  
-![](Pictures/v1.0.png)
-
 ### Simulate, Red LED x4
 v1.0, Schematic  
 ![](Simulate_4xRed/v1.0_Schematic.png)
