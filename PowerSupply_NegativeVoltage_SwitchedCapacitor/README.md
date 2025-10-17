@@ -1,4 +1,4 @@
-## Switched Capacitor Voltage Inverter
+## Switched Diode-Capacitor Positive DC To Negative DC Voltage Inverter
 
 ### Simulate
 v1.0, Schematic  

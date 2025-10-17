@@ -11,7 +11,7 @@ There are simple circuits, but useful.
 ![](Display_GLCD_KS0108_64x128/Pictures/Album.jpg)
 ![](Relay_4CH/Pictures/Album.jpg)
 ![](Sensor_LM35_RC-Damper/Pictures/Album.jpg)
-![](AnalogInput_VoltageSource/Pictures/Album.jpg)
+![](AnalogMeasure_VoltageSense_Protection/Pictures/Album.jpg)
 ![](PhoneLine_Detector_DTMF/Pictures/Album.jpg)
 ![](PowerSupply_NegativeVoltage_ICL7660/Pictures/Album.jpg)
 ![](MCU_AVR_ATmega328/Pictures/Album.jpg)
