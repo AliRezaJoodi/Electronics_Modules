@@ -1,17 +1,18 @@
-## Current Limiter With MOSFET
-Note: The MOSFET was very high temp
+## Current Limiter Using MOSFET
+Note: The MOSFET gets hot because it is working in the linear region.
 Note: Limited to 2A
 
-### Folders and Files Description
-It has included:
-- `Simulate` — Simulating the project with Proteus
-
 ### Simulate
-v2.0  
-![](Simulate/v2.0.png)
+v2.0, Schematic  
+![](Simulate/v2.0_Schematic.png)
 
-v1.0  
-![](Simulate/v1.0.png)
+v2.0, Plot  
+![](Simulate/v2.0_Plot.png)
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+### Upgrade
+- The MOSFET should operate in the saturation region.
+
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
+

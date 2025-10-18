@@ -7,8 +7,7 @@
 * Zener Diode, 180V, 1W, 5%
 .model DFLZ180TP D(IS=1.0E-12 N=1.0 Rs=400 Cjo=1.0E-12 M=0.5 Vj=0.7 Eg=1.1 Bv=180 Ibv=1.0E-6 Nbv=12.0)
 
-* TVS, 3.3V, Uni-Directional
-.model SMBJ3.3A D(IS=0.1u RS=0.3 CJO=4100p M=0.33 VJ=0.4 ISR=0.1m N=1.05 IKF=1m BV=4.1 NBV=20 IBV=10u TT=4n EG=.84 TRS1=.1m)
+
 
 
 

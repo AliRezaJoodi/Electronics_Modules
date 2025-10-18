@@ -13,10 +13,10 @@ LINE Normal 16 0 16 8
 LINE Normal 16 56 16 64
 WINDOW 0 49 16 Left 2
 WINDOW 38 48 39 Left 2
+SYMATTR SpiceModel SMBJ3.3CA
 SYMATTR Prefix X
 SYMATTR Description TVS
-SYMATTR SpiceModel SMBJ3.3CA
-SYMATTR ModelFile Diode.lib
+SYMATTR ModelFile MyLib/Diode_TVS/SMBJ3.3CA.lib
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1
