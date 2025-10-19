@@ -1,0 +1,21 @@
+.model D_SMBJ3.3A D(IS=0.1u RS=0.3 CJO=4100p M=0.33 VJ=0.4 ISR=0.1m N=1.05 IKF=1m BV=4.1 NBV=20 IBV=10u TT=4n EG=.84)
+
+
+* TVS, 3.3V, Uni-Directional
+.subckt SMBJ3.3A A K
+* Series resistor to model package/internal resistance
+Rser A N1 0.3
+* Core diode from internal node to cathode
+Dcore N1 K D_SMBJ3.3A
+* Parasitic junction capacitance across A-K
+Cpar A K 4100p
+.ends SMBJ3.3A
+
+
+* TVS, 3.3V, Bidirectional
+.subckt SMBJ3.3CA A K
+* First TVS (original orientation)
+X1 A N1 SMBJ3.3A
+* Second TVS (flipped orientation)
+X2 K N1 SMBJ3.3A
+.ends SMBJ3.3CA

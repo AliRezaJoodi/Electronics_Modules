@@ -16,7 +16,7 @@ WINDOW 38 48 39 Left 2
 SYMATTR SpiceModel SMBJ3.3CA
 SYMATTR Prefix X
 SYMATTR Description TVS
-SYMATTR ModelFile MyLib/Diode_TVS/SMBJ3.3CA.lib
+SYMATTR ModelFile MyLib/Diode_TVS/SMBJ3.3.lib
 PIN 16 0 NONE 0
 PINATTR PinName +
 PINATTR SpiceOrder 1
