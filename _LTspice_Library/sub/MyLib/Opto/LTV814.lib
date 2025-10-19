@@ -1,0 +1,54 @@
+* ----------------------------------------------------------------
+* LTV-814S - derived from WL-OCPT_Series_354 geometry
+* Created/adjusted to match datasheet targets:
+*  - Vf_typ ~1.2 V (at small IF)
+*  - CTR ~300% (order-of-magnitude matching)
+*  - Vce(max) ~35 V, VCE(sat) ~0.2 V typical
+* Sources: Lite-On datasheet / Mouser / DigiKey. 
+* ----------------------------------------------------------------
+
+.SUBCKT LTV814S A K C E 
+* Nodes: A=anode, K=cathode, C=collector, E=emitter  (same pinout as original)
+
+D1 A D LED
+VH D K 0 
+Hd R 0 VH 1
+Rd R T 10k
+Cd T 0 0.02n
+Rg B 0 4G
+Q1 C B E Detector 
+
+* Behavioral photocurrent: scales LED signal -> collector base current path
+* Adjusted scaling to approximate CTR ˜ 300% (i.e. Ic ˜ 3 * IF in mid-range)
+G1 C B TABLE
++ {if(V(T)<0.02,
++   ( ((0.43970E+01-.21363E-04*PWR(V(T),-.12107E+01)) / (0.18799E+02+PWR(V(T),-.12107E+01))) )/33,
++   ( (1/(0.87599E+02*PWR((V(T)+0.11261E-01),2)+0.63063E+01) + 0.31648E-01*ln(V(T)) ) )/33)}
++ (0,1e-10) (10,10)
+
+* -------------------------
+* LED diode model (adjusted)
+* Goal: Vf_typ ˜ 1.2 V at IF~1mA
+* Chosen values (estimated from datasheet targets):
+*  IS ~ 8.4e-16, N ~ 1.6, RS ~ 50 ohm
+* -------------------------
+.model LED D 
++ IS=8.4E-16
++ N=1.6
++ RS=50
++ IKF=11.194E-3
++ CJO=1.0E-12
++ M=0.3333
++ VJ=0.75
++ BV=6
++ IBV=10.00E-6
++ TT=5.0E-9
+
+* -------------------------
+* Phototransistor / detector model (tuned)
+* Keep geometry similar but reduce intrinsic gain slightly to rely on G1 scaling.
+* -------------------------
+.model Detector NPN IS=3.64E-12 BF=100 NF=1.14 BR=10 TF=20n TR=350n
++ CJE=5.16p VJE=0.99 MJE=0.2411274 CJC=18p VJC=0.597478 MJC=0.431978
++ ISC=0.207n VAF=65 IKF=20 ISS=0 CJS=7.74p VJS=0.61 MJS=0.31
+.ends

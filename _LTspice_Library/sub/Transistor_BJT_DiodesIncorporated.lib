@@ -1,0 +1,3813 @@
+* DIODES INCORPORATED AND ITS AFFILIATED COMPANIES AND SUBSIDIARIES (COLLECTIVELY, "DIODES") 
+* PROVIDE THESE SPICE MODELS AND DATA (COLLECTIVELY, THE "SM DATA") "AS IS" AND WITHOUT ANY 
+* REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY 
+* OR FITNESS FOR A PARTICULAR PURPOSE, ANY WARRANTY ARISING FROM COURSE OF DEALING OR COURSE OF 
+* PERFORMANCE, OR ANY WARRANTY THAT ACCESS TO OR OPERATION OF THE SM DATA WILL BE UNINTERRUPTED, 
+* OR THAT THE SM DATA OR ANY SIMULATION USING THE SM DATA WILL BE ERROR FREE. TO THE MAXIMUM 
+* EXTENT PERMITTED BY LAW, IN NO EVENT WILL DIODES BE LIABLE FOR ANY DIRECT OR INDIRECT, 
+* SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH 
+* THE PRODUCTION OR USE OF SM DATA, HOWEVER CAUSED AND UNDER WHATEVER CAUSE OF ACTION OR THEORY 
+* OF LIABILITY BROUGHT (INCLUDING, WITHOUT LIMITATION, UNDER ANY CONTRACT, NEGLIGENCE OR OTHER 
+* TORT THEORY OF LIABILITY), EVEN IF DIODES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, 
+* AND DIODES' TOTAL LIABILITY (WHETHER IN CONTRACT, TORT OR OTHERWISE) WITH REGARD TO THE SM 
+* DATA WILL NOT, IN THE AGGREGATE, EXCEED ANY SUMS PAID BY YOU TO DIODES FOR THE SM DATA.
+
+
+*DIODES_INC_SPICE_MODEL_DA1201Y
+*ORIGIN=DZSL_DPG_SU
+*SIMULATOR=PSPICE
+*DATE=06/07/2012
+*VERSION=1
+
+
+
+.MODEL DA1201Y PNP IS=1.6E-13 NF=1 BF=210 VAF=175 ISE=3E-14 IKF=4.2
++ NE=1.4 BR=12 VAR=5.15 ISC=1E-13 NC=1.08 IKR=0.7 RC=0.013 RB=0.2 RE=0.016
++ QUASIMOD=1 RCO=4 GAMMA=1.4E-8 CJC=42E-12 MJC=0.32 VJC=0.44 CJE=237E-12
++ MJE=0.44 VJE=0.85 TF=0.95E-9 TR=22E-8 TRC1=.005 TRB1=.005 TRE1=.005 XTB=1.4 
+*
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG
+*SIMULATOR=PSPICE
+*DATE=08/01/2009
+*VERSION=1
+*
+.MODEL 2DA1797 PNP IS=2.715E-13 BF=170 VAF=70 NF=1.004 IKF=2.75 ISE=1E-13
++ NE=1.535 BR=23 VAR=40 NR=1.005 IKR=.55 ISC=5.15E-14 NC=1.13 RB=.07
++ RE=.065 RC=.085 CJE=360E-12 TF=.94E-9 CJC=90E-12 TR=60E-9 VJC=.705
++ MJC=.46
+*
+*$
+
+
+*DIODES_INC_SPICE_MODEL 2DB1182Q 
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=6Nov2012
+*VERSION=1
+
+
+.MODEL 2DB1182Q  PNP (IS=24E-14 NF=1.00 BF=200 ISE=10E-15 NE=1.28 VAF=127
++ IKF=3.34 BR=16.00 NR=1.00 ISC=30E-15 NC=1
++ VAR=20.0 IKR=5.25 RE=33.2m RB=0.133 RC=33.3m
++ XTB=1.5 CJE=411p VJE=.75 MJE=0.37 CJC=93.24p VJC=0.500
++ MJC=0.3300 TF=1.27n TR=230n EG=1.2 XTI=3)
+
+
+
+*                (c)  2012 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*DIODES_INC_SPICE_MODEL 2DB1184Q 
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=29Nov2012
+*VERSION=1
+
+
+.MODEL 2DB1184Q  PNP (IS=24E-14 NF=1.00 BF=200 ISE=10E-15 NE=1.28 VAF=127
++ IKF=3.34 BR=16.00 NR=1.00 ISC=30E-15 NC=1
++ VAR=20.0 IKR=5.25 RE=33.2m RB=0.133 RC=33.3m
++ XTB=1.5 CJE=411p VJE=.75 MJE=0.37 CJC=93.24p VJC=0.500
++ MJC=0.3300 TF=1.27n TR=230n EG=1.2 XTI=3)
+
+
+
+*                (c)  2012 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*SRC=2DC4617QLP;DI_2DC4617QLP;BJTs NPN; Si;  50.0V  0.100A  200MHz    
+.MODEL DI_2DC4617QLP  NPN (IS=1.21f NF=1.00 BF=202 VAF=127
++ IKF=98.0m ISE=5.55f NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.150 RE=0.575 RB=2.30 RC=0.230
++ XTB=1.5 CJE=15.6p VJE=1.10 MJE=0.500 CJC=6.12p VJC=0.300
++ MJC=0.300 TF=765p TR=126n EG=1.12 )
+
+
+*DIODES_BC56-16PAWQ_SPICE_MODEL
+*DATE=26Jun2023
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL BC56-16PAWQ NPN (IS=35.7f NF=1.00 BF=161 VAF=161
++ IKF=1.65 ISE=1.6p NE=2.00 BR=32.00 NR=1.00 NK=0.79 ISC=67.2p NC=1.56
++ VAR=28.0 IKR=3.00 RE=113.2m RB=0.586 RC=58.6m RCO=0.05
++ XTB=1.5 CJE=175.8p VJE=1.10 MJE=0.500 CJC=191.6p VJC=0.300
++ MJC=0.300 TF=24.4n TR=18.1n EG=1.12
++ TRE1=0.003 TRB1=0.003 TRC1=0.001 GAMMA=50n QUASIMOD=1 )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*SRC=BC807-40;DI_BC807-40;BJTs PNP; Si;  45.0V  0.500A  220MHz   Diodes
+Inc. BJTs
+.MODEL DI_BC807-40  PNP (IS=50.7f NF=1.00 BF=821 VAF=121
++ IKF=0.273 ISE=10.1p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.675 RE=0.213 RB=0.852 RC=85.2m
++ XTB=1.5 CJE=107p VJE=1.10 MJE=0.500 CJC=34.7p VJC=0.300 MJC=0.300 
++ TF=631p TR=108n EG=1.12 )
+
+
+*SRC=BC817-16;DI_BC817-16;BJTs NPN; Si;  45.0V  0.800A  220MHz   Diodes
+Inc. BJTs
+.MODEL DI_BC817-16  NPN (IS=4.04n NF=1.00 BF=342 VAF=121
++ IKF=0.273 ISE=6.86n NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.675 RE=0.227 RB=0.907 RC=90.7m
++ XTB=1.5 CJE=107p VJE=1.10 MJE=0.500 CJC=34.7p VJC=0.300 MJC=0.300 
++ TF=651p TR=111n EG=1.12 )
+
+
+*SRC=BC817-25;DI_BC817-25;BJTs NPN; Si;  45.0V  0.800A  220MHz   Diodes
+Inc. BJTs
+.MODEL DI_BC817-25  NPN (IS=4.04n NF=1.00 BF=548 VAF=121
++ IKF=0.273 ISE=4.29n NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.675 RE=0.227 RB=0.907 RC=90.7m
++ XTB=1.5 CJE=107p VJE=1.10 MJE=0.500 CJC=34.7p VJC=0.300 MJC=0.300 
++ TF=651p TR=109n EG=1.12 )
+
+
+*SRC=BC817-40;DI_BC817-40;BJTs NPN; Si;  45.0V  0.800A  220MHz   Diodes
+Inc. BJTs
+.MODEL DI_BC817-40  NPN (IS=4.04n NF=1.00 BF=822 VAF=121
++ IKF=0.273 ISE=2.86n NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.675 RE=0.227 RB=0.907 RC=90.7m
++ XTB=1.5 CJE=107p VJE=1.10 MJE=0.500 CJC=34.7p VJC=0.300 MJC=0.300 
++ TF=651p TR=108n EG=1.12 )
+
+
+*SRC=BC846A;DI_BC846A;BJTs NPN; Si;  65.0V  0.100A  300MHz   Diodes Inc
+BJTs
+.MODEL DI_BC846A  NPN (IS=10.2f NF=1.00 BF=305 VAF=145
++ IKF=53.6m ISE=5.86p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.135 RE=0.915 RB=3.66 RC=0.366
++ XTB=1.5 CJE=26.8p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300 MJC=0.300 
++ TF=416p TR=50.3n EG=1.12 )
+
+
+*SRC=BC846AS;DI_BC846AS;BJTs NPN; Si;  65.0V  0.100A  250MHz    Diodes Inc
+.MODEL DI_BC846AS  PNP (IS=10.1f NF=1.00 BF=301 VAF=145
++ IKF=54.7m ISE=5.50p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.135 RE=0.705 RB=2.82 RC=0.282
++ XTB=1.5 CJE=19.1p VJE=1.10 MJE=0.500 CJC=5.37p VJC=0.300
++ MJC=0.300 TF=564p TR=98.4n EG=1.12
+
+
+*SRC=BC846B;DI_BC846B;BJTs NPN; Si;  65.0V  0.100A  300MHz   Diodes Inc
+BJTs
+.MODEL DI_BC846B  NPN (IS=10.2f NF=1.00 BF=650 VAF=145
++ IKF=39.5m ISE=2.93p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.105 RE=0.915 RB=3.66 RC=0.366
++ XTB=1.5 CJE=26.8p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300 MJC=0.300 
++ TF=385p TR=49.0n EG=1.12 )
+
+
+*SRC=BC846BW;DI_BC846BW;BJTs NPN; Si;  65.0V  0.100A  300MHz   Diodes Inc
+BJTs
+.MODEL DI_BC846BW  NPN (IS=10.2f NF=1.00 BF=650 VAF=145
++ IKF=39.5m ISE=2.93p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.105 RE=0.915 RB=3.66 RC=0.366
++ XTB=1.5 CJE=26.8p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300 MJC=0.300 
++ TF=385p TR=49.0n EG=1.12 )
+
+
+*SRC=BC847A;DI_BC847A;BJTs NPN; Si;  45.0V  0.100A  300MHz   Diodes Inc
+BJTs
+.MODEL DI_BC847A  NPN (IS=10.2f NF=1.00 BF=301 VAF=121
++ IKF=60.7m ISE=5.82p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.150 RE=0.915 RB=3.66 RC=0.366
++ XTB=1.5 CJE=26.8p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300 MJC=0.300 
++ TF=427p TR=50.3n EG=1.12 )
+
+
+*DIODES_INC_SPICE_MODEL BC847BFAQ
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_IM
+*DATE=10Jul2013_package updated Jan2019
+*VERSION=1.0
+
+.MODEL BC847BFAQ  NPN (IS=6E-15 NF=.99 BF=350 ISE=400E-18 NE=1.15 BR=1.8 NR=.97 NC=1.1 ISC=10E-15 RE=0.15 RB=4 RC=0.2 CJE=9p VJE=.7 MJE=0.3 CJC=3.146p VJC=0.500 MJC=0.2200 VAF=40 IKF=48m VAR=24.0 IKR=90.0m)
+
+
+
+*                (c)  2013 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*SRC=BC847B;DI_BC847B;BJTs NPN; Si;  45.0V  0.100A  300MHz   Diodes, Inc. transistor
+.MODEL DI_BC847B  NPN (IS=3.75f NF=1.00 BF=1.61k VAF=121
++ IKF=8.79m ISE=8.38p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=90.0m RE=0.765 RB=3.06 RC=0.306
++ XTB=1.5 CJE=13.3p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300
++ MJC=0.300 TF=520p TR=78.9n EG=1.12 )
+
+
+*SRC=BC847BS;DI_BC847BS;BJTs NPN; Si;  45.0V  0.100A  250MHz   Diodes Inc.
+BJTs
+.MODEL DI_BC847BS  NPN (IS=9.98f NF=1.00 BF=616 VAF=121
++ IKF=60.7m ISE=2.81p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.150 RE=0.815 RB=3.26 RC=0.326
++ XTB=1.5 CJE=13.3p VJE=1.10 MJE=0.500 CJC=4.33p VJC=0.300 MJC=0.300 
++ TF=585p TR=49.1n EG=1.12 )
+
+
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_PH
+*SIMULATOR=SIMETRIX
+*DATE=13OCT2019
+*VERSION=1
+*
+.MODEL BC847BTQ  NPN 
++ IS=9.98f
++ NF=1.00
++ BF=616
++ VAF=121
++ IKF=60.7m
++ ISE=2.81p
++ NE=2.00
++ BR=4.00
++ NR=1.00
++ VAR=24.0
++ IKR=0.150
++ RE=0.815
++ RB=3.26
++ RC=0.326
++ XTB=1.5
++ CJE=26.8p
++ VJE=1.10
++ MJE=0.500
++ CJC=13.0p
++ VJC=0.300
++ MJC=0.300 
++ TF=423p
++ TR=49.1n
++ EG=1.12
+
+*                (c)  2019 Diodes Inc					
+*					
+*   The copyright in these models  and  the designs embodied belong					
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied					
+*   free of charge by Zetex for the purpose of research and design					
+*   and may be used or copied intact  (including this notice)  for					
+*   that purpose only.  All other rights are reserved.  The models					
+*   are believed accurate but no condition  or warranty  as to their					
+*   merchantability or fitness for purpose is given and no liability					= intrinsic base-intrinsic emitter voltage
+*   in respect of any use is accepted by Diodes Incorporated, its distributors					
+*   or agents.					
+*					
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,					
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*SRC=BC847BVC;DI_BC847BVC;BJTs NPN; Si;  45.0V  0.100A  300MHz   Diodes, Inc. transistor
+.MODEL DI_BC847BVC  NPN (IS=3.75f NF=1.00 BF=1.61k VAF=121
++ IKF=8.79m ISE=8.38p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=90.0m RE=0.765 RB=3.06 RC=0.306
++ XTB=1.5 CJE=13.3p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300
++ MJC=0.300 TF=520p TR=78.9n EG=1.12 )
+
+
+*DIODES_INC_SPICE_MODEL BC847BW
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_IM
+*DATE=10Jul2013_package updated Jan2019
+*VERSION=1.0
+
+.MODEL BC847BW  NPN (IS=6E-15 NF=.99 BF=350 ISE=400E-18 NE=1.15 BR=1.8 NR=.97 NC=1.1 ISC=10E-15 RE=0.15 RB=4 RC=0.2 CJE=9p VJE=.7 MJE=0.3 CJC=3.146p VJC=0.500 MJC=0.2200 VAF=40 IKF=48m VAR=24.0 IKR=90.0m)
+
+
+
+*                (c)  2013 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*SRC=BC847C;DI_BC847C;BJTs NPN; Si;  45.0V  0.100A  300MHz   Diodes Inc
+BJTs
+.MODEL DI_BC847C  NPN (IS=10.3f NF=1.00 BF=1.09k VAF=121
++ IKF=60.7m ISE=1.61p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.150 RE=0.965 RB=3.86 RC=0.386
++ XTB=1.5 CJE=26.8p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300 MJC=0.300 
++ TF=427p TR=48.6n EG=1.12 )
+
+
+*SRC=BC847CW;DI_BC847CW;BJTs NPN; Si;  45.0V  0.100A  300MHz   Diodes Inc
+BJTs
+.MODEL DI_BC847CW  NPN (IS=10.2f NF=1.00 BF=1.09k VAF=121
++ IKF=60.7m ISE=1.60p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.150 RE=0.915 RB=3.66 RC=0.366
++ XTB=1.5 CJE=26.8p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300 MJC=0.300 
++ TF=427p TR=48.6n EG=1.12 )
+
+
+* DIODES INCORPORATED AND ITS AFFILIATED COMPANIES AND SUBSIDIARIES (COLLECTIVELY, "DIODES") 
+* PROVIDE THESE SPICE MODELS AND DATA (COLLECTIVELY, THE "SM DATA") "AS IS" AND WITHOUT ANY 
+* REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY 
+* OR FITNESS FOR A PARTICULAR PURPOSE, ANY WARRANTY ARISING FROM COURSE OF DEALING OR COURSE OF 
+* PERFORMANCE, OR ANY WARRANTY THAT ACCESS TO OR OPERATION OF THE SM DATA WILL BE UNINTERRUPTED, 
+* OR THAT THE SM DATA OR ANY SIMULATION USING THE SM DATA WILL BE ERROR FREE. TO THE MAXIMUM 
+* EXTENT PERMITTED BY LAW, IN NO EVENT WILL DIODES BE LIABLE FOR ANY DIRECT OR INDIRECT, 
+* SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH 
+* THE PRODUCTION OR USE OF SM DATA, HOWEVER CAUSED AND UNDER WHATEVER CAUSE OF ACTION OR THEORY 
+* OF LIABILITY BROUGHT (INCLUDING, WITHOUT LIMITATION, UNDER ANY CONTRACT, NEGLIGENCE OR OTHER 
+* TORT THEORY OF LIABILITY), EVEN IF DIODES HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, 
+* AND DIODES' TOTAL LIABILITY (WHETHER IN CONTRACT, TORT OR OTHERWISE) WITH REGARD TO THE SM 
+* DATA WILL NOT, IN THE AGGREGATE, EXCEED ANY SUMS PAID BY YOU TO DIODES FOR THE SM DATA.
+
+*DIODES_INC_SPICE_MODEL_BC847PNQ
+*COMPLEMENTARY PAIR BC847/BC857 BAND B
+*DATE=03Apr2024
+*SIMULATOR=SIMETRIX
+*ORIGIN=DT
+*VERSION=1.0
+
+
+.MODEL BC847PNQ_NPN  NPN (IS=9.98f NF=1.00 BF=616 VAF=121
++ IKF=60.7m ISE=5.81p NE=2.00 BR=4.00 NR=1.00 NC=1.00 NK=0.52 ISC=3.55E-15
++ VAR=24.0 IKR=0.150 RE=0.815 RB=3.26 RC=0.326 RCO=29.8 VO=69
++ XTB=1.5 CJE=26.8p VJE=1.10 MJE=0.500 CJC=13.0p VJC=0.300 MJC=0.300 
++ TF=423p TR=49.1n EG=1.12
++ TRE1=0.001 TRB1=0.003 TRC1=0.003 GAMMA=69.7n QUASIMOD=1)
+
+.MODEL BC847PNQ_PNP  PNP (IS=5.51f NF=1.00 BF=324 VAF=35
++ IKF=178.7m ISE=4.59f NE=2.00 BR=3.00 NR=1.00 NK=0.52 ISC=3.55f
++ VAR=20.0 IKR=90.0m RE=0.765 RB=3.06 RC=0.306 RCO=39 VO=90 NC=1.56
++ XTB=1.5 CJE=26.9p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300
++ MJC=0.300 TF=700p TR=121n EG=1.12 
++ TRE1=0.001 TRB1=0.003 TRC1=0.003 GAMMA=21.5n QUASIMOD=1 )
+
+
+
+*                (c)  2023 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*SRC=BC848C;DI_BC848C;BJTs NPN; Si;  30.0V  0.100A  300MHz   Diodes Inc
+BJTs
+.MODEL DI_BC848C  NPN (IS=10.2f NF=1.00 BF=1.09k VAF=98.6
++ IKF=60.7m ISE=1.60p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.150 RE=0.915 RB=3.66 RC=0.366
++ XTB=1.5 CJE=26.8p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300 MJC=0.300 
++ TF=427p TR=48.6n EG=1.12 )
+
+
+*SRC=BC856A;DI_BC856A;BJTs PNP; Si;  65.0V  0.100A  250MHz   Diodes Inc. BJTs
+.MODEL DI_BC856A  PNP (IS=10.2f NF=1.00 BF=342 VAF=145
++ IKF=72.9m ISE=5.59p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.180 RE=0.715 RB=2.86 RC=0.286
++ XTB=1.5 CJE=13.3p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300
++ MJC=0.300 TF=581p TR=97.8n EG=1.12 )
+
+
+*SRC=BC856AS;DI_BC856AS;BJTs PNP; Si;  65.0V  0.100A  400MHz    Diodes Inc
+.MODEL DI_BC856AS  PNP (IS=10.2f NF=1.00 BF=342 VAF=145
++ IKF=60.7m ISE=5.11p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.150 RE=0.735 RB=2.94 RC=0.294
++ XTB=1.5 CJE=21.1p VJE=1.10 MJE=0.500 CJC=7.67p VJC=0.300
++ MJC=0.300 TF=314p TR=61.2n EG=1.12 )
+
+
+*DIODES_INC_SPICE_MODEL BC856B
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=21May2012
+*VERSION=1
+
+.MODEL BC856B PNP IS=15E-15 NF=1 BF=360 ISE=100E-18 NE=1.05 
++ BR=2 ISC=1.8E-14 NC=1.05 NR=1 CJC=8.26E-12 MJC=0.33 VJC=0.48
++ CJE=14.6E-12 MJE=0.37 VJE=0.75 RC=.313 RE=.782 RB=3.5 VAF=20 IKF=130m XTB=1.4 NK=.7 QUASIMOD=1 RCO=1 EG=1.11
+
+.SIMULATOR DEFAULT
+
+
+*SRC=BC857B;DI_BC857B;BJTs PNP; Si;  45.0V  0.100A  200MHz   Diodes, Inc. transistor
+.MODEL DI_BC857B  PNP (IS=5.51f NF=1.00 BF=424 VAF=121
++ IKF=36.4m ISE=2.35p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=90.0m RE=0.765 RB=3.06 RC=0.306
++ XTB=1.5 CJE=26.9p VJE=1.10 MJE=0.500 CJC=8.67p VJC=0.300
++ MJC=0.300 TF=700p TR=121n EG=1.12 )
+
+
+*SRC=BC857BS;DI_BC857BS;BJTs PNP; Si;  45.0V  0.100A  250MHz   Diodes Inc.
+BJTs - Single device of dual
+.MODEL DI_BC857BS  PNP (IS=10.2f NF=1.00 BF=650 VAF=121
++ IKF=42.5m ISE=2.25p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.105 RE=0.715 RB=2.86 RC=0.286
++ XTB=1.5 CJE=13.3p VJE=1.10 MJE=0.500 CJC=7.80p VJC=0.300 MJC=0.300 
++ TF=586p TR=95.9n EG=1.12 )
+
+
+*SRC=BC857C;DI_BC857C;BJTs PNP; Si;  45.0V  0.100A  250MHz   Diodes Inc. BJTs
+.MODEL DI_BC857C  PNP (IS=10.2f NF=1.00 BF=1.09k VAF=121
++ IKF=36.4m ISE=1.24p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=90.0m RE=0.715 RB=2.86 RC=0.286
++ XTB=1.5 CJE=13.3p VJE=1.10 MJE=0.500 CJC=7.80p VJC=0.300
++ MJC=0.300 TF=587p TR=95.0n EG=1.12 )
+
+
+*ZETEX BCP5610 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL BCP5610 NPN IS =6E-14 NF =0.99 BF =250 IKF=0.9
+    +NK=0.7 VAF=270 ISE=1E-14 NE =1.2 NR =0.98 BR =30 IKR=0.5
+    +VAR=27 ISC=1.2e-13 NC =1.2 RB =0.2 RE =0.08 RC =0.08 RCO=5
+    +GAMMA=5E-9 CJC=15.9E-12 MJC=0.4 VJC=0.51 CJE=108E-12 
+    +MJE=0.35 VJE=0.7 TF =0.8E-9 TR =55e-9 XTB=1.4 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*ZETEX BCP5616 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL BCP5616 NPN IS =6E-14 NF =0.99 BF =250 IKF=0.9
+    +NK=0.7 VAF=270 ISE=1E-14 NE =1.2 NR =0.98 BR =30 IKR=0.5
+    +VAR=27 ISC=1.2e-13 NC =1.2 RB =0.2 RE =0.08 RC =0.08 RCO=5
+    +GAMMA=5E-9 CJC=15.9E-12 MJC=0.4 VJC=0.51 CJE=108E-12 
+    +MJE=0.35 VJE=0.7 TF =0.8E-9 TR =55e-9 XTB=1.4 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*ZETEX BCW68H Spice Model v1.0 Last Revised 8/8/05
+    *
+    .MODEL BCW68H PNP IS =3.0572E-13 NF =1.0103 BF =450 IKF=0.93 VAF=20
+    +ISE=1.5E-14 NE =1.52 NR =1.007 BR =160 IKR=0.08 VAR=33 
+    +ISC=3.8736E-14 NC =1.0893 RB =0.112 RE =0.144 RC =0.156 
+    +CJC=42E-12 MJC=0.4449 VJC=0.3131 CJE=91E-12 
+    +TF =0.51E-9 TR =3.6E-9
+    *
+    *$
+    *
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_PH
+*SIMULATOR=PSPICE
+*DATE=14Nov2019
+*VERSION=1
+*
+.MODEL BCX5216 PNP 
++	IS=2E-13 
++	NF=1 
++	BF=300 
++	IKF=0.8 
++ 	VAF=44 
++	ISE=1E-13 
++	NE=1.4 
++	RCO=4.5 
++	GAMMA=5E-9 
++ 	NR=1 
++	BR=20 
++	IKR=0.2 
++	VAR=10 
++	ISC=2e-13 
++	NC=1.25 
++ 	RB=0.15 
++	RE=0.15 
++	RC=0.2 
++	QUASIMOD=1
++ 	CJC=36E-12 
++	MJC=0.45 
++	VJC=0.75 
++	CJE=110E-12 
++ 	TF=0.8E-9 
++	TR=70e-9 
++	XTB=1.4
+.ends
+
+*
+*                (c)  2019 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=08FEB2011
+*VERSION=1
+*
+.MODEL BCX5316 PNP IS=2E-13 NF=1 BF=300 IKF=0.8 
++ VAF=44 ISE=1E-13 NE=1.4 RCO=4.5 GAMMA=5E-9 
++ NR=1 BR=20 IKR=0.2 VAR=10 ISC=2e-13 NC=1.25 
++ RB=0.15 RE=0.15 RC=0.2 QUASIMOD=1
++ CJC=36E-12 MJC=0.45 VJC=0.75 CJE=110E-12 
++ TF=0.8E-9 TR=70e-9 XTB=1.4
+*
+*$
+
+
+*ZETEX BCX5616 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL BCX5616 NPN IS =6E-14 NF =0.99 BF =250 IKF=0.9
+    +NK=0.7 VAF=270 ISE=1E-14 NE =1.2 NR =0.98 BR =30 IKR=0.5
+    +VAR=27 ISC=1.2e-13 NC =1.2 RB =0.2 RE =0.08 RC =0.08 RCO=5
+    +GAMMA=5E-9 CJC=15.9E-12 MJC=0.4 VJC=0.51 CJE=108E-12 
+    +MJE=0.35 VJE=0.7 TF =0.8E-9 TR =55e-9 XTB=1.4 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*ZETEX BCX6825Q Spice Model v1.0 Last Revised 11/11/04
+    *
+    .MODEL BCX6825Q NPN IS =1.04E-13  BF =195 IKF =1.9 VAF =160 
+    +              ISE=1.83E-14 NE =1.35 NR =1.00 BR =140 IKR=0.5 
+    +              VAR=30 ISC=6.00E-12 NC =1.5 RB =0.3 RE =0.065
+    +              RC =0.11 CJC=25.37E-12 MJC=0.3281 VJC=0.464 
+    +              CJE=122E-12 MJE=0.3412 VJE=0.7631 TF =0.86E-9 
+    +              TR =12.5E-9
+    *
+    *$
+    *
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=08FEB2011
+*VERSION=1
+*
+.MODEL BSR33 PNP IS=2E-13 NF=1 BF=300 IKF=0.8 
++ VAF=44 ISE=1E-13 NE=1.4 RCO=4.5 GAMMA=5E-9 
++ NR=1 BR=20 IKR=0.2 VAR=10 ISC=2e-13 NC=1.25 
++ RB=0.15 RE=0.15 RC=0.2 QUASIMOD=1
++ CJC=36E-12 MJC=0.45 VJC=0.75 CJE=110E-12 
++ TF=0.8E-9 TR=70e-9 XTB=1.4
+*
+*$
+
+
+*ZETEX BSR43 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL BSR43 NPN IS =6E-14 NF =0.99 BF =250 IKF=0.9
+    +NK=0.7 VAF=270 ISE=1E-14 NE =1.2 NR =0.98 BR =30 IKR=0.5
+    +VAR=27 ISC=1.2e-13 NC =1.2 RB =0.2 RE =0.08 RC =0.08 RCO=5
+    +GAMMA=5E-9 CJC=15.9E-12 MJC=0.4 VJC=0.51 CJE=108E-12 
+    +MJE=0.35 VJE=0.7 TF =0.8E-9 TR =55e-9 XTB=1.4 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*SRC=DMMT3904W;DI_DMMT3904W;BJTs NPN; Si;  40.0V  0.200A  347MHz   Diodes
+*Inc. Matched Transistor
+.MODEL DI_DMMT3904W  NPN (IS=20.3f NF=1.00 BF=274 VAF=114
++ IKF=36.4m ISE=6.99p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=90.0m RE=0.657 RB=2.63 RC=0.263
++ XTB=1.5 CJE=8.29p VJE=1.10 MJE=0.500 CJC=7.10p VJC=0.300
++ MJC=0.300 TF=426p TR=71.3n EG=1.12 )
+
+
+*****************************************************************************************************************************************
+*SRC=DMMT3906;DI_DMMT3906;BJTs PNP; Si;  40.0V  0.200A  257MHz   Diodes Inc. Matched BJTs - Single device of dual
+.MODEL DI_DMMT3906  PNP (IS=20.3f NF=1.00 BF=437 VAF=114
++ IKF=44.6m ISE=6.81p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.120 RE=1.16 RB=4.63 RC=0.463
++ XTB=1.5 CJE=23.5p VJE=1.10 MJE=0.500 CJC=10.7p VJC=0.300
++ MJC=0.300 TF=504p TR=94.3n EG=1.12 )
+*****************************************************************************************************************************************
+
+
+*SRC=DMMT3906W;DI_DMMT3906W;BJTs PNP; Si;  40.0V  0.200A  257MHz   Diodes, Inc. PNP 
+.MODEL DI_DMMT3906W  PNP (IS=20.3f NF=1.00 BF=274 VAF=114 
++ IKF=36.4m ISE=6.99p NE=2.00 BR=4.00 NR=1.00 
++ VAR=20.0 IKR=90.0m RE=1.01 RB=4.03 RC=0.403 
++ XTB=1.5 CJE=12.1p VJE=1.10 MJE=0.500 CJC=10.7p VJC=0.300 
++ MJC=0.300 TF=531p TR=85.6n EG=1.12 )
+
+
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_SU
+*SIMULATOR=PSPICE
+*DATE=14/11/2013
+*VERSION=1
+
+
+.MODEL DSS3540M PNP IS=20e-14 NF=1 ISE=5e-15 NE=1.3 BF=350
++ VAF=26 IKF=1 ISC=9e-15 NC=1.03 BR=15 NR=1 VAR=5.7 IKR=0.6 RE=0.067
++ RB=0.33 RC=0.012 CJE=36.99e-12 VJE=0.75 MJE=0.41 CJC=13.96e-12 VJC=0.5
++ MJC=0.33 TF=4.5e-10 TR=5.6e-9 QUASIMOD=1 RCO=0.66 GAMMA=1.3e-9 NK=.71
++ XTB=1.5 TRE1=0.004 TRB1=0.003 TRC1=0.004
+
+
+
+*                (c)  2013 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*
+
+*DIODES_INC_SPICE_MODEL
+
+*ORIGIN=DZSL_DPG_SU
+
+*SIMULATOR=PSPICE
+
+*DATE=10-Dec-2015
+
+*VERSION=1
+
+*
+
+
+
+.MODEL DSS4160FDB NPN IS=6e-13 NF=1 ISE=30e-15 NE=1.35 BF=400
+
++ VAF=28 IKF=8.5 ISC=2e-13 NC=1.2 BR=15 NR=1 VAR=5.7 IKR=0.6 RE=0.029
+
++ RB=0.33 RC=0.01 CJE=160e-12 VJE=0.55 MJE=0.36 CJC=30e-12 VJC=0.5
+
++ MJC=0.35 TF=1.5e-9 TR=48e-9  QUASIMOD=1 RCO=.6 GAMMA=1.3e-9 NK=.7
+
++ XTB=1.4 TRE1=0.004 TRB1=0.003 TRC1=0.004
+
+
+
+
+
+*
+*                (c)  2015 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_SU
+*SIMULATOR=PSPICE
+*DATE=10-Dec-2013
+*VERSION=1
+*
+
+.MODEL DSS4160T NPN IS=6e-13 NF=1 ISE=30e-15 NE=1.35 BF=400
++ VAF=28 IKF=8.5 ISC=2e-13 NC=1.2 BR=15 NR=1 VAR=5.7 IKR=0.6 RE=0.029
++ RB=0.33 RC=0.01 CJE=160e-12 VJE=0.55 MJE=0.36 CJC=30e-12 VJC=0.5
++ MJC=0.35 TF=1.5e-9 TR=48e-9  QUASIMOD=1 RCO=.6 GAMMA=1.3e-9 NK=.7
++ XTB=1.4 TRE1=0.004 TRB1=0.003 TRC1=0.004
+
+
+*
+*                (c)  2013 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*DIODES_INC_DSS4310FJAWQ_SPICE_MODEL
+*DATE=08Jan2025
+*VERSION=1.0
+*ORIGIN=DZSL_BBU_DT
+*SIMULATOR=SIMETRIX
+*
+*SRC=DSS4310FJAWQ;DSS4310FJAWQ;BJTs NPN;Si;12.0V  3.00A  80.0MHz   
+.MODEL DSS4310FJAWQ  NPN (IS=405f NF=1.00 BF=591 VAF=62.4
++ IKF=13.80 ISE=289f NE=2.00 BR=252.00 NR=1.00 NK=0.49 NC=1.55 ISC=143f
++ VAR=32.0 IKR=15.0 RE=17.50m RB=22.0m RC=2.20m RCO=0.15 VO=1.2
++ XTB=1.2 XTI=4 CJE=644p VJE=1.10 MJE=0.500 CJC=462p VJC=0.300
++ MJC=0.300 TF=1.52n TR=1.1n EG=1.12
++ TRE1=0.002 TRB1=0.003 TRC1=0.001 GAMMA=0.7n QUASIMOD=1 )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_IM
+*SIMULATOR=PSPICE
+*DATE=10-Dec-2014
+*VERSION=1
+*
+
+.MODEL DSS5160T PNP IS=2.2e-13 NF=1 ISE=8e-14 NE=1.49 BF=300
++ VAF=51 IKF=2.6 ISC=8e-14 NC=1.2 BR=24 VAR=15 IKR=0.75 RE=33e-3
++ RB=1000e-3 RC=112e-3 CJE=168e-12 VJE=0.8 MJE=0.45 CJC=49e-12
++ VJC=0.7 MJC=0.47 TF=4e-10 TR=21e-9 XTB=1.6 QUASIMOD=1
++ RCO=1.4 GAMMA=15e-10
+
+
+*
+*                (c)  2014 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*DIODES_INC_DSS5240VQ_SPICE_MODEL
+*DATE=07Jan2025
+*VERSION=1.0
+*ORIGIN=DZSL_BBU_DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL DSS5240VQ  PNP (IS=90.1f NF=1.00 BF=485 VAF=114
++ IKF=2.34 ISE=183f NE=2.00 BR=31.00 NR=1.00 NK=0.51 NC=1.37 ISC=161f
++ VAR=20.0 IKR=2.77 RE=66.1m RB=0.264 RC=46.4m RCO=2.97
++ XTB=1.71 XTI=6 CJE=90.5p VJE=1.10 MJE=0.500 CJC=65.3p VJC=0.300
++ MJC=0.300 TF=1.98n TR=8.3n EG=1.12
++ TRE1=0.003 TRB1=0.003 TRC1=0.001 GAMMA=60n QUASIMOD=1 )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG
+*SIMULATOR=PSPICE
+*DATE=06/01/2009
+*VERSION=1
+*
+.MODEL DSS60600MZ4 PNP IS=5.3E-13 BF=220 NF=1.0 VAF=84 IKF=11 
++ ISE=5E-14 NE=1.4 BR=45 NR=1 VAR=8.9 IKR=5 ISC=5E-14 NC=1.07 RE=0.015
++ RB=0.27 RC=0.022 CJE=750E-12 VJE=0.68 MJE=0.4 CJC=170E-12 VJC=0.55 
++ MJC=0.4 TF=0.5E-9 TR=2.2E-8 RCO=0.22 GAMMA=5e-10 QUASIMOD=1 
++ TRE1=.005 TRB1=.005 XTB=1.4
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG
+*SIMULATOR=PSPICE
+*DATE=06/01/2009
+*VERSION=1
+*
+.MODEL DSS60601MZ4 NPN IS=1.0085E-12 NF=1.0001 BF=210 IKF=4 VAF=158
++ ISE=7E-13 NE=1.38 NR=0.9988 BR=90 IKR=3 VAR=46 ISC=4.6515E-13
++ NC=1.334 RB=0.2 RE=0.018 RC=0.016 CJC=93E-12 MJC=0.4348
++ VJC=0.6477 CJE=0.63E-9 TF=0.75E-9  TR=20E-9 XTB=1.5
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=19JAN11
+*VERSION=1
+*
+.MODEL DXT2011P5 NPN IS=6E-13 NF=1 BF=240 IKF=10 VAF=500 ISE=1.8E-13
++ NE=1.42 NR=1 BR=40 IKR=1 VAR=28 ISC=8E-13 NC=1.18 RC=0.007 RB=0.15
++ RE=0.019 CJC=84E-12 MJC=0.35 VJC=0.43 CJE=700E-12 MJE=0.37 VJE=0.78
++ QUASIMOD=1 RCO=1.2 GAMMA=1.3E-8 TF=0.85E-9 TR=75E-9 XTB=1.4
++ TRC1=0.003 TRB1=0.003 TRE1=0.003
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=13OCT2010
+*VERSION=1
+*
+.MODEL DXT5551P5 NPN IS=6.5E-15 NF=1 BF=110 VAF=288 ISE=1.0E-14
++ NE=1.5 NR=1 BR=4.5 VAR=70 ISC=3E-12 NC=1.35 RC=0.5 RB =0.26 RE =0.23
++ CJC=6.1E-12 MJC=0.31 VJC=0.4 CJE=57E-12 MJE=0.35 VJE=0.8 TF=0.2E-9
++ TR=1.5E-6 XTB=1.4 QUASIMOD=1 RCO=170 VO=35 GAMMA=2.2E-7
+*
+*$
+
+
+*SRC=DXT651;DI_DXT651;BJTs NPN; Si;  60.0V  3.00A  200MHz    
+.MODEL DI_DXT651  NPN (IS=7.42f NF=1.00 BF=206 VAF=139
++ IKF=1.98 ISE=13.4f NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=3.00 RE=32.0m RB=0.128 RC=12.8m
++ XTB=1.5 CJE=390p VJE=1.10 MJE=0.500 CJC=48.3p VJC=0.300
++ MJC=0.300 TF=626p TR=76.3n EG=1.12 )
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_IM
+*SIMULATOR=PSPICE
+*DATE=21Oct2013
+*VERSION=1
+*
+
+.MODEL DXT690BP5 NPN IS=1.5E-12 NF=1 BF=1000 IKF=3 VAF=60 ISE=4E-13 NE=1.37 
++NR=1 BR=123 IKR=1 VAR=14.5 ISC=4E-13 NC=1.34 RB=0.1 RE=0.045 RC=0.027 
++CJE=250E-12 VJE=0.68 MJE=0.36 CJC=59E-12 VJC=0.49 MJC=0.36 TF=0.77E-9
++TR=18E-9 RCO=0.93 GAMMA=5E-9 QUASIMOD=1 XTB=1.4 TRE1=0.002 TRB1=0.002 
++TRC1=0.002 
+
+*
+*                (c)  2013 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*SRC=DXT751Q;DI_DXT751Q;BJTs PNP; Si;  60.0V  3.00A  145MHz    
+.MODEL DI_DXT751  PNP (IS=8.12f NF=1.00 BF=171 VAF=139
++ IKF=2.97 ISE=16.9f NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=4.50 RE=27.3m RB=0.109 RC=10.9m
++ XTB=1.5 CJE=421p VJE=1.10 MJE=0.500 CJC=79.3p VJC=0.300
++ MJC=0.300 TF=719p TR=71.5n EG=1.12 )
+
+
+*DXTN10060DFJBQ Spice model  						
+*SIMULATOR=SIMETRIX						
+*ORIGIN=DZSL_DPG_PH						
+*DATE=10 February 2020						
+*VERSION=1						
+*#SIMETRIX						
+						
+.Model	DXTN10060DFJBQ	NPN
++	IS =	5.8032E-13
++	NF =	1.02
++	ISE =	1.5933E-13
++	NE =	1.4148
++	BF =	465
++	IKF =	8
++	NK =	0.8
++	VAF =	84	;
++	NR =	1.0006	;
++	ISC =	5E-12	;
++	NC =	1.6	;
++	BR =	110	;
++	IKR =	1.4	;
++	VAR =	51	;
++	RB =	14.5	;
++	IRB =	8.00E-06;
++	RBM =	0.2	;
++	RE =	0.05	;
++	RC =	0.0375	;
++	CJE=	2.17E-10;
++	VJE =	0.75	;
++	MJE =	0.33	;
++	CJC =	4E-11	;
++	VJC =	0.4347	;
++	MJC =	0.3708	;
++	XCJC =	1	;
++	CJS =	0	;
++	VJS =	0.75	;
++	MJS =	0	;
++	TF =	780.0E-12
++	XTF =	0	;
++	VTF =	1E+20	;
++	ITF =	0	;
++	PTF =	0	;
++	TR =	9.00E-09
++	XTB =	1.3	
++	XTI =	3	
++	RCO =	0	
++	TRB1 =	0	
++	TRB2 =	0	
++	TRC1 =	0	
++	TRC2 =	0	
++	TRE1 =	0	
++	TRE2 =	0	
++	TRM1 =	0	
++	TRM2 =	0	
+*	T_ABS =		
++	T_MEASURED =	27
+*	T_REL_GLOBAL =	
++	QUASIMOD =	1
++	CN =	2.42	;
++	D =	0.87	;
++	FC =	0.5	;
++	EG =	1.11	;
++	GAMMA =	1E-11	;
++	ISS =	0	;
++	NS =	1	;
++	QCO =	0	;
++	AF =	1	;
++	KF =	0	;
++	VG =	1.206	;
++	VO =	10	;
+.ends
+						
+*                (c)  2020 Diodes Inc						
+*						
+*   The copyright in these models  and  the designs embodied belong						
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied						
+*   free of charge by Zetex for the purpose of research and design						
+*   and may be used or copied intact  (including this notice)  for						
+*   that purpose only.  All other rights are reserved.  The models						
+*   are believed accurate but no condition  or warranty  as to their						
+*   merchantability or fitness for purpose is given and no liability						
+*   in respect of any use is accepted by Diodes Incorporated, its distributors						
+*   or agents.						
+*						
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,						
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*DXTN10060DFJBWQ Spice model  						
+*SIMULATOR=SIMETRIX						
+*ORIGIN=DZSL_DPG_PH						
+*DATE=10 February 2020						
+*VERSION=1						
+*#SIMETRIX						
+						
+.Model	DXTN10060DFJBWQ	NPN
++	IS =	5.8032E-13
++	NF =	1.02
++	ISE =	1.5933E-13
++	NE =	1.4148
++	BF =	465
++	IKF =	8
++	NK =	0.8
++	VAF =	84	;
++	NR =	1.0006	;
++	ISC =	5E-12	;
++	NC =	1.6	;
++	BR =	110	;
++	IKR =	1.4	;
++	VAR =	51	;
++	RB =	14.5	;
++	IRB =	8.00E-06;
++	RBM =	0.2	;
++	RE =	0.05	;
++	RC =	0.0375	;
++	CJE=	2.17E-10;
++	VJE =	0.75	;
++	MJE =	0.33	;
++	CJC =	4E-11	;
++	VJC =	0.4347	;
++	MJC =	0.3708	;
++	XCJC =	1	;
++	CJS =	0	;
++	VJS =	0.75	;
++	MJS =	0	;
++	TF =	780.0E-12
++	XTF =	0	;
++	VTF =	1E+20	;
++	ITF =	0	;
++	PTF =	0	;
++	TR =	9.00E-09
++	XTB =	1.3	
++	XTI =	3	
++	RCO =	0	
++	TRB1 =	0	
++	TRB2 =	0	
++	TRC1 =	0	
++	TRC2 =	0	
++	TRE1 =	0	
++	TRE2 =	0	
++	TRM1 =	0	
++	TRM2 =	0	
+*	T_ABS =		
++	T_MEASURED =	27
+*	T_REL_GLOBAL =	
++	QUASIMOD =	1
++	CN =	2.42	;
++	D =	0.87	;
++	FC =	0.5	;
++	EG =	1.11	;
++	GAMMA =	1E-11	;
++	ISS =	0	;
++	NS =	1	;
++	QCO =	0	;
++	AF =	1	;
++	KF =	0	;
++	VG =	1.206	;
++	VO =	10	;
+.ends
+						
+*                (c)  2020 Diodes Inc						
+*						
+*   The copyright in these models  and  the designs embodied belong						
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied						
+*   free of charge by Zetex for the purpose of research and design						
+*   and may be used or copied intact  (including this notice)  for						
+*   that purpose only.  All other rights are reserved.  The models						
+*   are believed accurate but no condition  or warranty  as to their						
+*   merchantability or fitness for purpose is given and no liability						
+*   in respect of any use is accepted by Diodes Incorporated, its distributors						
+*   or agents.						
+*						
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,						
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*DXTN3C100PS Spice model  
+*SIMULATOR=SIMETRIX
+*ORIGIN=PH
+*DATE=30Jan2019
+*VERSION=1
+*#SIMETRIX
+
+.MODEL DXTN3C100PS NPN 
++	IS=8.00E-13	; transport saturation current 			(A)
++	NF=1.0		; forward current emission coefficient
++	BF=265		; ideal maximum forward beta
++	IKF=0.65	; corner for forward beta high current roll off (A)
++	VAF=26		; forward early voltage 			(V)
++	ISE=7E-14 	; base-emitter leakage saturation current 	(A)
++	NE=1.3		; base-emitter leakage emission coefficient
++	NR=1.01		; reverse current emission coefficient
++	BR=9		; ideal maximum reverse beta
++	VAR=140.5	; reverse Early voltage 			(V)
++	ISC=4e-14	; base-collector leakage saturation current 	(A)
++	NC=1.1		; base-collector leakage emission coefficient
++	RB=0		; zero-bias (maximum) base resistance 		(Ohm)
++	RE=.03		; emitter ohmic resistance 			(Ohm)
++	RC=.03	 	; collector ohmic resistance 			(Ohm)3
++	CJC=63E-12	; base-collector zero-bias p-n capacitance 	(F)
++	MJC=0.38	; base-collector p-n grading factor
++	VJC=0.45	; base-collector built-in potential		(V)
++	CJE=514E-12	; base-emitter zero-bias p-n capacitance 	(F)
++	VJE=0.75	; base-collector built-in potential		(V)
++	TF=1.04E-9	; ideal forward transit time 			(s)
++	TR=4e-9 	; ideal reverse transit time 			(s)
++	XTI=3.3		;
++	XTB=1.45	;
++	EG=1.17		;
++	GAMMA=1E-11	;
+*$
+
+
+
+*                (c)  2019 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*DXTN3C60PS Spice model  
+*SIMULATOR=SIMETRIX
+*ORIGIN=PH
+*DATE=18Feb2019
+*VERSION=1
+*#SIMETRIX
+
+
+.Model		DXTN3C60PS	NPN	
++		AF =	1	;
++		BF =	266	;266
++		BR =	20	;20, 
++		CJC =	79e-12	;
++		CJE=	489e-12	;
++		CJS =	0	;
++		CN =	2.42	;2.42
++				;
++		D =	0.87	;0.87 for npn
++				;
++		EG =	1.11	;1.11
++		FC =	0.5	;0.5
++		GAMMA =	1E-5	;1E-11, 1e-5 for vce(sat), 5e-11 for vce(sat) vs temp and Rce(sat) vs temp (-55c),
++		IKF =	3.8	;3.8
++		IKR =	400	;400
++		IRB =	1E+20	;
++		IS =	8E-13	;8e-13, 2e-13 for vce(sat)
++		ISC =	4E-13	;4e-13
++		ISE =	6E-14	;6E-14
++		ISS =	0	;
++		ITF =	0	;
++		KF =	0	;
++		MJC =	0.37	;
++		MJE =	0.34	;
++		MJS =	0	;
++		NC =	1.3	;1.3
++		NE =	1.3	;1.3
++		NF =	1.0	;1
++		NK =	0.54	;0.6, 0.54 for vbe(sat)
++		NR =	1.0	;1.0
++		NS =	1.0	;1.0
++		PTF =	0	;
++		QCO =	0	;
++		QUASIMOD = 1	;
++				;
++				;
++				;
++				;
++		RB =	1	;30, 1 for Vbe(sat),
++		;RBM =	1	;30, 1 for Vbe(sat),
++		RC =	0.025	;.025
++		RCO =	-0.14	;-0.14
++		RE =	0.025	;.025
++		TF =	1.5E-10	;
++		TR =	0	;
++		TRB1 =	0	;
++		TRB2 =	0	;
++		TRC1 =	0	;
++		TRC2 =	0	;
++		TRE1 =	0	;
++		TRE2 =	0	;
++		TRM1 =	0	;
++		TRM2 =	0	;
+*		T_ABS =		;
++		T_MEASURED =27	;
+*		T_REL_GLOBAL =	;
++		VAF =	16	;16
++		VAR =	1000	;1000
++		VG =	1.206	;
++		VJC =	0.47	;0.47
++		VJE =	0.66	;0.66
++		VJS =	0.75	;0.75
++		VO =	1000	;1000
++		VTF =	1E+20	;1E+20
++		XCJC =	1	;
++		XTB =	1.45	;1.45, 4.45 for VceSat temperatures
++		XTF =	0	;
++		XTI =	3.3	;
+
+
+
+*                (c)  2019 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*DIODES_INC_DXTP03200BP5Q_SPICE_MODEL
+*DATE=10Mar2023
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL DXTP03200BP5Q  PNP (IS=35p NF=1.00 BF=204 VAF=255
++ IKF=9.34 ISE=1.2p NE=2.00 BR=21.00 NR=1.00 NK=0.98 ISC=710p NC=1.4
++ VAR=28.0 IKR=7.50 RE=96.5m RB=0.238 RC=23.8m RCO=0.01
++ XTB=1.5 CJE=278p VJE=1.10 MJE=0.500 CJC=89.6p VJC=0.300
++ MJC=0.300 TF=1.21n TR=182.3n EG=1.12 QUASIMOD=1
++ TRE1=0.001 TRB1=0.003 TRC1=0.001 GAMMA=1n )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*DXTP3C100PS Spice model  				
+*SIMULATOR=SIMETRIX				
+*ORIGIN=PH				
+*DATE=17Feb2019				
+*VERSION=1				
+*#SIMETRIX				
+				
+.Model	DXTP3C100PS	PNP	
++		AF =	1	;
++		BF =	306	;306
++		BR =	30	;20
++		CJC =	7.9E-11	;
++		CJE=	4.89E-10	;
++		CJS =	0	;
++		CN =	2.2	;2.2
++				;
++		D =	0.52	;0.52
++				;
++		EG =	1.12	;
++		FC =	0.5	;0.5
++		GAMMA =	5E-10	;1e-11, 5e-11,5e-10
++		IKF =	1.8	;3.8, 1.8
++		;IKR =	400	;400
++		IRB =	1E+20	;1e=+20
++		IS =	8E-13	;8e-13
++		ISC =	2.4e-11	;4e-13, 2.4e-11
++		ISE =	6E-14	;6e-14
++		ISS =	0	;
++		ITF =	0	;
++		KF =	0	;
++		MJC =	0.37	;.37
++		MJE =	0.34	;
++		MJS =	0	;
++		NC =	1.4	;1.3,1.5,1.4
++		NE =	1.3	;
++		NF =	1	;
++		NK =	0.78	;0.54, 0.9
++		NR =	1	;
++		NS =	1	;
++		PTF =	0	;
++		QCO =	0	;
++		QUASIMOD =1	;
++				;
++				;
++				;
++				;
++		RB =	.4	;0.4
++		;RBM =	0	;
++		;RC =	0.05	;
++		RCO =	-0.14	;
++		;RE =	0.05	;
++		TF =	1.5E-10	;
++		TR =	0	;
++		TRB1 =	0	;
++		TRB2 =	0	;
++		TRC1 =	0	;
++		TRC2 =	0	;
++		TRE1 =	0	;
++		TRE2 =	0	;
++		TRM1 =	0	;
++		TRM2 =	0	;
+*		T_ABS =		;
++		T_MEASURED =27	;
+*		T_REL_GLOBAL =	;
++		VAF =	15	;
++		VAR =	1000	;
++		VG =	1.206	;
++		VJC =	0.47	;
++		VJE =	0.66	;
++		VJS =	0.75	;
++		VO =	1000	;
++		VTF =	1E+20	;
++		XCJC =	1	;
++		XTB =	1.45	;1.35
++		XTF =	0	;
++		XTI =	3.3	;3
+
+*                (c)  2019 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*DXTP3C60PS Spice model  				
+*SIMULATOR=SIMETRIX				
+*ORIGIN=PH				
+*DATE=18Feb2019				
+*VERSION=1				
+*#SIMETRIX				
+				
+.Model	DXTP3C60PS	PNP	
++		AF =	1	;
++		BF =	306	;306,256
++		BR =	30	;20
++		CJC =	7.9E-11	;
++		CJE=	4.89E-10	;
++		CJS =	0	;
++		CN =	2.2	;2.2
++				;
++		D =	0.52	;0.52
++				;
++		EG =	1.12	;
++		FC =	0.5	;0.5
++		GAMMA =	5E-10	;1e-11, 5e-11,5e-10
++		IKF =	8.8	;3.8, 1.8,10.8
++		;IKR =	400	;400
++		IRB =	1E+20	;1e=+20
++		IS =	8E-13	;8e-13
++		ISC =	2.4e-14	;4e-13, 2.4e-11
++		ISE =	1e-14	;6e-14,6.5e-14
++		ISS =	0	;
++		ITF =	0	;
++		KF =	0	;
++		MJC =	0.37	;.37
++		MJE =	0.34	;
++		MJS =	0	;
++		NC =	1.4	;1.3,1.5,1.4
++		NE =	1.3	;
++		NF =	1	;
++		NK =	1.1	;0.54, 0.9,0.8
++		NR =	1	;
++		NS =	1	;
++		PTF =	0	;
++		QCO =	0	;
++		QUASIMOD =1	;
++				;
++				;
++				;
++				;
++		RB =	5	;0.4
++		;RBM =	0	;
++		RC =	0.05	;
++		RCO =	0.3	;
++		RE =	0.05	;
++		TF =	1.5E-10	;
++		TR =	0	;
++		TRB1 =	0	;
++		TRB2 =	0	;
++		TRC1 =	0	;
++		TRC2 =	0	;
++		TRE1 =	0	;
++		TRE2 =	0	;
++		TRM1 =	0	;
++		TRM2 =	0	;
+*		T_ABS =		;
++		T_MEASURED =27	;
+*		T_REL_GLOBAL =	;
++		VAF =	40	;
++		VAR =	1000	;
++		VG =	1.206	;
++		VJC =	0.47	;
++		VJE =	0.66	;
++		VJS =	0.75	;
++		VO =	1000	;
++		VTF =	1E+20	;
++		XCJC =	1	;
++		XTB =	1.45	;1.35,1.45
++		XTF =	0	;
++		XTI =	3.3	;3,3.3
+
+*                (c)  2019 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*DIODES_INC_DXTP5840CFJAWQ_SPICE_MODEL
+*DATE=09Apr2025
+*VERSION=1.0
+*ORIGIN=DZSL_BBU_DT
+*SIMULATOR=SIMETRIX
+* 
+.MODEL DXTP5840CFJAWQ  PNP (IS=378f NF=1.00 BF=486 VAF=24 
++ IKF=4.44 ISE=2.71p NE=2.00 BR=48.00 NR=1.00 NK=0.5 NC=1.6 ISC=3.54p
++ VAR=28.0 IKR=6.00 RE=12.8m RB=51.2m RC=9.13m RCO=0.3
++ XTB=1.5 XTI=3.0 CJE=127p VJE=1.10 MJE=0.500 CJC=123p VJC=0.300
++ MJC=0.300 TF=1.11n TR=6.9n EG=1.12 
++ TRE1=0.001 TRB1=0.003 TRC1=0.001 GAMMA=2n QUASIMOD=1 )
+*
+*$
+*
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=27JUL2010
+*VERSION=2
+*
+.MODEL DZT5551Q NPN IS=6.5E-15 NF=1 BF=110 VAF=288 ISE=1.0E-14
++ NE=1.5 NR=1 BR=4.5 VAR=70 ISC=3E-12 NC=1.35 RC=0.5 RB =0.26 RE =0.23
++ CJC=6.1E-12 MJC=0.31 VJC=0.4 CJE=57E-12 MJE=0.35 VJE=0.8 TF=0.2E-9
++ TR=1.5E-6 XTB=1.4 QUASIMOD=1 RCO=170 VO=35 GAMMA=2.2E-7
+*
+*
+
+
+*SRC=DZTA42;DI_DZTA42Q;BJTs NPN; Si;  300V  0.500A  140MHz    -
+.MODEL DI_DZTA42Q  NPN (IS=19.4f NF=1.00 BF=144 VAF=312
++ IKF=58.6m ISE=31.4f NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=90.0m RE=0.895 RB=3.58 RC=0.358
++ XTB=1.5 CJE=107p VJE=1.10 MJE=0.500 CJC=8.82p VJC=0.300
++ MJC=0.300 TF=751p TR=185n EG=1.12 )
+
+
+*ZETEX FCX1053A Spice Model v1.0 Last Revised 3/1/03
+    *
+    .MODEL FCX1053A  NPN IS=2.1E-12  NF=1.0  BF=600  IKF=2.2  VAF=100
+    +               ISE=0.9E-13  NE=1.25  NR=0.99  BR=150  IKR=2.5  VAR=15
+    +               ISC=5.0E-10  NC=1.76  RB=0.1  RE=0.028  RC=0.016 
+    +               CJC=75.1E-12  CJE=520E-12  MJC=0.415  MJE=0.367
+    +               VJC=0.512  VJE=0.766  TF=550E-12  TR=22E-9
+    *
+    *$
+    *
+
+
+*ZETEX FCX458Q Spice Model v3.0 Last Revised 20/09/2007
+    *
+    .MODEL FCX458 NPN IS=5.32E-14 NF=1 BF=230 IKF=1.5 VAF=1500
+    + ISE=2.1E-14 NE=1.385 NR=1.05 BR=8 IKR=0.7 VAR=64 ISC=6.42E-12
+    + NC=1.25 RB=0.5 RE=0.224 RC=0.134 QUASIMOD=1 RCO=80 GAMMA=4E-7
+    + CJC=9.5E-12 MJC=0.32 VJC=0.4 CJE=115E-12 MJE=0.37 VJE=0.8
+    + TF=1.3E-9 TR=16E-6 TRC1=.004 TRB1=.004 TRE1=.004 XTB=1.4
+    *
+    *$
+    *
+
+
+*ZETEX FCX491 Spice Model v1.0 Last Revised 8/8/05
+    *
+    .MODEL FCX491 NPN IS=3.05E-13 NF=1.0034 BF=200 IKF=0.8 VAF=165
+    +ISE=8.0191E-14 NE=1.4126 NR=1.001 BR=50 IKR=0.6 VAR=69 
+    +ISC=1.6E-12 NC=1.38 RB=0.065 RE=0.109 RC=0.075 
+    +CJC=17.2E-12 MJC=0.3429 VJC=0.4298 CJE=96E-12 
+    +TF=0.71E-9 TR=2.5E-9
+    *
+    *$
+    *
+
+
+.MODEL FCX491 NPN IS=3.05E-13 NF=1.0034 BF=200 IKF=0.8 VAF=165
++ISE=8.0191E-14 NE=1.4126 NR=1.001 BR=50 IKR=0.6 VAR=69 
++ISC=1.6E-12 NC=1.38 RB=0.065 RE=0.109 RC=0.075 
++CJC=17.2E-12 MJC=0.3429 VJC=0.4298 CJE=96E-12 
++TF=0.71E-9 TR=2.5E-9
+*
+*$
+
+
+*DIODES_INC_FCX493Q_SPICE_MODEL
+*DATE=16Jun2023
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=LTSPICE
+*
+.MODEL FCX493Q NPN ( IS=60E-15 NF=0.99 BF=295 VAF=270
++ IKF=1.3 ISE=10f NE=1.2 BR=30 NR=0.98 NK=0.7 ISC=0.12p NC=1.2 
++ VAR=27 IKR=0.5 RE=110m RB=0.2 RC=90m RCO=0.02
++ XTB=1.4 CJE=108p VJE=0.7 MJE=0.35 CJC=15.9p VJC=0.51
++ MJC=0.4 TF=800p TR=55n EG=1.12 
++ TRE1=0.003 TRB1=0.003 TRC1=0.001 GAMMA=5n QUASIMOD=1 )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*
+.MODEL FCX495 NPN IS=1E-13 NF=1 BF=205 IKF=4 VAF=300 ISE=1E-13
++ NE=1.5 NR=0.98 BR=24 VAR=45 ISC=1e-13 NC=1.2 RB=0.4 RE=0.07
++ RC=0.08 RCO=17 GAMMA=9E-8 CJC=15.3E-12 MJC=0.27 VJC=0.35 CJE=114E-12
++ MJE=0.33 VJE=0.68 TF=0.8E-9 TR=120e-9 XTB=1.4 QUASIMOD=1
+*
+*$
+
+
+*ZETEX FCX558 Spice Model v3.0 Last Revised 20/09/2007
+    *
+    .MODEL FCX558 PNP IS=7.84E-14 NF=1 BF=210 IKF=1.8 VAF=349 ISE=3.35E-14
+    + NE=1.69 NR=1 BR=3.4 IKR=0.15 VAR=82 ISC=9.42E-12 NC=1.05 RB=0.5 RE=0.1
+    + RC=0.1 QUASIMOD=1 RCO=54 GAMMA=13e-6 CJC=20.5E-12 MJC=0.38 VJC=0.44
+    + CJE=115E-12 MJE=0.43 VJE=0.85 TF=0.9E-9 TR=18E-5 TRC1=.015 TRB1=.015
+    + TRE1=.015 XTB=1.4
+    *
+    *$
+    *
+
+
+*ZETEX FCX591 Spice Model v1.0 Last Revised 8/8/05
+    *
+    .MODEL FCX591 PNP IS =3.2E-14 BF =170 VAF=45 NF =0.977 IKF=1.25 ISE=7E-15
+    +NE =1.35 BR =50 VAR=50 NR =.986 IKR=0.15 ISC=0.9E-14 NC =1.08 RB =0.16
+    +RE =0.195 RC =0.185 CJE=104E-12 TF =0.7E-9 CJC=30.5E-12 TR =3E-9 VJC=0.395
+    +MJC=0.415
+    *
+    *$
+    *
+
+
+.MODEL FCX591 PNP IS =3.2E-14 BF =170 VAF=45 NF =0.977 IKF=1.25 ISE=7E-15
++NE =1.35 BR =50 VAR=50 NR =.986 IKR=0.15 ISC=0.9E-14 NC =1.08 RB =0.16
++RE =0.195 RC =0.185 CJE=104E-12 TF =0.7E-9 CJC=30.5E-12 TR =3E-9 VJC=0.395
++MJC=0.415
+*
+*$
+
+
+*ZETEX FCX619 Spice Model v1.0 Last Revised 25/11/02
+    *
+    .MODEL FCX619  NPN IS =5.8032E-13 NF =1.0027 BF =485 IKF=2.2 VAF=84
+    +               ISE=1.5933E-13 NE =1.4148 NR =1.0006 BR =110 IKR=1.4 
+    +               VAR=51 ISC=5E-12 NC =1.45 RB =0.042 RE =0.033 
+    +               RC =0.0375 CJC=40E-12 MJC=0.3708 VJC=0.4347 CJE=217E-12 
+    +               TF =0.78E-9 TR =9E-9
+    *
+    *$
+    *
+
+
+*ZETEX FMMT38C Spice Model v1.0 Last Revised 12/6/02
+    *
+    .SUBCKT FMMT38C 1 2 3
+    *               C B E
+    Q1 1 2 4 SUB38C
+    Q2 1 4 3 SUB38C 12.75
+    *
+    .MODEL SUB38C NPN IS=1.1E-14 ISE=7.1E-15 NF=1.012 NE=1.4758 
+    +BF=220 IKF=.12 BR=15 IKR=.05 RE=1.3 RC=.5 RB=.3 VAF=150 
+    +CJE=14.5E-12 CJC=4.14E-12 VJC=.515 MJC=.26 TF=1.15E-9 TR=75E-9
+    .ENDS FMMT38C
+    *
+    *$
+    *
+
+
+*ZETEX FMMT458 Spice Model v3.0 Last Revised 20/09/2007
+    *
+    .MODEL FMMT458 NPN IS=5.32E-14 NF=1 BF=230 IKF=1.5 VAF=1500
+    + ISE=2.1E-14 NE=1.385 NR=1.05 BR=8 IKR=0.7 VAR=64 ISC=6.42E-12
+    + NC=1.25 RB=0.5 RE=0.224 RC=0.134 QUASIMOD=1 RCO=80 GAMMA=4E-7
+    + CJC=9.5E-12 MJC=0.32 VJC=0.4 CJE=115E-12 MJE=0.37 VJE=0.8
+    + TF=1.3E-9 TR=16E-6 TRC1=.004 TRB1=.004 TRE1=.004 XTB=1.4
+    *
+    *$
+    *
+
+
+*ZETEX FMMT459 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMT459 NPN IS=4E-14 NF=1 BF=130 VAF=1000 ISE=4E-13 NE=1.59 
+    +RCO=60 GAMMA=1E-7 NR=1 BR=10 VAR=100 ISC=1e-10 NC=1.6 IKR=30E-3
+    +RB=1 RE=.1 RC=.1 CJC=9E-12 MJC=0.36 VJC=0.51 CJE=99E-12 MJE=0.42
+    +VJE=0.88 TF=2E-9 TR=1.2e-6 XTB=1.5 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*TITLE=FMMT491A
+*DATE=April_2019
+*ORIGIN=SH, updated from FMMT491
+*SIMULATOR=DIODES, SIMETRIX
+*VERSION=1
+.MODEL FMMT491A NPN 
++ IS=3.05E-13 NF=1.0034 BF=800 IKF=4 VAF=165 NKF=0.9
++ ISE=8.0191E-14 NE=1.4126 NR=1.001 BR=120 IKR=0.6 VAR=69 
++ ISC=1.6E-12 NC=1.38 RB=0.065 RE=0.109 RC=0.075 
++ CJC=17.2E-12 MJC=0.3429 VJC=0.4298 CJE=96E-12 
++ TF=0.71E-9 TR=2.5E-9
+*
+*$
+*
+*                (c)  2013 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+.MODEL FMMT491 NPN IS=3.05E-13 NF=1.0034 BF=200 IKF=0.8 VAF=165
++ISE=8.0191E-14 NE=1.4126 NR=1.001 BR=50 IKR=0.6 VAR=69 
++ISC=1.6E-12 NC=1.38 RB=0.065 RE=0.109 RC=0.075 
++CJC=17.2E-12 MJC=0.3429 VJC=0.4298 CJE=96E-12 
++TF=0.71E-9 TR=2.5E-9
+*
+*$
+
+
+*ZETEX FMMT493 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMT493 NPN IS =6E-14 NF =0.99 BF =250 IKF=0.9
+    +NK=0.7 VAF=270 ISE=1E-14 NE =1.2 NR =0.98 BR =30 IKR=0.5
+    +VAR=27 ISC=1.2e-13 NC =1.2 RB =0.2 RE =0.08 RC =0.08 RCO=5
+    +GAMMA=5E-9 CJC=15.9E-12 MJC=0.4 VJC=0.51 CJE=108E-12 
+    +MJE=0.35 VJE=0.7 TF =0.8E-9 TR =55e-9 XTB=1.4 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*ZETEX FMMT494 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMT494 NPN IS =6E-14 NF =0.99 BF =250 IKF=0.9 NK=0.7 VAF=270 
+    +ISE=1E-14 NE =1.2 NR =0.98 BR =30 IKR=0.5 VAR=27 ISC=1.2e-13 NC =1.2
+    +RB =0.2 RE =0.08 RC =0.08 RCO=7.5 GAMMA=1E-8 CJC=15.9E-12 MJC=0.4
+    +VJC=0.51 CJE=108E-12 MJE=0.35 VJE=0.7 TF =0.8E-9 TR =55e-9 XTB=1.4
+    +QUASIMOD=1
+    *
+    *$
+    *
+
+
+*ZETEX FMMT495 Spice Model v1.0 Last Revised 8/5/2006
+    *
+    .MODEL FMMT495 NPN IS =1E-13 NF =1 BF =205 IKF=4 VAF=300 ISE=1E-13
+    +NE =1.5 NR =0.98 BR =24 VAR=45 ISC=1e-13 NC =1.2 RB =.4 RE =.07
+    +RC =.08 RCO=17 GAMMA=9E-8 CJC=15.3E-12 MJC=0.27 VJC=0.35 CJE=114E-12
+    +MJE=0.33 VJE=0.68 TF =0.8E-9 TR =120e-9 XTB=1.4 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*ZETEX FMMT555 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMT555 PNP IS=1.3E-13 NF=1 BF=220 IKF=1.2
+    +VAF=110 ISE=3E-14 NE=1.5 RCO=12 GAMMA=3E-8
+    +NR=1 BR=8 VAR=15.5 ISC=1e-13 NC=1.06
+    +RB=5 RE=0.2 RC=0.2 QUASIMOD=1 XTB=1.4
+    +CJC=28E-12 MJC=0.45 VJC=0.736 CJE=112E-12
+    +TF=0.7E-9 TR=2e-7 
+    *
+    *$
+    *
+
+
+*ZETEX FMMT558 Spice Model v3.0 Last Revised 20/09/2007
+    *
+    .MODEL FMMT558 PNP IS=7.84E-14 NF=1 BF=210 IKF=1.8 VAF=349 ISE=3.35E-14
+    + NE=1.69 NR=1 BR=3.4 IKR=0.15 VAR=82 ISC=9.42E-12 NC=1.05 RB=0.5 RE=0.1
+    + RC=0.1 QUASIMOD=1 RCO=54 GAMMA=13e-6 CJC=20.5E-12 MJC=0.38 VJC=0.44
+    + CJE=115E-12 MJE=0.43 VJE=0.85 TF=0.9E-9 TR=18E-5 TRC1=.015 TRB1=.015
+    + TRE1=.015 XTB=1.4
+    *$
+    *
+
+
+*ZETEX FMMT560 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMT560 PNP IS=4E-14 NF=0.98 BF=140 VAF=104 ISE=1E-12 NE=1.54
+    +RCO=100 GAMMA=1.5E-7 NR=1 BR=2 VAR=100 ISC=1e-13 NC=2 IKR=10E-3
+    +RB=25 RE=.3 RC=.3 CJC=29E-12 MJC=0.364 VJC=0.511 CJE=100.3E-12
+    +MJE=0.419 VJE=0.877 TF=2E-10 TR=1.5e-6 XTB=1.5 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*ZETEX FMMT591 Spice Model v1.0 Last Revised 8/8/05
+    *
+    .MODEL FMMT591 PNP IS =3.2E-14 BF =170 VAF=45 NF =0.977 IKF=1.25 ISE=7E-15
+    +NE =1.35 BR =50 VAR=50 NR =.986 IKR=0.15 ISC=0.9E-14 NC =1.08 RB =0.16
+    +RE =0.195 RC =0.185 CJE=104E-12 TF =0.7E-9 CJC=30.5E-12 TR =3E-9 VJC=0.395
+    +MJC=0.415
+    *
+    *$
+    *
+
+
+*
+.MODEL FMMT591 PNP IS =3.2E-14 BF =170 VAF=45 NF =0.977 IKF=1.25 ISE=7E-15
++NE =1.35 BR =50 VAR=50 NR =.986 IKR=0.15 ISC=0.9E-14 NC =1.08 RB =0.16
++RE =0.195 RC =0.185 CJE=104E-12 TF =0.7E-9 CJC=30.5E-12 TR =3E-9 VJC=0.395
++MJC=0.415
+*
+*$
+
+
+*ZETEX FMMT593 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMT593 PNP IS =2E-13 NF =1 BF =300 IKF=0.8 
+    +VAF=44 ISE=1E-13 NE =1.4 RCO=4.5 GAMMA=5E-9 
+    +NR =1 BR =20 IKR=0.2 VAR=10 ISC=2e-13 NC =1.25 
+    +RB =0.15 RE =0.15 RC =0.2 QUASIMOD=1
+    +CJC=36E-12 MJC=0.45 VJC=0.75 CJE=110E-12 
+    +TF =0.8E-9 TR =70e-9 XTB=1.4
+    *
+    *$
+    *
+
+
+*ZETEX FMMT596 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMT596 PNP IS=1.3E-13 NF=1 BF=220 IKF=1.2
+    +VAF=110 ISE=3E-14 NE=1.5 RCO=12 GAMMA=3E-8
+    +NR=1 BR=8 VAR=15.5 ISC=1e-13 NC=1.06
+    +RB=5 RE=0.2 RC=0.2 QUASIMOD=1 XTB=1.4
+    +CJC=28E-12 MJC=0.45 VJC=0.736 CJE=112E-12
+    +TF=0.7E-9 TR=2e-7 
+    *
+    *$
+    *
+
+
+*ZETEX FMMT614 Spice Model v1.0 Last Revised 2/8/2004
+    *
+    .SUBCKT FMMT614 1 2 3
+    *              C B E
+    Q1 1 2 4 SUB614
+    Q2 1 4 3 SUB614 5.39
+    .ENDS FMMT614
+    *
+    .MODEL SUB614 NPN IS =1.575E-14 NF =1.00 BF =280 IKF=0.08 VAF=284 
+    +             ISE=5.8853E-15 NE =1.3517 NR =1.0469 BR =11 IKR=0.2 
+    +             VAR=13 ISC=5.3795E-14 NC =1.257 RB =0.22 RE =0.375 
+    +             RC =0.40 CJC=3.6E-12 MJC=0.3393 VJC=0.4127 
+    +             CJE=23.7E-12 TF =1.73E-9 TR =260E-9
+    *
+    *$
+    *
+
+
+*ZETEX FMMT618 Spice Model v1.0 Last Revised 8/7/93
+    *
+    .MODEL FMMT618  NPN IS =5.611E-13 NF =1.0022 BF =480 IKF=4.6 VAF=51
+    +               ISE=1.73E-13 NE =1.4 NR =1.0002 BR =200 IKR=3 VAR=25 
+    +               ISC=7.3152E-13 NC =1.47 RB =0.032 RE =0.027 RC =0.025 
+    +               CJC=59E-12 MJC=0.2651 VJC=0.3051 CJE=216E-12 
+    +               TF =0.95E-9 TR =2.25E-9
+    *
+    *$
+    *
+
+
+*FMMT619 Spice model  						
+*SIMULATOR=SIMETRIX						
+*ORIGIN=PH						
+*DATE=09April2019						
+*VERSION=2						
+*#SIMETRIX						
+						
+.Model		FMMT619	NPN	;	## Description ##	## Effect ##
+						
+						
+						
+						
+				;	## DC Forward Parameters ##	
++		IS =	5.8032E-13	;	transport saturation current	Controls Icbo and where hFE falls with high Ic
++		NF =	1.02	;	forward current emission coefficient 	
++		ISE =	1.5933E-13	;	base-emitter leakage saturation current 	Controls the  fall in hFE that occurs at low Ic
++		NE =	1.4148	;	base-emitter leakage emission coefficient 	Controls Icbo and where hFE falls with high Ic. Controls the  fall in hFE that occurs at low Ic
++		BF =	465	;	ideal maximum forward beta 	Controls peak forward hFE
++		IKF =	8	;	corner for forward-beta high-current roll-off	Current where rollof occurs
++		NK =	0.8	;	high-current roll-off coefficient	Slope of roll off
++		VAF =	84	;	forward Early voltage	controls the variation of collector current with voltage when the transistor is operated in its linear region.
+						
+				;	## DC Reverse Parameters ##	
++		NR =	1.0006	;	reverse current emission coefficient 	
++		ISC =	5E-12	;	base-collector leakage saturation current 	Controls the fall of reverse hFE at low currents
++		NC =	1.6	;	base-collector leakage emission coefficient 	Controls the fall of reverse hFE at low currents
++		BR =	110	;	ideal maximum reverse beta 	Controls peak reverse hFE
++		IKR =	1.4	;	corner for reverse-beta high-current roll-off	Current where rollof occurs
++		VAR =	51	;	reverse Early voltage	the reverse version of VAF.
+						
+				;	## DC  Rb Parameters ##	
++		RB =	14.5	;	zero-bias (maximum) base resistance	
++		IRB =	8.00E-06	;	current at which Rb falls halfway to RBM	
++		RBM =	0.2	;	minimum base resistance	
+						
+				;	## DC  Re Parameters ##	
++		RE =	0.05	;	emitter ohmic resistance 	
+						
+				;	## DC  Rc Parameters ##	
++		RC =	0.0375	;	collector ohmic resistance	
+						
+				;	## AC  base-emitter Parameters ##	
++		CJE=	2.17E-10	;	base-emitter zero-bias p-n capacitance 	controls Cbe.
++		VJE =	0.75	;	base-emitter built-in potential 	
++		MJE =	0.33	;	base-emitter p-n grading factor 	
+						
+				;	## AC  base-collector Parameters ##	
++		CJC =	4E-11	;	base-collector zero-bias p-n capacitance	control Ccb and how it varies with Vcb.
++		VJC =	0.4347	;	base-collector built-in potential	control Ccb and how it varies with Vcb.
++		MJC =	0.3708	;	base-collector p-n grading factor 	control Ccb and how it varies with Vcb.
++		XCJC =	1	;	fraction of CJC connected internally to Rb 	
+						
+				;	## AC  substrate Parameters ##	
++		CJS =	0	;	substrate zero-bias p-n capacitance	
++		VJS =	0.75	;	substrate p-n built-in potential 	
++		MJS =	0	;	substrate p-n grading factor 	
+						
+				;	## AC  Transit Time Parameters ##	
++		TF =	780.0E-12	;	ideal forward transit time 	controls Ft and switching speeds.
++		XTF =	0	;	transit time bias dependence coefficient 	
++		VTF =	1E+20	;	transit time dependency on Vbc 	
++		ITF =	0	;	transit time dependency on Ic 	
++		PTF =	0	;	excess phase @ 1/(2p·TF)Hz	
++		TR =	9.00E-09	;	ideal reverse transit time 	controls switching storage times.
+						
+				;	##Temperature Parameters ##	
++		XTB =	1.3	;	forward and reverse beta temperature coefficient	controls temperature effects on hFE. Try 1.6 for NPN, 1.9 for PNP
++		XTI =	3	;	IS temperature effect exponent 	controls temperature effects on saturation current
++		RCO =	0	;	epitaxial region resistance	
++		TRB1 =	0	;	RB temperature coefficient (linear) 	
++		TRB2 =	0	;	RB temperature coefficient (quadratic)	
++		TRC1 =	0	;	RC temperature coefficient (linear) 	
++		TRC2 =	0	;	RC temperature coefficient (quadratic) 	
++		TRE1 =	0	;	RE temperature coefficient (linear) 	
++		TRE2 =	0	;	RE temperature coefficient (quadratic) 	
++		TRM1 =	0	;	RBM temperature coefficient (linear) 	
++		TRM2 =	0	;	RBM temperature coefficient (quadratic) 	
+*		T_ABS =		;	absolute temperature	
++		T_MEASURED =	27	;	measured temperature 	
+*		T_REL_GLOBAL =		;	relative to current temperature 	
++		QUASIMOD =	1	;	quasi-saturation model flag for temperature dependence	1= Gamma, RCO, VO temp dependance 0n. 0=off.
++		CN =	2.42	;	quasi-saturation temperature coefficient for hole mobility	defaults NPN 2.42, PNP 2.20
++		D =	0.87	;	quasi-saturation temperature coefficient -hole carrier velocity	defaults NPN 0.87, PNP 0.52
++		FC =	0.5	;	forward-bias depletion capacitor coefficient	
+						
++		EG =	1.11	;	bandgap voltage (barrier height) 	
++		GAMMA =	1E-11	;	epitaxial region doping factor	
++		ISS =	0	;	substrate p-n saturation current 	
+						
+						
++		NS =	1	;	substrate p-n emission coefficient 	
++		QCO =	0	;	epitaxial region charge factor 	
+						
+				;	## Flicker Parameters ##	
++		AF =	1	;	flicker noise exponent 	
++		KF =	0	;	flicker noise coefficient 0.0	
++		VG =	1.206	;	quasi-saturation extrapolated bandgap voltage at 0° K	
++		VO =	10	;	carrier mobility knee voltage 	
+						
+*                (c)  2019 Diodes Inc						
+*						
+*   The copyright in these models  and  the designs embodied belong						
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied						
+*   free of charge by Zetex for the purpose of research and design						
+*   and may be used or copied intact  (including this notice)  for						
+*   that purpose only.  All other rights are reserved.  The models						
+*   are believed accurate but no condition  or warranty  as to their						
+*   merchantability or fitness for purpose is given and no liability						
+*   in respect of any use is accepted by Diodes Incorporated, its distributors						
+*   or agents.						
+*						
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,						
+*   Oldham, United Kingdom, OL9 9LL						
+
+
+*ZETEX FMMT620 Spice Model v1.0 Last Revised 12/12/02
+    *
+    .MODEL FMMT620  NPN IS =6.5E-13 BF =480 NF=1.003 VAF=150 IKF=1.5
+    +ISE=2.00E-13 NE=1.42 BR=180 NR=1.0015 VAR=55 IKR=1 ISC=4.00E-12
+    +NC=1.3 RB=0.04 RE=0.048 RC=0.065 CJE=2.13E-10 CJC=3.30E-11 VJC=0.48
+    +MJC=0.41 TF =9E-10 TR=3.5E-8 
+    *
+    *$
+    *
+
+
+*ZETEX FMMT625 Spice Model v1.0 Last Revised 13/7/93
+    *
+    .MODEL FMMT625  NPN IS =6.2024E-13 NF =1.0037 BF =450 IKF=0.6 VAF=428
+    +               ISE=2.3242E-13 NE =1.4689 NR =1.0033 BR =250 IKR=1.7 
+    +               VAR=73 ISC=7.66E-13 NC =1.1546 RB =0.036 RE =0.090 
+    +               RC =0.143 CJC=24.5E-12 MJC=0.4246 VJC=0.4425 CJE=210E-12 
+    +               TF =0.99E-9 TR =60E-9
+    *
+    *$
+    *
+
+
+*ZETEX FMMT634 Spice Model v1.0 Last Revised 17/10/97 
+    *
+    .SUBCKT FMMT634 1 2 3
+    *               C B E
+    Q1 5 2 4 SUB634
+    Q2 5 4 3 SUB634 4.45
+    R1 1 5 .27
+    *
+    .MODEL SUB634 NPN IS=4.5E-14 ISE=1E-14 NF =1 NE =1.45 BF =250 IKF=.16 
+    +RE=.09 RB=1 BR =12 IKR=.15  VAF=240 CJE=65E-12 CJC=7E-12
+    +VJC=.85 MJC=.45 TF =.95E-9 TR =300E-9 
+    .ENDS FMMT634
+    *
+    *$
+    *
+
+
+*ZETEX FMMT717 Spice Model v1.0 Last Revised 25/3/94
+    *
+    .MODEL FMMT717 PNP IS =5.5E-13  BF =500 IKF =3 VAF =14.93 
+    +              ISE=1.75E-13 NE =1.5 NR =1.00 BR =280 IKR=0.3 
+    +              VAR=5.64 ISC=6.01E-13 NC =1.34 RB =0.3 RE =0.03
+    +              RC =0.025 CJC=116.9E-12 MJC=0.3456 VJC=0.4576 
+    +              CJE=223.6E-12 MJE=0.4803 VJE=0.9091 TF =1.2E-9 
+    +              TR =2E-9
+    *
+    *$
+    *
+
+
+*ZETEX FMMT718 Spice Model v1.0 Last Revised 15/12/93
+    *
+    .MODEL FMMT718 PNP IS =6.8E-13  BF =480 IKF =2 VAF =23 
+    +              ISE=0.8E-13 NE =1.5567 NR =1.00 BR =70 IKR=0.4 
+    +              VAR=7 ISC=7.5E-14 NC =1.19 RB =0.085 RE =0.04
+    +              RC =0.045 CJC=70.02E-12 MJC=0.4685 VJC=0.7714 
+    +              CJE=203.6E-12 MJE=0.5029 VJE=0.9403 TF =0.71E-9 
+    +              TR =23.7E-9
+    *
+    *$
+    *
+
+
+*ZETEX FMMT720 Spice Model v2.0 Last Revised 1/5/03
+    *
+    .MODEL FMMT720 PNP IS =6.261E-13  BF =500 IKF =1.4 VAF =28.4 
+    +ISE=1.057E-13 NE =1.4923 NR =1.00 BR =42 IKR=0.65 VAR=10.21 
+    +ISC=6E-14 NC =1.124 RB =0.078 RE =0.077 RC =0.04 CJC=59.54E-12 
+    +MJC=0.5058 VJC=0.8427 CJE=201.4E-12 MJE=0.5244 VJE=1.021 
+    +TF =0.68E-9 TR =23.7E-9 NK=0.75 XTB=1.8 TRE1=.0025 TRB1=.0025 
+    +TRC1=.0025 
+    *
+    *$
+    *
+
+
+*ZETEX FMMT722 Spice Model v1.0 Last Revised 15/12/93
+    *
+    .MODEL FMMT722 PNP IS =6.348E-13  BF =450 IKF =1.25 VAF =30.24 
+    +              ISE=1.375E-13 NE =1.5 NR =1.00 BR =25 IKR=0.8 
+    +              VAR=12.6 ISC=1E-13 NC =1.093 RB =0.081 RE =0.09
+    +              RC =0.1 CJC=49.87E-12 MJC=0.494 VJC=0.7653 
+    +              CJE=199E-12 MJE=0.5045 VJE=0.9617 TF =0.57E-9 
+    +              TR =57E-9
+    *
+    *$
+    *
+
+
+*ZETEX FMMT723 Spice Model v1.0 Last Revised 15/12/93
+    *
+    .MODEL FMMT723 PNP IS =5.5E-13  BF =440 IKF =1 VAF =50.88 
+    +              ISE=1.554E-13 NE =1.477 NR =1.03 BR =30 IKR=0.7 
+    +              VAR=13.79 ISC=1.3E-12 NC =1.198 RB =1.5 RE =0.02
+    +              RC =0.14 CJC=45.74E-12 MJC=0.4889 VJC=0.711 
+    +              CJE=204.3E-12 MJE=0.5105 VJE=0.9711 TF =0.63E-9 
+    +              TR =95E-9
+    *
+    *$
+    *
+
+
+*ZETEX FMMTA42 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMTA42 NPN IS =5E-14 NF =1 BF =230 IKF=250E-3
+    +VAF=610 ISE=9E-15 NE =1.28 RCO=75 GAMMA=3.1E-7
+    +NR =1 BR =5 VAR=45 ISC=5e-12 NC =1.3 
+    +RB =7 RE =0.07 RC =0.07 QUASIMOD=1
+    +CJC=9.26E-12 MJC=0.241 VJC=0.3905 CJE=68.6E-12 
+    +TF =1.1E-9 TR =0.9e-6 XTB=1.4 
+    *
+    *$
+    *
+
+
+*ZETEX FMMTA92 Spice Model v2.0 Last Revised 24/2/05
+    *
+    .MODEL FMMTA92 PNP IS =4E-14 NF =1.01 BF =105
+    +IKF=800E-3 VAF=300 ISE=8E-15 NE =1.38 RCO=59 
+    +GAMMA=0.85E-7 NR =1 BR =4 IKR=55e-3 VAR=40
+    +ISC=8e-12 NC =1.3 RB =9 RE =0.1 RC =0.1 QUASIMOD=1
+    +CJC=16.9E-12 MJC=0.382 VJC=0.536 CJE=80.9E-12 
+    +TF =0.7E-9 TR =1.6e-6 XTB=1.4
+    *
+    *$
+    *
+
+
+*ZETEX FMMTL717 Spice Model v1.0 Last Revised 28/6/00
+    *
+    .MODEL FMMTL717 PNP IS=3E-13 NF=1 BF=450 IKF=1 VAF=17
+    +ISE=5E-14 NE=1.6 NR=1 BR=80 VAR=7 ISC=5e-14 NC=1.45
+    +RB=1.2 RE=0.076 RC=0.076 
+    +CJC=62.5E-12 MJC=0.51 VJC=0.559 CJE=102E-12
+    +TF =0.68E-9 TR =2e-9 
+    *
+    *$
+    *
+
+
+*ZETEX FZT1053A Spice Model v1.0 Last Revised 18/3/97
+    *
+    .MODEL FZT1053A  NPN IS=2.1E-12  NF=1.0  BF=600  IKF=2.2  VAF=100
+    +               ISE=0.9E-13  NE=1.25  NR=0.99  BR=150  IKR=2.5  VAR=15
+    +               ISC=5.0E-10  NC=1.76  RB=0.1  RE=0.028  RC=0.016 
+    +               CJC=75.1E-12  CJE=520E-12  MJC=0.415  MJE=0.367
+    +               VJC=0.512  VJE=0.766  TF=550E-12  TR=22E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT458 Spice Model v3.0 Last Revised 20/09/2007
+    *
+    .MODEL FZT458 NPN IS=5.32E-14 NF=1 BF=230 IKF=1.5 VAF=1500
+    + ISE=2.1E-14 NE=1.385 NR=1.05 BR=8 IKR=0.7 VAR=64 ISC=6.42E-12
+    + NC=1.25 RB=0.5 RE=0.224 RC=0.134 QUASIMOD=1 RCO=80 GAMMA=4E-7
+    + CJC=9.5E-12 MJC=0.32 VJC=0.4 CJE=115E-12 MJE=0.37 VJE=0.8
+    + TF=1.3E-9 TR=16E-6 TRC1=.004 TRB1=.004 TRE1=.004 XTB=1.4
+    *
+    *$
+    *
+
+
+*ZETEX FZT489 Spice Model v1.0 Last Revised 11/11/04
+    *
+    .MODEL FZT489 NPN IS =1.04E-13  BF =195 IKF =1.9 VAF =160 
+    +              ISE=1.83E-14 NE =1.35 NR =1.00 BR =140 IKR=0.5 
+    +              VAR=30 ISC=6.00E-12 NC =1.5 RB =0.3 RE =0.065
+    +              RC =0.11 CJC=25.37E-12 MJC=0.3281 VJC=0.464 
+    +              CJE=122E-12 MJE=0.3412 VJE=0.7631 TF =0.86E-9 
+    +              TR =12.5E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT491A Spice Model v1.0 Last Revised 8/8/05
+    *
+    .MODEL FZT491A NPN IS =3.05E-13 NF =1.0034 BF =650 IKF=0.8 VAF=165
+    +ISE=8.0191E-14 NE =1.4126 NR =1.001 BR =120 IKR=0.6 VAR=69 
+    +ISC=1.6E-12 NC =1.38 RB =0.065 RE =0.109 RC =0.075 
+    +CJC=17.2E-12 MJC=0.3429 VJC=0.4298 CJE=96E-12 
+    +TF =0.71E-9 TR =2.5E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT591A Spice Model v1.0 Last Revised 8/8/05
+    *
+    .MODEL FZT591A PNP IS =3.0572E-13 NF =1.0103 BF =450 IKF=0.93
+    +VAF=20 ISE=1.5E-14 NE =1.52 NR =1.007 BR =160 IKR=0.08 VAR=33 
+    +ISC=3.8736E-14 NC =1.0893 RB =0.112 RE =0.144 RC =0.156 
+    +CJC=42E-12 MJC=0.4449 VJC=0.3131 CJE=91E-12 
+    +TF =0.51E-9 TR =3.6E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT603 Spice Model v1.0 Last Revised 1/7/03
+    *
+    .SUBCKT FZT603 1 2 3
+    *              C B E
+    Q1 1 2 4 SUB603
+    Q2 1 4 3 SUB603 3.46
+    *
+    .MODEL SUB603 NPN IS=1E-13 BF=130 VAF=200 NF=1 IKF=0.45 ISE=1.8E-13
+    +NE=1.5 BR=20 VAR=30 NR=1 IKR=0.45 ISC=7E-13 NC=1.2 RB=0.3 RE=0.3
+    +RC=0.5  CJE=115E-12 CJC=11E-12 VJC=0.85 MJC=0.41 TF=1E-9 TR=250E-9
+    +XTB=1.5
+    .ENDS
+    *
+    *$
+    *
+
+
+*ZETEX FZT651 Spice Model v1.0 Last Revised 16/1/91
+    *
+    .MODEL FZT651 NPN IS =2.218E-13 NF =.9956 BF =230 IKF=2 VAF=100 ISE=2.9E-14
+    +NE =1.35 NR =.995 BR =56 IKR=1 VAR=30 ISC=2.971E-13 NC =1.321 RB =.04
+    +RE =.075 RC =.069 CJC=51E-12 MJC=.42 VJC=.595 CJE=318E-12 TF =.77E-9
+    +TR =27E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT653 Spice Model v1.0 Last Revised 18/3/97
+    *
+    .MODEL FZT653 NPN IS =3.8206E-13 NF =1.0025 BF =250 IKF=1.15 VAF=154
+    +             ISE=1.035E-13 NE =1.3642 NR =1.0012 BR =50 IKR=0.42 VAR=38 
+    +             ISC=7E-13 NC =1.19 RB =0.04 RE =0.0875 RC =0.06 
+    +             CJC=45.5E-12 MJC=0.4534 VJC=0.5774 CJE=278E-12 
+    +             TF =0.78E-9 TR =30E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT657 Spice Model v1.0 Last Revised 25/7/05
+    *
+    .MODEL FZT657  NPN  IS=2.3E-13 NF=1.003 BF=150 IKF=1.35
+    +VAF=295 RCO=20 GAMMA=300E-9 ISE=1.1E-13 NE =1.33 NR=1.001
+    +BR=8 VAR=43 ISC=1.8E-13 NC=1.19  RC=0.085 RB =0.35 RE =0.2
+    +CJC=45E-12 MJC=0.41 VJC=0.6 CJE=352E-12 TF=0.6E-9 TR=5.5E-7
+    +XTB=1.4 QUASIMOD=1 
+    *
+    *$
+    *
+
+
+*ZETEX FZT690B Spice Model v2.0 Last revision 12/07/07
+    *
+    .MODEL FZT690B NPN IS=1.5E-12 NF=1 BF=1000 IKF=3 VAF=60 ISE=4E-13 NE=1.37 
+    +NR=1 BR=123 IKR=1 VAR=14.5 ISC=4E-13 NC=1.34 RB=0.1 RE=0.045 RC=0.027 
+    +CJE=250E-12 VJE=0.68 MJE=0.36 CJC=59E-12 VJC=0.49 MJC=0.36 TF=0.77E-9
+    +TR=18E-9 RCO=0.93 GAMMA=5E-9 QUASIMOD=1 XTB=1.4 TRE1=0.002 TRB1=0.002 
+    +TRC1=0.002 
+    *
+    *$
+    *
+
+
+*ZETEX FZT692B Spice Model v1.0 Last Revised 31/10/90
+    *
+    .MODEL FZT692B NPN IS =1.87E-12 NF =.9983 BF =1400 IKF=0.73 VAF=29
+    +ISE=.21E-12 NE =1.378 NR =.997 BR =68 IKR=.55 VAR=12 ISC=.44E-12
+    +NC =1.14 RB =.2 RE =.05 RC =.048 CJC=42.5E-12 MJC=.475 VJC=.625
+    +CJE=233E-12 TF =.77E-9 TR =39E-9
+    *Note: This Model may be inaccurate for collector currents above 1.5A.
+    *
+    *$
+    *
+
+
+*ZETEX FZT705 Spice Model v1.0 Last Revised 9/8/90
+    *
+    .SUBCKT FZT705 1 2 3
+    *              C B E
+    Q1 1 2 4 SUB704
+    Q2 1 4 3 SUB704 4
+    *
+    .MODEL SUB704 PNP IS =3.35584E-14 BF =85 VAF=212 NF =1.002 IKF=.817
+    +ISE=3.6E-13 NE =4.1 BR =24 VAR=6 NR =.999 IKR=.114 ISC=1.406E-13 NC =1.13
+    +RB =1.1 RE =.4 RC =.0339 CJE=100E-12 CJC=37E-12 VJC=1.045 MJC=.595
+    .ENDS FZT705
+    *
+    *$
+    *
+
+
+*ZETEX FZT749 Spice Model v1.0 Last Revised 17/7/90
+    *
+    .MODEL FZT749 PNP IS =2.6E-13 BF =210 VAF=27 IKF=7 ISE=1.2E-13 NE =1.43 BR =70
+    +VAR=14 IKR=.6 ISC=12.04E-13 NC =1.4474 NF =.999 NR =.982 RB =.3 RE =.065
+    +RC =.04 CJE=410E-12 TF =.65E-9 CJC=140E-12 TR =12E-9 MJC=.35 VJC=.305
+    *
+    *$
+    *
+
+
+*ZETEX FZT751 Spice Model v1.0 Last Revised 23/1/91
+    *
+    .MODEL FZT751 PNP IS =2.715E-13 BF =170 VAF=70 NF =1.004 IKF=2.75 ISE=1E-13
+    +NE =1.535 BR =23 VAR=40 NR =1.005 IKR=.55 ISC=5.15E-14 NC =1.13 RB =.07
+    +RE =.065 RC =.085 CJE=360E-12 TF =.94E-9 CJC=90E-12 TR =60E-9 VJC=.705
+    +MJC=.46
+    *
+    *$
+    *
+
+
+*ZETEX FZT753 Spice Model v1.0 Last Revised 18/3/97
+    *
+    .MODEL FZT753 PNP IS =3.2007E-13 NF =1.0041 BF =200 IKF=1.6 VAF=76
+    +             ISE=8E-14 NE =1.57 NR =1.0008 BR =33 IKR=0.45 VAR=51 
+    +             ISC=6E-14 NC =1.079 RB =0.087 RE =0.08 RC =0.07 
+    +             CJC=80E-12 MJC=0.4896 VJC=0.7676 CJE=350E-12 
+    +             TF =0.86E-9 TR =24E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT789A Spice Model v1.0 Last Revised 3/1/92
+    *
+    .MODEL FZT789A PNP IS=8.5083E-13 NF=1.007 BF=540 IKF=3.4 VAF=15.5
+    +ISE=1.60716E-13 NE=1.5059 NR=1.0025 BR=180 IKR=0.3 VAR=9 ISC=7.382E-14
+    +NC=1.2275 RB=0.05 RE=0.32 RC=0.052 CJC=140E-12 MJC=0.335 VJC=0.26
+    +CJE=300E-12 TF=0.73E-9 TR=4.2E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT795A Spice Model v1.0 Last revision 16/09/05
+    *
+    .MODEL FZT795A PNP IS=7E-13 NF=1.005 BF=500 IKF=2 VAF=62 ISE=1E-14
+    +NE=1.4 NR=1 BR=10.1 VAR=25 ISC=4.1E-13 IKR=2 NC=1.07 RB=0.45
+    +RE=0.06 RC=0.14 CJC=52E-12 MJC=0.515 VJC=0.65 CJE=280E-12
+    +TF=0.72E-9 TR=58E-8 XTB=1.4 TRB1=.005 TRE1=.005 QUASIMOD=1
+    +RCO=4.3 GAMMA=0.5E-7
+    *
+    *$
+    *
+
+
+*ZETEX FZT851 Spice Model v1.0 Last Revised 14/3/97
+    *
+    .MODEL FZT851 NPN IS =1.0085E-12 NF =1.0001 BF =240 IKF=5.1 VAF=158
+    +             ISE=2E-13 NE =1.38 NR =0.9988 BR =110 IKR=5.5 VAR=46 
+    +             ISC=4.6515E-13 NC =1.334 RB =0.025 RE =0.018 RC =0.015 
+    +             CJC=155E-12 MJC=0.4348 VJC=0.6477 CJE=1.05E-9 
+    +             TF =0.79E-9 TR =24E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT857 Spice Model v2.0 Last Revised 21/01/2005
+    *
+    .MODEL FZT857 NPN IS=2E-12 NF=1.006 BF=226 IKF=5 VAF=595 ISE=3.6E-13 
+    +NE=1.4088 NR=1.01 BR=40 IKR=94m VAR=33.5 ISC=1.502E-12 NC=1.067
+    +RB=.02 RE=.055 RC=.02 CJC=63E-12 MJC=.505 VJC=.491 CJE=1.1E-9
+    +TF=1.3E-9 TR=1.75E-6 XTB=1.4 TRB1=.005 TRE1=.005 QUASIMOD=1
+    +VO=10 RCO=2.5 GAMMA=6E-8 
+    *
+    *$
+    *
+
+
+*ZETEX FZT949 Spice Model v1.0 Last Revised 14/3/97
+    *
+    .MODEL FZT949  PNP IS=1.5111E-12 NF=1.0127 BF=208 IKF=12.4 VAF=32.7
+    +ISE=1.335E-13 NE=1.42 NR=1.009 BR=145 IKR=1.25 VAR=26.5 
+    +ISC=1.392E-13 NC=1.14 RB=0.026 RE=0.019 RC=0.0175 CJC=362E-12  
+    +MJC=0.338 VJC=0.4294 CJE=1.17E-9 TF=1.01E-9 TR=7.5E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT951 Spice Model v1.0 Last Revised 14/3/97
+    *
+    .MODEL FZT951  PNP IS=1.3766E-12 NF=1.013 BF=187 IKF=5.0 VAF=66.3
+    +ISE=1.4E-13 NE=1.41 NR=1.0099 BR=56 IKR=0.9 VAR=33 ISC=1.7E-12
+    +NC=1.4 RB=0.029 RE=0.020 RC=0.0255 CJC=287E-12 MJC=0.4522 
+    +VJC=0.4956 CJE=1.15E-9 TF=0.83E-9 TR=20E-9
+    *
+    *$
+    *
+
+
+*ZETEX FZT953 Spice Model v1.1 Last Revised 24/4/03
+    *
+    .MODEL FZT953  PNP IS=1.6649E-12 NF=1.0139 BF=220 IKF=4 VAF=55
+    +ISE=6.2E-13 NE=1.62 NR=1.0107 BR=40 IKR=0.95 VAR=43 ISC=3E-12
+    +NC=1.4 RB=0.032 RE=0.0295 RC=0.034 CJC=265E-12 MJC=0.5286
+    +VJC=0.76 CJE=1.1E-9 TF=0.8E-9 TR=29E-9 XTB=1.4 NK=0.7
+    +TRE1=.0025 TRB1=.0025 TRC1=.0025 
+    *
+    *$
+    *
+
+
+*ZETEX FZT956 Spice Model v3.0 Last Revised 24/2/05
+    *
+    .MODEL FZT956  PNP IS =3E-12 BF =215 NF=1 VAF=86 IKF=2 ISE=6.5E-13
+    +NE=1.58 GAMMA=1E-8 RCO=1.4 XTB=1.4 BR=18 NR=1 VAR=59 ISC=6E-12
+    +NC=1.6 RB=0.05 RE=0.02 RC=0.01 CJC=191E-12 MJC=0.5535 VJC=0.8577
+    +CJE=1.08E-9 TF=0.895E-9 TR=118E-9 QUASIMOD=1
+    *
+    *$
+    *
+
+
+*ZETEX FZT957 Spice Model v2.0 Last Revised 21/01/2005
+    *
+    .MODEL FZT957  PNP IS=1.3152E-12 NF=1.0106 BF=215 IKF=4 VAF=325
+    +ISE=5.5E-13 NE=1.524 NR=1.0104 BR=8 IKR=0.63 VAR=110 ISC=6E-12
+    +NC=1.8 RB=0.25 RE=0.07 RC=0.07 CJC=140E-12 MJC=0.5432 VJC=0.7592
+    +CJE=1.1E-9 TF=1.23E-9 TR=560E-9 XTB=1.4 TRB1=.005 TRE1=.005
+    +QUASIMOD=1 VO=10 RCO=6.5 GAMMA=0.8E-7
+    *
+    *$
+    *
+
+
+*DIODES_INC_MJD2873Q_SPICE_MODEL
+*DATE=20Jan2023
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL MJD2873Q  NPN (IS=8p NF=1.00 BF=333 VAF=127
++ IKF=7.13 ISE=0.8p NE=2.00 BR=59.00 NR=1.00 NK=0.83 ISC=40p NC=1.5
++ VAR=14.5 IKR=6.00 RE=45.2m RB=0.137 RC=22.7m RCO=0.01
++ XTB=1.5 CJE=56.8p VJE=1.10 MJE=0.500 CJC=72.8p VJC=0.300
++ MJC=0.300 TF=265p TR=21.57n EG=1.12
++ TRE1=0.001 TRB1=0.003 TRC1=0.003 GAMMA=1n )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*DIODES_INC_MJD31CHQ_SPICE_MODEL
+*DATE=05Dec2022
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL MJD31CHQ  NPN ( IS=8.08e-015 NF=1.00 BF=262 VAF=180
++ IKF=3.03 ISE=270f NE=2.00 BR=32.00 NR=1.00 NK=0.71 ISC=08p NC=1.67
++ VAR=10.0 IKR=7.50 RE=65.3m RB=0.173 RC=17.3m RCO=0.02
++ XTB=1.5 CJE=45.2p VJE=1.10 MJE=0.500 CJC=59.2p VJC=0.300
++ MJC=0.300 TF=10p TR=72.1n EG=1.12
++ TRE1=0.003 TRB1=0.003 TRC1=0.001 GAMMA=1n )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2022 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=31May2016
+*VERSION=1-Q
+*
+.MODEL MJD31CUQ NPN (IS=3.8206E-13 NF=1.0025 BF=250 IKF=1.15 VAF=154
++ ISE=1.035E-13 NE=1.3642 NR=1.0012 BR=50 IKR=0.42 VAR=38 ISC=7E-13
++ NC=1.19 RB=0.04 RE=0.0875 RC=0.06 CJC=45.5E-12 MJC=0.4534
++ VJC=0.5774 CJE=278E-12 TF=0.78E-9 TR=30E-9)
+
+*                (c)  2016 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*DIODES_INC_MJD41CQ_SPICE_MODEL
+*DATE=15Dec2022
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL MJD41CQ  NPN (IS=23.7f NF=1.00 BF=212 VAF=180
++ IKF=12.03 ISE=1.59p NE=2.00 BR=56.00 NR=1.00 NK=0.8 ISC=27p NC=1.8
++ VAR=18.0 IKR=12.0 RE=25.5m RB=70.0m RC=7.50m RCO=0.002
++ XTB=1.5 CJE=110p VJE=1.10 MJE=0.500 CJC=120p VJC=0.300
++ MJC=0.300 TF=221p TR=38.4n EG=1.12
++ TRE1=0.003 TRB1=0.003 TRC1=0.003 GAMMA=1n )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2022 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*DIODES_INC_MJD42CQ_SPICE_MODEL
+*DATE=19Jan2023
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL MJD42CQ  PNP (IS=82.4f NF=1.00 BF=202 VAF=180
++ IKF=21.03 ISE=3.2p NE=2.00 BR=40.00 NR=1.00 NK=0.94 ISC=71p NC=1.8
++ VAR=28.0 IKR=12.0 RE=47.9m RB=52.77m RC=15.77m RCO=0.002
++ XTB=1.6 CJE=223p VJE=1.10 MJE=0.500 CJC=229p VJC=0.300
++ MJC=0.300 TF=950p TR=64.1n EG=1.12
++ TRE1=0.001 TRB1=0.003 TRC1=0.003 GAMMA=1n )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*DIODES_INC_MJD44H11Q_SPICE_MODEL
+*DATE=19Dec2023
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL MJD44H11Q  NPN (IS=190f NF=1.00 BF=234 VAF=161
++ IKF=9.93 ISE=1.8p NE=2.00 BR=88.00 NR=1.00 NK=0.71 ISC=61p NC=1.77
++ VAR=28.0 IKR=6.00 RE=28.3m RB=73.2m RC=7.33m RCO=0.632
++ XTB=1.5 CJE=10.22n VJE=1.10 MJE=0.500 CJC=1.1n VJC=0.300
++ MJC=0.300 TF=8.62n TR=9.28n EG=1.12
++ TRE1=0.003 TRB1=0.003 TRC1=0.001 GAMMA=30n QUASIMOD=1 )
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*DIODES_INC_MJD45H11Q_SPICE_MODEL
+*DATE=28Mar2024
+*VERSION=1.0
+*ORIGIN=DT
+*SIMULATOR=SIMETRIX
+*
+.MODEL MJD45H11Q  PNP (IS=157f NF=1.00 BF=227 VAF=157
++ IKF=8.86 ISE=1.4p NE=2.00 BR=8.00 NR=1.00 NK=0.52 ISC=5.2p NC=1.6
++ VAR=28.0 IKR=12.0 RE=26.4m RB=65.7m RC=12.57m RCO=0.25 
++ XTB=1.82 CJE=5.8n VJE=1.10 MJE=0.500 CJC=4.948n VJC=0.300
++ MJC=0.300 TF=1.01n TR=20.2n EG=1.12 
++ TRE1=0.003 TRB1=0.003 TRC1=0.001 GAMMA=0.520n QUASIMOD=1)
+*
+*$
+*
+******************************************************************************
+*                	 (c)  2023 Diodes Inc
+*
+*   Diodes Incorporated and its affiliated companies and subsidiaries 
+*   (collectively, "Diodes") provide these spice models and data 
+*   (collectively, the "SM data") "as is" and without any representations
+*   or warranties, express or implied, including any warranty of
+*   merchantability or fitness for a particular purpose, any warranty 
+*   arising from course of dealing or course of performance, or any 
+*   warranty that access to or operation of the SM data will be
+*   uninterrupted, or that the SM data or any simulation using the SM data
+*   will be error free.
+*
+*   To the maximum extent permitted by law, in no event will Diodes be
+*   liable for any indirect, special, incidental, punitive or consequential
+*   damages arising out of or in connection with the production or use of
+*   SM data, however caused and under whatever cause of action or theory of
+*   liability brought (including, without limitation, under any contract,
+*   negligence or other tort theory of liability), even if Diodes has been
+*   advised of the possibility of such damages, and Diodes' total liability
+*   (whether in contract, tort or otherwise) with regard to the SM data
+*   will not, in the aggregate, exceed any sums paid by you to Diodes for
+*   the SM data
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+******************************************************************************
+
+
+*SRC=MMBT2222A;DI_MMBT2222A;BJTs NPN; Si;  40.0V  0.600A  200MHz   Diodes Inc. Transistor 
+.MODEL DI_MMBT2222A  NPN (IS=25.4f NF=1.00 BF=274 VAF=114 
++ IKF=0.121 ISE=14.3p NE=2.00 BR=4.00 NR=1.00 
++ VAR=24.0 IKR=0.300 RE=0.219 RB=0.877 RC=87.7m 
++ XTB=1.5 CJE=27.6p VJE=1.10 MJE=0.500 CJC=14.2p VJC=0.300 
++ MJC=0.300 TF=622p TR=124n EG=1.12 )
+
+
+*SRC=MMBT2907A;DI_MMBT2907A;BJTs PNP; Si;  60.0V  0.600A  200MHz   Diodes Inc. Transistor 
+.MODEL DI_MMBT2907A  PNP (IS=60.7f NF=1.00 BF=312 VAF=139 
++ IKF=0.219 ISE=26.0p NE=2.00 BR=4.00 NR=1.00 
++ VAR=20.0 IKR=0.540 RE=85.8m RB=0.343 RC=34.3m 
++ XTB=1.5 CJE=50.4p VJE=1.10 MJE=0.500 CJC=23.1p VJC=0.300 
++ MJC=0.300 TF=758p TR=123n EG=1.12 )
+
+
+*SRC=MMBT3904;DI_MMBT3904;BJTs NPN; Si; 40.0V 0.200A 347MHz Diodes Inc. NPN Transistor
+.MODEL DI_MMBT3904 NPN (IS=48.3f NF=1.00 BF=410 VAF=114
++ IKF=0.121 ISE=13.1p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.300 RE=2.63 RB=10.5 RC=1.05
++ XTB=1.5 CJE=9.67p VJE=1.10 MJE=0.500 CJC=8.70p VJC=0.300
++ MJC=0.300 TF=440p TR=74.7n EG=1.12 )
+
+
+*SRC=MMBT3906;DI_MMBT3906;BJTs PNP; Si;  40.0V  0.200A  257MHz   Diodes Inc. Transistor
+.MODEL DI_MMBT3906  PNP (IS=20.3f NF=1.00 BF=192 VAF=114
++ IKF=60.7m ISE=12.9p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.150 RE=1.16 RB=4.63 RC=0.463
++ XTB=1.5 CJE=7.60p VJE=1.10 MJE=0.500 CJC=6.52p VJC=0.300
++ MJC=0.300 TF=589p TR=98.4n EG=1.12 )
+
+
+*SRC=MMBT4401;DI_MMBT4401;BJTs NPN; Si;  40.0V  0.600A  200MHz   Diodes, Inc. transistor
+.MODEL DI_MMBT4401  NPN (IS=60.9f NF=1.00 BF=410 VAF=114
++ IKF=0.364 ISE=25.5p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.900 RE=0.713 RB=2.85 RC=0.285
++ XTB=1.5 CJE=36.2p VJE=1.10 MJE=0.500 CJC=15.4p VJC=0.300
++ MJC=0.300 TF=717p TR=121n EG=1.12 )
+
+*SRC=UDZ5V6B;DI_UDZ5V6;Diodes;Zener <=10V; 5.60V  0.200W   Diodes Inc. Zener Diode
+*SYM=HZEN
+.SUBCKT DI_UDZ5V6  1 2
+*        Terminals    A   K
+D1 1 2 DF
+DZ 3 1 DR
+VZ 2 3 4.99
+.MODEL DF D ( IS=14.7p RS=3.10 N=1.10
++ CJO=32.9p VJ=0.750 M=0.330 TT=50.1n )
+.MODEL DR D ( IS=2.94f RS=1.28 N=0.828 )
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=08FEB2011
+*VERSION=2
+*
+.MODEL MMBT5401 PNP IS=6E-14 NF=1 BF=130 VAF=360 ISE=6E-14
++ NE=1.5 NR=1 BR=6.5 VAR=37 ISC=8E-12 NC=1.35 RC=0.08 RB=1 RE=0.25
++ CJC=13E-12 MJC=0.46  VJC=0.7 CJE=63E-12 MJE=0.41 VJE=0.9 
++ TF=6.7E-10 TR=1.03E-6 XTB=1.5 QUASIMOD=1 RCO=14 GAMMA=1.5E-8
+*
+*$
+
+
+*SRC=MMBTA05;DI_MMBTA05;BJTs NPN; Si;  60.0V  0.500A  219MHz   Diodes Inc.
+BJTs
+.MODEL DI_MMBTA05  NPN (IS=51.3f NF=1.00 BF=547 VAF=139
++ IKF=0.146 ISE=11.1p NE=2.00 BR=4.00 NR=1.00
++ VAR=16.0 IKR=0.360 RE=0.223 RB=0.892 RC=89.2m
++ XTB=1.5 CJE=58.7p VJE=1.10 MJE=0.500 CJC=18.9p VJC=0.300 MJC=0.300 
++ TF=631p TR=110n EG=1.12 )
+
+
+*SRC=MMBTA06;DI_MMBTA06;BJTs NPN; Si;  80.0V  0.500A  219MHz   Diodes Inc. Transistor 
+.MODEL DI_MMBTA06  NPN (IS=50.8f NF=1.00 BF=479 VAF=161 
++ IKF=91.1m ISE=9.99p NE=2.00 BR=4.00 NR=1.00 
++ VAR=16.0 IKR=0.225 RE=0.103 RB=0.412 RC=41.2m 
++ XTB=1.5 CJE=58.7p VJE=1.10 MJE=0.500 CJC=18.9p VJC=0.300 
++ MJC=0.300 TF=576p TR=110n EG=1.12 )
+
+
+*SRC=MMBTA42;DI_MMBTA42;BJTs NPN; Si;  300V  0.500A  219MHz   Diodes Inc. NPN Transistor 
+.MODEL DI_MMBTA42  NPN (IS=51.0f NF=1.00 BF=194 VAF=312 
++ IKF=0.182 ISE=34.9p NE=2.00 BR=4.00 NR=1.00 
++ VAR=24.0 IKR=0.450 RE=11.6 RB=46.3 RC=4.63 
++ XTB=1.5 CJE=58.7p VJE=1.10 MJE=0.500 CJC=18.9p VJC=0.300 
++ MJC=0.300 TF=481p TR=115n EG=1.12 )
+
+
+*SRC=MMBTA55;DI_MMBTA55;BJTs PNP; Si;  60.0V  0.500A  163MHz   Diodes Inc. Transistor 
+.MODEL DI_MMBTA55  PNP (IS=50.8f NF=1.00 BF=479 VAF=139 
++ IKF=91.1m ISE=9.99p NE=2.00 BR=4.00 NR=1.00 
++ VAR=16.0 IKR=0.225 RE=0.103 RB=0.412 RC=41.2m 
++ XTB=1.5 CJE=125p VJE=1.10 MJE=0.500 CJC=40.2p VJC=0.300 
++ MJC=0.300 TF=660p TR=149n EG=1.12 )
+
+
+*SRC=MMBTA56;DI_MMBTA56;BJTs PNP; Si;  80.0V  0.500A  163MHz   Diodes Inc.
+Transistor
+.MODEL DI_MMBTA56  PNP (IS=50.8f NF=1.00 BF=479 VAF=161
++ IKF=91.1m ISE=9.99p NE=2.00 BR=4.00 NR=1.00
++ VAR=16.0 IKR=0.225 RE=0.103 RB=0.412 RC=41.2m
++ XTB=1.5 CJE=125p VJE=1.10 MJE=0.500 CJC=40.2p VJC=0.300
++ MJC=0.300 TF=660p TR=149n EG=1.12 )
+
+
+*SRC=MMBTA92;DI_MMBTA92;BJTs PNP; Si;  300V  0.500A  60.0MHz   Diodes Inc.
+Transistor
+.MODEL DI_MMBTA92  PNP (IS=177f NF=1.00 BF=239 VAF=312
++ IKF=72.9m ISE=33.4p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.180 RE=1.16 RB=4.63 RC=0.463
++ XTB=1.5 CJE=125p VJE=1.10 MJE=0.500 CJC=40.2p VJC=0.300 MJC=0.300 
++ TF=2.18n TR=415n EG=1.12 )
+
+
+*SRC=MMBTH10;DI_MMBTH10;BJTs NPN; Si;  25.0V  50.0mA  650MHz   Diodes Inc. Transistor
+ 
+
+.MODEL DI_MMBTH10  NPN (IS=1.26e-016 NF=1.00 BF=95.8 VAF=114
++ IKF=24.3m ISE=1.28p NE=2.00 BR=4.00 NR=1.00
++ VAR=16.0 IKR=60.0m RE=1.51 RB=6.05 RC=0.605
++ XTB=1.5 CJE=6.27p VJE=1.10 MJE=0.500 CJC=2.02p VJC=0.300
++ MJC=0.300 TF=130p TR=27.4n EG=1.12 )
+
+
+*SRC=MMDT2222V;DI_MMDT2222V;BJTs NPN; Si; 40.0V 0.600A 300MHz Diodes Inc. BJTs - Single element of dual 
+.MODEL DI_MMDT2222V NPN (IS=61.0f NF=1.00 BF=410 VAF=114 
++ IKF=0.121 ISE=14.8p NE=2.00 BR=4.00 NR=1.00 
++ VAR=24.0 IKR=0.300 RE=0.269 RB=1.08 RC=0.108 
++ XTB=1.5 CJE=27.7p VJE=1.10 MJE=0.500 CJC=15.3p VJC=0.300 
++ MJC=0.300 TF=496p TR=81.1n EG=1.12 )
+
+
+*****************************************************************************************************************************************
+*SRC=MMDT2227;DI_MMDT2227_NPN;BJTs NPN; Si;  40.0V  0.600A  300MHz   Diodes Inc. BJTs - Complementary
+.MODEL DI_MMDT2227_NPN  NPN (IS=61.0f NF=1.00 BF=410 VAF=114
++ IKF=0.121 ISE=14.8p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.300 RE=0.269 RB=1.08 RC=0.108
++ XTB=1.5 CJE=27.7p VJE=1.10 MJE=0.500 CJC=15.3p VJC=0.300
++ MJC=0.300 TF=496p TR=81.1n EG=1.12 )
+
+*SRC=MMDT2227;DI_MMDT2227_PNP;BJTs PNP; Si;  60.0V  0.600A  300MHz   Diodes Inc. BJTs - Complementary
+.MODEL DI_MMDT2227_PNP  PNP (IS=61.2f NF=1.00 BF=410 VAF=139
++ IKF=0.279 ISE=22.4p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.690 RE=0.361 RB=1.44 RC=0.144
++ XTB=1.5 CJE=27.6p VJE=1.10 MJE=0.500 CJC=18.5p VJC=0.300
++ MJC=0.300 TF=491p TR=81.1n EG=1.12 )
+*****************************************************************************************************************************************
+
+
+*****************************************************************************************************************************************
+*SRC=MMDT2907A;DI_MMDT2907A;BJTs PNP; Si;  60.0V  0.600A  300MHz   Diodes Inc. BJTs - Single device of  dual
+.MODEL DI_MMDT2907A  PNP (IS=61.2f NF=1.00 BF=410 VAF=139
++ IKF=0.279 ISE=22.4p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.690 RE=0.361 RB=1.44 RC=0.144
++ XTB=1.5 CJE=27.6p VJE=1.10 MJE=0.500 CJC=18.5p VJC=0.300
++ MJC=0.300 TF=491p TR=81.1n EG=1.12 )
+*****************************************************************************************************************************************
+
+
+*SRC=MMBT3904;DI_MMBT3904;BJTs NPN; Si; 40.0V 0.200A 347MHz Diodes Inc. NPN Transistor
+.MODEL DI_MMBT3904 NPN (IS=48.3f NF=1.00 BF=410 VAF=114
++ IKF=0.121 ISE=13.1p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.300 RE=2.63 RB=10.5 RC=1.05
++ XTB=1.5 CJE=9.67p VJE=1.10 MJE=0.500 CJC=8.70p VJC=0.300
++ MJC=0.300 TF=440p TR=74.7n EG=1.12 )
+
+
+*SRC=MMDT3906;DI_MMDT3906;BJTs PNP; Si;  40.0V  0.200A  257MHz   Diodes
+Inc. BJTs - Single device of dual
+.MODEL DI_MMDT3906  PNP (IS=7.21e-016 NF=1.00 BF=410 VAF=114
++ IKF=48.6m ISE=1.01p NE=2.00 BR=4.00 NR=1.00
++ VAR=20.0 IKR=0.120 RE=1.21 RB=4.83 RC=0.483
++ XTB=1.5 CJE=10.9p VJE=1.10 MJE=0.500 CJC=7.57p VJC=0.300 MJC=0.300 
++ TF=558p TR=84.1n EG=1.12 )
+
+
+*SRC=MMDT4401;DI_MMDT4401;BJTs NPN; Si;  40.0V  0.600A  275MHz   Diodes
+Inc. BJTs - Single device of dual
+.MODEL DI_MMDT4401  NPN (IS=60.7f NF=1.00 BF=410 VAF=114
++ IKF=0.219 ISE=19.7p NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=0.540 RE=85.8m RB=0.343 RC=34.3m
++ XTB=1.5 CJE=36.2p VJE=1.10 MJE=0.500 CJC=15.4p VJC=0.300 MJC=0.300 
++ TF=539p TR=84.1n EG=1.12 )
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=10FEB2011
+*VERSION=1
+*PIN_ORDER         
+* 1=E1    6=C1
+* 2=B1    5=B2
+* 3=C2    4=E2
+*
+.SUBCKT MMDT5401 1 2 3 4 5 6
+Q1 6 2 1 Mod1
+Q2 3 5 4 Mod1
+*
+.MODEL Mod1 PNP IS=6E-14 NF=1 BF=130 VAF=360 ISE=6E-14
++ NE=1.5 NR=1 BR=6.5 VAR=37 ISC=8E-12 NC=1.35 RC=0.08 RB=1 RE=0.25
++ CJC=13E-12 MJC=0.46  VJC=0.7 CJE=63E-12 MJE=0.41 VJE=0.9 
++ TF=6.7E-10 TR=1.03E-6 XTB=1.5 QUASIMOD=1 RCO=14 GAMMA=1.5E-8
+.ENDS
+*
+*$
+
+
+*SRC=MMST3904;DI_MMST3904;BJTs NPN; Si;  40.0V  0.200A  347MHz   Diodes
+Inc. BJTs
+.MODEL DI_MMST3904  NPN (IS=3.95e-016 NF=1.00 BF=410 VAF=114
++ IKF=30.4m ISE=593f NE=2.00 BR=4.00 NR=1.00
++ VAR=24.0 IKR=75.0m RE=0.707 RB=2.83 RC=0.283
++ XTB=1.5 CJE=9.95p VJE=1.10 MJE=0.500 CJC=8.99p VJC=0.300 MJC=0.300 
++ TF=367p TR=70.2n EG=1.12 )
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=08FEB2011
+*VERSION=2
+*
+.MODEL MMST5401 PNP IS=6E-14 NF=1 BF=130 VAF=360 ISE=6E-14
++ NE=1.5 NR=1 BR=6.5 VAR=37 ISC=8E-12 NC=1.35 RC=0.08 RB=1 RE=0.25
++ CJC=13E-12 MJC=0.46  VJC=0.7 CJE=63E-12 MJE=0.41 VJE=0.9 
++ TF=6.7E-10 TR=1.03E-6 XTB=1.5 QUASIMOD=1 RCO=14 GAMMA=1.5E-8
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=08FEB2011
+*VERSION=2
+*
+.MODEL MMST5551 NPN IS=6.5E-15 NF=1 BF=110 VAF=288 ISE=1.0E-14
++ NE=1.5 NR=1 BR=4.5 VAR=70 ISC=3E-12 NC=1.35 RC=0.5 RB =0.26 RE =0.23
++ CJC=6.1E-12 MJC=0.31 VJC=0.4 CJE=57E-12 MJE=0.35 VJE=0.8 TF=0.2E-9
++ TR=1.5E-6 XTB=1.4 QUASIMOD=1 RCO=170 VO=35 GAMMA=2.2E-7
+*
+*$
+
+
+*SRC=MMSTA06;DI_MMSTA06;BJTs NPN; Si;  80.0V  0.500A  219MHz   Diodes Inc.
+BJTs
+.MODEL DI_MMSTA06  NPN (IS=94.2f NF=1.00 BF=301 VAF=161
++ IKF=0.146 ISE=27.4p NE=2.00 BR=4.00 NR=1.00
++ VAR=16.0 IKR=0.360 RE=0.215 RB=0.860 RC=86.0m
++ XTB=1.5 CJE=58.7p VJE=1.10 MJE=0.500 CJC=18.9p VJC=0.300 MJC=0.300 
++ TF=633p TR=112n EG=1.12 )
+
+
+*SRC=MMSTA56;DI_MMSTA56;BJTs PNP; Si;  80.0V  0.500A  70.0MHz   Diodes Inc.
+BJTs
+.MODEL DI_MMSTA56  PNP (IS=50.2f NF=1.00 BF=331 VAF=161
++ IKF=0.182 ISE=20.3p NE=2.00 BR=4.00 NR=1.00
++ VAR=16.0 IKR=0.450 RE=0.133 RB=0.532 RC=53.2m
++ XTB=1.5 CJE=125p VJE=1.10 MJE=0.500 CJC=40.2p VJC=0.300 MJC=0.300 
++ TF=2.16n TR=350n EG=1.12 )
+
+
+*
+*Zetex ZDT1049 Spice Model v1.0 Last Revised  12/09/08
+*
+.SUBCKT ZDT1049 1 2 3 4 5 6 7 8
+*            E2 B2 E1 B1 C1 C1 C2 C2
+Q1 9 4 3 Mod1
+Q2 10 2 1 Mod1
+R1 5 9 0.001
+R2 6 9 0.001
+R3 7 10 0.001
+R4 8 10 0.001
+*
+.MODEL Mod1 NPN IS=1.5E-12 NF=1.0 BF=600 IKF=7.5 VAF=100 
++ ISE=0.9E-13 NE=1.25 NR=1.0 BR=150 IKR=3 VAR=15
++ ISC=5.0E-13 NC=1.76 RB=0.1 RE=0.018 RC=0.007 
++ CJC=136E-12 CJE=550E-12 MJC=0.352 MJE=0.36
++ VJC=0.554 VJE=0.726 TF=400E-12 TR=6.9E-9
+*
+.ENDS ZDT1049
+*
+*$
+*
+*                (c)  2008 Diodes Incorporated
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Diodes ").  They  are  supplied
+*   free of charge by Diodes for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved. The models
+*   are believed accurate but  no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Incorporated, 1566 N. Dallas Parkway, Suite 850, Dallas, TX 75248, USA
+
+
+*
+.SUBCKT ZDT6702 1 2 3 4 5 6 7 8
+* pins           E2, B2, E1, B1, C1, C1, C2, C2
+*
+Q11 12 4 11 SUB603
+Q12 12 11 3 SUB603 3.46
+Q21 10 2 9 SUB702
+Q22 10 9 1 SUB702 3.46
+R1 5 12 0.001
+R2 6 12 0.001
+R3 7 10 0.001
+R4 8 10 0.001
+*
+.MODEL SUB603 NPN IS=1E-13 BF=130 VAF=200 NF=1 IKF=0.45 ISE=1.8E-13
++ NE=1.5 BR=20 VAR=30 NR=1 IKR=0.45 ISC=7E-13 NC=1.2 RB=0.3 RE=0.3
++ RC=0.5  CJE=115E-12 CJC=11E-12 VJC=0.85 MJC=0.41 TF=1E-9 TR=250E-9
++ XTB=1.5
+*
+.MODEL SUB702 PNP IS =.5E-13 BF =103 VAF=200 NF =1 IKF=.55
++ ISE=.75E-14 NE =1.5 BR =15 VAR=30 NR =1 IKR=.45 ISC=3E-13 
++ NC=1.2 RB=0.3 RE=0.3 RC=0.3  CJE=140E-12 CJC=20E-12 
++ VJC=0.85 MJC=0.41 TF=1E-9 TR=290E-9 XTB=1.4
+*
+.ENDS ZDT6702
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=10FEB2011
+*VERSION=1
+*PIN_ORDER         
+* 1=E2    8=C2
+* 2=B2    7=C2
+* 3=E1    6=C1
+* 4=B1    5=C1
+*
+.SUBCKT ZDT6718 1 2 3 4 5 6 7 8
+Q1 11 4 3 Nmod
+Q2 12 2 1 Pmod
+RP1 11 5 0.001
+RP2 11 6 0.001
+RP3 12 7 0.001
+RP4 12 8 0.001
+*
+.MODEL Nmod NPN IS=5.611E-13 NF=1.0022 BF=480 IKF=4.6 VAF=51
++ ISE=1.73E-13 NE=1.4 NR=1.0002 BR=200 IKR=3 VAR=25 
++ ISC=7.3152E-13 NC=1.47 RB=0.032 RE=0.027 RC=0.025 
++ CJC=59E-12 MJC=0.2651 VJC=0.3051 CJE=216E-12 
++ TF=0.95E-9 TR=2.25E-9
+.MODEL Pmod PNP IS=6.8E-13  BF=480 IKF=2 VAF=23 
++ ISE=0.8E-13 NE=1.5567 NR=1.00 BR=70 IKR=0.4 
++ VAR=7 ISC=7.5E-14 NC=1.19 RB=0.085 RE=0.04
++ RC=0.045 CJC=70.02E-12 MJC=0.4685 VJC=0.7714 
++ CJE=203.6E-12 MJE=0.5029 VJE=0.9403 TF=0.71E-9 
++ TR=23.7E-9
+.ENDS
+*
+*$
+
+
+*
+.SUBCKT ZDT694 1 2 3 4 5 6 7 8
+*            E2 B2 E1 B1 C1 C1 C2 C2
+Q1 9 4 3 Mod1
+Q2 10 2 1 Mod1
+R1 5 9 0.001
+R2 6 9 0.001
+R3 7 10 0.001
+R4 8 10 0.001
+*
+.MODEL Mod1 NPN IS=1.59E-12 NF=1.001 BF=1009 IKF=0.26 VAF=45
++ ISE=.253E-12 NE=1.445 NR=1 BR=40 IKR=1 VAR=30 ISC=0.326E-12
++ NC=1.075 RB=0.2 RE=0.065 RC=0.075 CJC=35.5E-12 MJC=.465
++ VJC=.515 CJE=258E-12 TF=.763E-9 TR=130E-9
+*
+.ENDS ZDT694
+
+
+.SUBCKT ZDT795A 1 2 3 4 5 6 7 8
+*            E2 B2 E1 B1 C1 C1 C2 C2
+Q1 9 4 3 Mod1
+Q2 10 2 1 Mod1
+R1 5 9 0.001
+R2 6 9 0.001
+R3 7 10 0.001
+R4 8 10 0.001
+*
+.MODEL Mod1 PNP IS=7E-13 NF=1.005 BF=500 IKF=2 VAF=62 ISE=1E-14
++ NE=1.4 NR=1 BR=10.1 VAR=25 ISC=4.1E-13 IKR=2 NC=1.07 RB=0.45
++ RE=0.06 RC=0.14 CJC=52E-12 MJC=0.515 VJC=0.65 CJE=280E-12
++ TF=0.72E-9 TR=58E-8 XTB=1.4 TRB1=.005 TRE1=.005 QUASIMOD=1
++ RCO=4.3 GAMMA=0.5E-7
+*
+.ENDS ZDT795A
+
+
+*ZETEX ZTX614 Spice Model v1.0 Last Revised 17/12/92
+    *
+    .SUBCKT ZTX614 1 2 3
+    *              C B E
+    Q1 1 2 4 SUB614
+    Q2 1 4 3 SUB614 5.39
+    .ENDS ZTX614
+    *
+    .MODEL SUB614 NPN IS =1.575E-14 NF =1.00 BF =280 IKF=0.08 VAF=284 
+    +             ISE=5.8853E-15 NE =1.3517 NR =1.0469 BR =11 IKR=0.2 
+    +             VAR=13 ISC=5.3795E-14 NC =1.257 RB =0.22 RE =0.375 
+    +             RC =0.40 CJC=3.6E-12 MJC=0.3393 VJC=0.4127 
+    +             CJE=23.7E-12 TF =1.73E-9 TR =260E-9
+    *
+    *$
+    *
+
+
+*ZETEX ZX5T851G Spice Model v1.1 Last Revised 23/03/2006
+    *
+    .MODEL ZX5T851G NPN IS =1.0085E-12 NF =1.0001 BF =210 IKF=4 VAF=158
+    +ISE=7E-13 NE =1.38 NR =0.9988 BR =90 IKR=3 VAR=46 ISC=4.6515E-13
+    +NC =1.334 RB =0.2 RE =0.018 RC =0.016 CJC=93E-12 MJC=0.4348
+    +VJC=0.6477 CJE=0.63E-9 TF =0.75E-9  TR =20E-9 XTB=1.5
+    *
+    *$
+    *
+
+
+*ZETEX ZX5T951G Spice Model v2.0 Last revision 09/01/07
+    *
+    .MODEL ZX5T951G PNP IS=5.3E-13 NF=1.0 BF=220 IKF=11 VAF=84 ISE=5E-14 NE=1.4
+    +NR=1 BR=45 VAR=8.9 ISC=5E-14 IKR=5 NC=1.07 RB=0.27 RE=0.015 RC=0.022
+    +CJC=170E-12 MJC=0.4 VJC=0.55 CJE=750E-12 MJE=0.4 VJE=0.68 TF=0.5E-9
+    +TR=2.2E-8 XTB=1.4 TRB1=.005 TRE1=.005 QUASIMOD=1 RCO=0.22 GAMMA=5e-10
+    *
+    *$
+    *
+
+
+*ZETEX ZX5T953G Spice Model v1.0 Last revision 13/12/06
+    *
+    .MODEL ZX5T953G PNP IS=1E-13 NF=1 BF=200 VAF=44 ISE=1.3E-13 IKF=8 NE=1.6
+    +NR=1 BR=22 VAR=16 ISC=1.3E-13 IKR=4 NC=1.4 RC=0.017 RB=0.13 RE=0.019
+    +CJC=136E-12 MJC=0.41 VJC=0.50 CJE=570E-12 MJE=0.45 VJE=0.86 TF=0.7E-9
+    +TR=45E-9 XTB=1.5 QUASIMOD=1 RCO=0.7 GAMMA=5E-10
+    *
+    *$
+    *
+
+
+*ZETEX ZXT1053AK Spice Model v1.0 Last Revised 08/03/06
+    *
+    .MODEL ZXT1053AK  NPN IS=2.1E-12  NF=1.0  BF=600  IKF=2.2  VAF=100
+    +               ISE=0.9E-13  NE=1.25  NR=0.99  BR=150  IKR=2.5  VAR=15
+    +               ISC=5.0E-10  NC=1.76  RB=0.1  RE=0.028  RC=0.016 
+    +               CJC=75.1E-12  CJE=520E-12  MJC=0.415  MJE=0.367
+    +               VJC=0.512  VJE=0.766  TF=550E-12  TR=22E-9
+    *
+    *$
+    *
+
+
+*ZETEX ZXT10P20DE6 Spice Model v1.0 Last Revised 11/03/02
+    *
+    .MODEL  ZXT10P20DE6 PNP IS =6.8E-13  BF =480 IKF =2 VAF =23 
+    +              ISE=0.8E-13 NE =1.5567 NR =1.00 BR =70 IKR=0.4 
+    +              VAR=7 ISC=7.5E-14 NC =1.19 RB =0.085 RE =0.04
+    +              RC =0.045 CJC=70.02E-12 MJC=0.4685 VJC=0.7714 
+    +              CJE=203.6E-12 MJE=0.5029 VJE=0.9403 TF =0.71E-9 
+    +              TR =23.7E-9
+    *
+    *$
+    *
+
+
+*ZETEX ZXT13P40DE6 Spice Model v1.0 Last Revised 24/10/07
+    *
+    .MODEL ZXT13P40DE6 PNP IS=1.6E-12 NF=1 BF=600 VAF=29.9 ISE=1.2E-13
+    + IKF=4 NE=1.45 BR=48 VAR=6.8 ISC=1.2E-13 NC=1.1 IKR=0.4 RC=0.028
+    + RB=0.10 RE=0.022 QUASIMOD=1 RCO=0.5 GAMMA=2.5E-9 CJC=155E-12 MJC=0.43
+    + VJC=0.6 CJE=570E-12 MJE=0.59 VJE=1.1 TF=0.8E-9 TR=18E-9 TRC1=0.005
+    + TRB1=0.005 TRE1=0.005 XTB=1.4
+    *
+    *$
+    *
+
+
+*ZETEX ZXT690BK Spice Model v1.0 Last revision 13/07/07
+    *
+    .MODEL ZXT690BK NPN IS=1.5E-12 NF=1 BF=1000 IKF=3 VAF=60 ISE=4E-13 NE=1.37 
+    +NR=1 BR=123 IKR=1 VAR=14.5 ISC=4E-13 NC=1.34 RB=0.1 RE=0.045 RC=0.027 
+    +CJE=250E-12 VJE=0.68 MJE=0.36 CJC=59E-12 VJC=0.49 MJC=0.36 TF=0.77E-9
+    +TR=18E-9 RCO=0.93 GAMMA=5E-9 QUASIMOD=1 XTB=1.4 TRE1=0.002 TRB1=0.002 
+    +TRC1=0.002 
+    *
+    *$
+    *
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=23FEB2011
+*VERSION=1
+*
+.MODEL ZXT951K PNP IS=1.3766E-12 NF=1.013 BF=187 IKF=5.0 VAF=66.3
++ ISE=1.4E-13 NE=1.41 NR=1.0099 BR=56 IKR=0.9 VAR=33 ISC=1.7E-12
++ NC=1.4 RB=0.029 RE=0.020 RC=0.0255 CJC=287E-12 MJC=0.4522 
++ VJC=0.4956 CJE=1.15E-9 TF=0.83E-9 TR=20E-9
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=10FEB2011
+*VERSION=1
+*PIN_ORDER         
+* 1=C1    6=E1
+* 2=B1    5=B2
+* 3=C2    4=E2
+*
+.SUBCKT ZXTC2045E6 1 2 3 4 5 6
+Q1 1 2 6 Nmod
+Q2 3 5 4 Pmod
+*
+.MODEL Nmod  NPN IS =2.5E-13 NF =1 BF =600 IKF=1 VAF=51 ISE=2E-13 
++ NE =1.4 NR =1 BR =150 IKR=.5 VAR=25 ISC=1e-13 NC =1.47 RB =0.5
++ RE =0.055 RC =0.055 CJC=23E-12 MJC=0.33 VJC=0.75 CJE=98E-12 TF =0.8E-9 
++ TR =30e-9 
+.MODEL Pmod PNP IS=2e-13 BF=550 XTB=1.4 NF=1 VAF=21 IKF=0.25
++ ISE=1e-13 NE=1.38 BR=55 NR=1 VAR=9.9 IKR=0.25 ISC=1e-13 NC=1.18
++ RE=0.06 RB=0.7 RC=0.06 CJE=95.9e-12 VJE=0.897 MJE=0.468 CJC=43.4e-12
++ VJC=1.816 MJC=0.85 TF=495e-12 TR=25e-9
+.ENDS
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=24JAN2011
+*VERSION=2
+*PIN_ORDER         
+*1=B1
+*2=E1
+*3=B2
+*4=E2
+*5=C2
+*6=C2
+*7=C1
+*8=C1
+*
+.SUBCKT ZXTC4591AMC 1 2 3 4 5 6 7 8
+Q1 10 1 2 Nmod
+Q2 20 3 4 Pmod
+RP1 10 7 0.001
+RP2 10 8 0.001
+RP3 20 5 0.001
+RP4 20 6 0.001
+*
+.MODEL Nmod NPN IS =3.05E-13 NF =1.0034 BF =650 IKF=0.8 VAF=165
++ ISE=8.0191E-14 NE =1.4126 NR =1.001 BR =120 IKR=0.6 VAR=69 
++ ISC=1.6E-12 NC =1.38 RB =0.065 RE =0.109 RC =0.075 
++ CJC=17.2E-12 MJC=0.3429 VJC=0.4298 CJE=96E-12 
++ TF =0.71E-9 TR =2.5E-9
+.MODEL Pmod PNP IS =3.0572E-13 NF =1.0103 BF =450 IKF=0.93
++ VAF=20 ISE=1.5E-14 NE =1.52 NR =1.007 BR =160 IKR=0.08 VAR=33 
++ ISC=3.8736E-14 NC =1.0893 RB =0.112 RE =0.144 RC =0.156 
++ CJC=42E-12 MJC=0.4449 VJC=0.3131 CJE=91E-12 
++ TF =0.51E-9 TR =3.6E-9
+.ENDS
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=24JAN2011
+*VERSION=2
+*PIN_ORDER         
+*1=B1
+*2=E1
+*3=B2
+*4=E2
+*5=C2
+*6=C2
+*7=C1
+*8=C1
+*
+.SUBCKT ZXTC6717MC 1 2 3 4 5 6 7 8
+Q1 10 1 2 Nmod
+Q2 20 3 4 Pmod
+RP1 10 7 0.001
+RP2 10 8 0.001
+RP3 20 5 0.001
+RP4 20 6 0.001
+*
+.MODEL Nmod NPN IS=5.92E-13 BF=500 IKF=5 VAF=34.6
++ ISE=1.27E-13 NE=1.425 NR=1 BR=280 IKR=2 VAR=12.25 
++ ISC=6.138E-13 NC=1.46 RB=0.1 RE=0.025 RC=0.017 
++ CJC=76E-12 MJC=0.2981 VJC=0.4414 CJE=230E-12 
++ MJE=0.3569 VJE=0.7042 TF=1.12E-9 TR=2.15E-9
+.MODEL Pmod PNP IS=5.5E-13  BF=500 IKF=3 VAF=14.93 
++ ISE=1.75E-13 NE=1.5 NR=1.00 BR=280 IKR=0.3 
++ VAR=5.64 ISC=6.01E-13 NC=1.34 RB=0.3 RE=0.03
++ RC=0.025 CJC=116.9E-12 MJC=0.3456 VJC=0.4576 
++ CJE=223.6E-12 MJE=0.4803 VJE=0.9091 TF=1.2E-9 
++ TR=2E-9
+.ENDS
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=24JAN2011
+*VERSION=1
+*PIN_ORDER         
+*1=B1
+*2=E1
+*3=B2
+*4=E2
+*5=C2
+*6=C2
+*7=C1
+*8=C1
+*
+.SUBCKT ZXTC6718MC 1 2 3 4 5 6 7 8
+Q1 10 1 2 Nmod
+Q2 20 3 4 Pmod
+RP1 10 7 0.001
+RP2 10 8 0.001
+RP3 20 5 0.001
+RP4 20 6 0.001
+*
+.MODEL Nmod NPN IS=5.611E-13 NF=1.0022 BF=480 IKF=4.6 VAF=51
++ ISE=1.73E-13 NE=1.4 NR=1.0002 BR=200 IKR=3 VAR=25 
++ ISC=7.3152E-13 NC=1.47 RB=0.032 RE=0.027 RC=0.025 
++ CJC=59E-12 MJC=0.2651 VJC=0.3051 CJE=216E-12 
++ TF=0.95E-9 TR=2.25E-9
+.MODEL Pmod PNP IS=6.8E-13  BF=480 IKF=2 VAF=23 
++ ISE=0.8E-13 NE=1.5567 NR=1.00 BR=70 IKR=0.4 
++ VAR=7 ISC=7.5E-14 NC=1.19 RB=0.085 RE=0.04
++ RC=0.045 CJC=70.02E-12 MJC=0.4685 VJC=0.7714 
++ CJE=203.6E-12 MJE=0.5029 VJE=0.9403 TF=0.71E-9 
++ TR=23.7E-9
+.ENDS
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=27/04/2010
+*VERSION=1
+*PIN_ORDER         C1, B1, C2, E2, B2, E1.
+*
+.SUBCKT ZXTD6717E6 1 2 3 4 5 6
+*
+Q1 1 2 6 Nmod1
+Q2 3 5 4 Pmod1
+*
+.MODEL Nmod1 NPN IS=5.92E-13 BF=500 IKF=5 VAF=34.6
++ ISE=1.27E-13 NE=1.425 NR=1 BR=280 IKR=2 VAR=12.25 
++ ISC=6.138E-13 NC=1.46 RB=0.1 RE=0.025 RC=0.017 
++ CJC=76E-12 MJC=0.2981 VJC=0.4414 CJE=230E-12 
++ MJE=0.3569 VJE=0.7042 TF=1.12E-9 TR=2.15E-9
+*
+.MODEL Pmod1 PNP IS=5.5E-13  BF=500 IKF=3 VAF=14.93 
++ ISE=1.75E-13 NE=1.5 NR=1.00 BR=280 IKR=0.3 
++ VAR=5.64 ISC=6.01E-13 NC=1.34 RB=0.3 RE=0.03
++ RC=0.025 CJC=116.9E-12 MJC=0.3456 VJC=0.4576 
++ CJE=223.6E-12 MJE=0.4803 VJE=0.9091 TF=1.2E-9 
++ TR=2E-9
+*
+.ENDS
+*
+*$
+
+
+*DIODES_INC_SPICE_MODEL ZXTN19020DZ
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG
+*DATE=4/01/2013
+*VERSION=1
+
+.MODEL ZXTN19020DZ NPN IS=9E-13 NF=1 BF=530 IKF=6 VAF=105 ISE=8E-14
++ NE=1.4 NR=1  BR=174 IKR=1 VAR=12.8 ISC=4E-13 NC=1.37 RB=0.17 RE=0.0055
++ RC=0.0035 CJC=89E-12 MJC=0.34 VJC=0.51 CJE=365E-12 MJE=0.39 VJE=0.8
++ TF=9E-10 TR=0.55E-8 XTB=1.4 TRC1=.005 TRB1=.005 TRE1=.005 QUASIMOD=1
++ RCO=0.15 GAMMA=0.3E-9
+
+
+
+*                (c)  2013 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+
+
+*ZETEX ZXTN2005Z Spice Model v1.0 Last revision 24/03/06
+    *
+    .MODEL ZXTN2005Z NPN IS =1.9E-12 BF =730 XTB=1.4 IKF=5.5 VAF=30
+    +ISE=8E-13 NE =1.4 NR =1 BR =280 IKR=2.5 VAR=15 ISC=1.2E-12
+    +NC =1.4 RB =1 RBM =0.012 IRB =1 RE = 0.022 RC =0.004 CJC=125E-12
+    +MJC=0.3917 VJC=0.5871 CJE=528E-12 MJE=0.3826 VJE=0.7686
+    +TF =0.8E-9 TR =3.2E-9 
+    *
+    *$
+    *
+
+
+*ZETEX  ZXTN2010Z Spice Model v1.0 Last revision 24/10/2006
+    *
+    .MODEL ZXTN2010Z NPN IS =1.0085E-12 NF =1.0001 BF =210 IKF=4 VAF=158
+    +ISE=7E-13 NE =1.38 NR =0.9988 BR =90 IKR=3 VAR=46 ISC=4.6515E-13
+    +NC =1.334 RB =0.2 RE =0.018 RC =0.016 CJC=93E-12 MJC=0.4348
+    +VJC=0.6477 CJE=0.63E-9 TF =0.75E-9  TR =20E-9 XTB=1.5
+    *
+    *$
+    *
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG
+*SIMULATOR=PSPICE
+*DATE=09/04/2009
+*VERSION=2
+*
+.MODEL ZXTN2018F NPN IS=3E-13 NF=1 BF=245 IKF=8.5 VAF=87 ISE=1.3E-13
++ NE=1.42 NR=1 BR=50 IKR=1 VAR=33 ISC=7e-13 NC=1.4 RE=0.0077 RB=0.15
++ RC=0.0049 QUASIMOD=1 RCO=0.75 GAMMA=3E-9 VO=11.5 CJE=610E-12 VJE=0.7
++ MJE=0.36 CJC=90E-12 VJC=0.6 MJC=0.36 TF=8.8E-10 TR=2.5e-8 XTB=1.4
++ TRE1=0.004 TRB1=0.004 TRC1=0.004
+*
+*$
+
+
+*ZETEX ZXTN25060BZ Spice Model v1.0 Last revision 05/06/07
+    *
+    .MODEL ZXTN25060BZ NPN IS=2E-13 NF=1 BF=315 IKF=4.0 VAF=210 ISE=1.2E-13
+    +NE=1.3 NR=1 BR=12 IKR=0.5 VAR=27 ISC=4.2e-13 NC=1.33 RE=.005 RB=0.25
+    +RC=.005 RCO=1.9 GAMMA=16E-9 QUASIMOD=1 CJE=222E-12 VJE=0.73 MJE=0.35
+    +CJC=34E-12 VJC=0.46 MJC=0.34 TF=7.4E-10 TR=7.6e-8 XTB=1.4 TRE1=.004
+    +TRB1=.004 TRC1=.004
+    *
+    *$
+    *
+
+
+.MODEL ZXTN25100DG  NPN IS=6E-13 NF=1 BF=550 IKF=4 VAF=117 ISE=1.3E-13
++ NE=1.42 NR=1 BR=35 IKR=1 VAR=36 ISC=5E-13 NC=1.18 RB=0.2 RE=0.0013
++ RC=0.0016 CJC=28E-12 MJC=0.3 VJC=0.4 CJE=182E-12 MJE=0.39 VJE=0.78
++ TF=7.5E-10 TR=5.3E-8 XTB=1.4 TRC1=.005 TRB1=.005 TRE1=.005 QUASIMOD=1
++ RCO=7 GAMMA=8.3E-8
+*
+*$
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_IM
+*SIMULATOR=PSPICE
+*DATE=27-Jan-2014
+*VERSION=1
+*
+
+.MODEL ZXTN4004K NPN IS=7.5E-13 NF=1.008 BF=440 IKF=3
++ VAF=220 ISE=1E-13 NE=1.4 NR=1.008 BR=36 IKR=0.5
++ VAR=39.6 ISC=1E-12 NC=1.2 RB=0.8 RE=0.026 RC=0.046
++ CJC=26E-12 MJC=0.4 VJC=0.4 CJE=220E-12 MJE=0.35 VJE=0.73
++ TF=0.5E-9 TR=380E-9 RCO=9 GAMMA=2E-7 QUASIMOD=1
++ TRE1=0.0045 TRB1=0.0035 TRC1=0.0045 XTB=1.5 XTI=4
+
+
+*
+*                (c)  2014 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+*DIODES_INC_ZXTN4240FQ_SPICE_MODEL
+*DATE=13Apr2025
+*VERSION=1.0
+*ORIGIN=DZSL_BBU_DT
+*SIMULATOR=SIMETRIX
+* 
+.MODEL ZXTN4240FQ  NPN (IS=526f NF=1.00 BF=526 VAF=27
++ IKF=6.33 ISE=520f NE=2.00 BR=84.00 NR=1.00 NK=0.51 NC=2.00 ISC=352p
++ VAR=20.0 IKR=3.45 RE=37.2m RB=93.0m RC=17.30m RCO=1.01
++ XTB=1.36 XTI=5.20 CJE=459p VJE=1.10 MJE=0.500 CJC=32.6p VJC=0.300
++ MJC=0.300 TF=1701p TR=6.44n EG=1.12 
++ TRE1=0.003 TRB1=0.003 TRC1=0.001 GAMMA=6.4n QUASIMOD=1 )
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=27JUL2010
+*VERSION=2
+*
+.MODEL ZXTN5551FL NPN IS=6.5E-15 NF=1 BF=110 VAF=288 ISE=1.0E-14
++ NE=1.5 NR=1 BR=4.5 VAR=70 ISC=3E-12 NC=1.35 RC=0.5 RB =0.26 RE =0.23
++ CJC=6.1E-12 MJC=0.31 VJC=0.4 CJE=57E-12 MJE=0.35 VJE=0.8 TF=0.2E-9
++ TR=1.5E-6 XTB=1.4 QUASIMOD=1 RCO=170 VO=35 GAMMA=2.2E-7
+*
+*$
+
+
+.MODEL ZXTP19100CZ PNP IS=5E-13 NF=1 BF=370 VAF=70 ISE=1E-13 IKF=3.5
++ NE=1.45 BR=16 VAR=6 ISC=1.8E-13 NC=1.09 RC=0.009 RB=0.2 RE=0.014
++ QUASIMOD=1 RCO=2.25 GAMMA=1.0E-8 CJC=80E-12 MJC=0.47 VJC=0.75
++ CJE=360E-12 MJE=0.51 VJE=1 TF=0.85E-9 TR=1.15E-7 TRC1=0.003 TRB1=0.003
++ TRE1=0.003 XTB=1.4
+*
+*$
+
+
+*ZETEX ZXTP2008Z Spice Model v1.0 Last revision 24/03/06
+    *
+    .MODEL ZXTP2008Z  PNP IS=1.5111E-12 NF=1.0127 BF=208 XTB=1.4 IKF=7.5
+    +VAF=43.4 ISE=1.335E-13 NE=1.42 NR=1.009 BR=100 IKR=1.3 VAR=9.7
+    +ISC=1.392E-13 NC=1.22 RB=0.12 RE=0.022 RC=0.004 CJC=246E-12
+    +MJC=0.338 VJC=0.4294 CJE=796E-12 TF=1.01E-9 TR=5E-9
+    *
+    *$
+    *
+
+
+*ZETEX ZXTP2009Z Spice Model v1.0 Last Revised 24/03/2006
+    *
+    .MODEL ZXTP2009Z PNP IS=2e-12 NF=1 ISE=9e-13 NE=1.55 BF=600 VAF=26
+    +IKF=2.5 NR=.97 ISC=2e-13 NC=1.4 BR=105 VAR=2.41 IKR=1.5 RE=2e-3
+    +RB=700e-3 RC=20e-3 CJE=535e-12 CJC=165e-12 TF=0.6e-9 TR=10e-9
+    +XTB=1.5  
+    *
+    *$
+    *
+
+
+*ZETEX ZXTP2012Z Spice Model v2.0 Last revision 09/01/07
+    *
+    .MODEL ZXTP2012Z PNP IS=5.3E-13 NF=1.0 BF=220 IKF=11 VAF=84 ISE=5E-14 NE=1.4
+    +NR=1 BR=45 VAR=8.9 ISC=5E-14 IKR=5 NC=1.07 RB=0.27 RE=0.015 RC=0.022
+    +CJC=170E-12 MJC=0.4 VJC=0.55 CJE=750E-12 MJE=0.4 VJE=0.68 TF=0.5E-9
+    +TR=2.2E-8 XTB=1.4 TRB1=.005 TRE1=.005 QUASIMOD=1 RCO=0.22 GAMMA=5e-10
+    *
+    *$
+    *
+
+
+*DIODES_INC_SPICE_MODEL ZXTP2014Z
+*SIMULATOR=SIMETRIX
+*ORIGIN=DZSL_DPG_SU
+*DATE=28Dec2012
+*VERSION=1
+
+.MODEL ZXTP2014Z PNP IS=370E-14 NF=.99 BF=180 ISE=150E-15 NE=1.35 
++ BR=6 ISC=260E-15 NC=1.1 NR=.99 CJC=121E-12 MJC=0.4 VJC=0.6
++ CJE=687E-12 MJE=0.4 VJE=0.75 RC=40m RE=40m RB=.18 TF=.8n TR=150n XTB=1.65 NK=.78 IKF=5.1 EG=1.4
+
+
+*                (c)  2012 Diodes Inc
+*
+*   The copyright in these models  and  the designs embodied belong
+*   to Diodes Incorporated (" Zetex ").  They  are  supplied
+*   free of charge by Zetex for the purpose of research and design
+*   and may be used or copied intact  (including this notice)  for
+*   that purpose only.  All other rights are reserved.  The models
+*   are believed accurate but no condition  or warranty  as to their
+*   merchantability or fitness for purpose is given and no liability
+*   in respect of any use is accepted by Diodes Incorporated, its distributors
+*   or agents.
+*
+*   Diodes Zetex Semiconductors Ltd, Zetex Technology Park, Chadderton,
+*   Oldham, United Kingdom, OL9 9LL
+*
+
+
+.MODEL ZXTP2027FQ PNP IS=6.3E-13 NF=1 BF=270 VAF=22 ISE=1E-13 IKF=7
++ NE=1.4 BR=120 VAR=8 ISC=1.3E-13 NC=1.5 RC=0.009 RB=0.15 RE=0.013
++ CJC=180E-12 MJC=0.36 VJC=0.55 CJE=520E-12 MJE=0.35 VJE=0.8 QUASIMOD=1
++ RCO=0.32 GAMMA=4E-10 TF=0.72E-9 TR=4.1E-9 XTB=1.4
+*
+*$
+
+
+.MODEL ZXTP25100CFH PNP IS=2E-13 NF=1 BF=375 VAF=75 ISE=4E-14 IKF=1.4
++ NE=1.65 BR=15 VAR=9 ISC=9E-14 NC=1.2 IKR=0.45 RC=0.012 RB=0.3
++ RE=0.016 QUASIMOD=1 VO=7 RCO=3.4 GAMMA=0.4E-8 CJC=45E-12 MJC=0.38
++ VJC=0.52 CJE=190E-12 MJE=0.46 VJE=0.85 TF=3.9E-10 TR=5.3E-8 TRC1=0.004
++ TRB1=0.004 TRE1=0.004 XTB=1.4
+*
+*$
+*
+
+
+*ZETEX ZXTP25140BFH Spice Model v1.0 Last Revised 08/10/07
+    *
+    .MODEL ZXTP25140BFH PNP IS=1.6E-13 NF=1 BF=210 VAF=175 ISE=3E-14 IKF=4.2
+    + NE=1.4 BR=12 VAR=5.15 ISC=1E-13 NC=1.08 IKR=0.7 RC=0.013 RB=0.2 RE=0.016
+    + QUASIMOD=1 RCO=4 GAMMA=1.4E-8 CJC=42E-12 MJC=0.32 VJC=0.44 CJE=237E-12
+    + MJE=0.44 VJE=0.85 TF=0.95E-9 TR=22E-8 TRC1=.005 TRB1=.005 TRE1=.005 XTB=1.4 
+    *
+    *$
+    *
+
+
+*DIODES_INC_ZXTP5240FQ_SPICE_MODEL
+*DATE=11Apr2025
+*VERSION=1.0
+*ORIGIN=DZSL_BBU_DT
+*SIMULATOR=SIMETRIX
+* 
+.MODEL ZXTP5240FQ  PNP (IS=418f NF=1.00 BF=443 VAF=12 VO=11
++ IKF=2.75 ISE=243f NE=2.00 BR=53.00 NR=1.00 NK=0.52 NC=1.4 ISC=127f
++ VAR=20.0 IKR=2.10 RE=34.0m RB=0.208 RC=17.8m RCO=0.57
++ XTB=1.57 XTI=5.4 CJE=352p VJE=1.10 MJE=0.500 CJC=150.9p VJC=0.300
++ MJC=0.300 TF=1.04n TR=2.8n EG=1.12
++ TRE1=0.002 TRB1=0.003 TRC1=0.001 GAMMA=0.3n QUASIMOD=1 )
+
+
+*
+*DIODES_INC_SPICE_MODEL
+*ORIGIN=DZSL_DPG_GM
+*SIMULATOR=PSPICE
+*DATE=27JUL2010
+*VERSION=2
+*
+.MODEL ZXTP5401FL PNP IS=6E-14 NF=1 BF=130 VAF=360 ISE=6E-14
++ NE=1.5 NR=1 BR=6.5 VAR=37 ISC=8E-12 NC=1.35 RC=0.08 RB=1 RE=0.25
++ CJC=13E-12 MJC=0.46  VJC=0.7 CJE=63E-12 MJE=0.41 VJE=0.9 
++ TF=6.7E-10 TR=1.03E-6 XTB=1.5 QUASIMOD=1 RCO=14 GAMMA=1.5E-8
+*
+*$

@@ -20,6 +20,7 @@ After completing one of the above methods, you can access the components and mod
 ![](Component.png)  
 
 ## Useful Websites
+- [Spice Models](https://www.diodes.com/design/tools/spice-models)
 - [Components Library and Circuits](https://ltwiki.org/?title=Components_Library_and_Circuits)  
 - [LTspice Group](https://groups.io/g/LTspice)  
 - [Download Spice Models](https://my.centralsemi.com/content/engineering/spicemodels/index.php)  
