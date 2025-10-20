@@ -11,6 +11,7 @@ LINE Normal 28 44 44 20
 LINE Normal 44 20 60 44
 LINE Normal 36 20 64 20
 WINDOW 0 80 16 Left 2
+WINDOW 38 81 39 Left 2
 SYMATTR Prefix X
 SYMATTR SpiceModel DB3
 SYMATTR ModelFile MyLib/DIAC/Alexander_DB3.lib

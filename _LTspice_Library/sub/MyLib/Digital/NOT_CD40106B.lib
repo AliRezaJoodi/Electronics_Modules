@@ -1,0 +1,50 @@
+.param speed1=1
+.param tripdt1=100n
+
+* Inverting buffer with Schmitt trigger input
+* tpd 100n
+* tr 160n/60n
+*.SUBCKT CD40106B  A Y  VDD VGND  vdd1={vdd} speed1={speed} tripdt1={tripdt}
+.SUBCKT CD40106B  A Y  VDD VGND  vdd1={vdd}
+.param td1=1e-9*(100-40-10)*5/{vdd1}*{speed1}
+*
+XIN1  A Ai  VDD VGND  CD40_IN_S_1  vdd2={vdd1}  speed2={speed1}  tripdt2={tripdt1} 
+*
+A1  Ai 0 0 0 0  Yn 0 0  BUF  tripdt={tripdt1}  td={td1}  
+*
+XOUT  Yn Y  VDD VGND  CD40_OUT_2X  vdd2={vdd1} speed2={speed1}  tripdt2={tripdt1}
+.ends
+
+
+* Schmitt-input; 2.9V/2.1V @5V
+.SUBCKT  CD40_IN_S_1  in out  VDD VGND  vdd3={vdd2}  speed3={speed2}  tripdt3={tripdt2} 
+.param Cval = 1.8e-12*5/{vdd3}*{speed3}
+.param vt1=2.5/5
+.param vh1=0.4/5
+.param gain=(1/{vdd3})
+*
+*D1 0   in  CD40DIO1 
+*D2 in VDD  CD40DIO1
+R1 in out10 10k
+C1 out10 VGND {Cval}
+R2 in VGND 1e8
+**E1 out20 0 out10 VGND {gain}
+*B1 out20 0 V=LIMIT(0,V(out10,VGND)*{gain},1)
+B1 out20 0 V=LIMIT(0,V(out10,VGND)/max(V(VDD,VGND),1),1)
+AE1  out20 0 0 0 0  0 out 0  SCHMITT  vt={vt1} vh={vh1} vhigh=1  tripdt={tripdt3}
+.ends
+
+* Strong output driver
+.SUBCKT  CD40_OUT_2X  in out  VDD VGND  vdd3={vdd2} speed3={speed2}  tripdt3={tripdt2}
+.param trise1=80e-9*5/{vdd3}*{speed3}
+.param Rout=250*5.0/{vdd3}*{speed3}
+*
+AE1  in 0 0 0 0  0 out10 0  BUF  tripdt={tripdt3}  trise={trise1}
+*
+*E1  out20 VGND out10 0 {vdd3}
+B1 out20 VGND V=V(out10)*V(VDD,VGND)
+Rout  out20 out {Rout}
+*D1 0   out  DIO2 
+*D2 out VDD  DIO2
+.ends
+
