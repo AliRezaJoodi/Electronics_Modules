@@ -1,12 +1,5 @@
 ## Isolated Relay Driver Using Optocoupler
 
-### Features, v2.1
-- **Isolation Type:** Opto
-- **Isolation IC:** PC817
-- **Display Type:** LED
-- **Power Supply:** 12V, 3.3V
-- **Active Level:** High
-
 ### Simulate
 v2.1, Schematic  
 ![](Simulate/v2.1_Schematic.png)
