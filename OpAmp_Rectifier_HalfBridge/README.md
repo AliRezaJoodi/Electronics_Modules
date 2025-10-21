@@ -1,9 +1,12 @@
-## Half Bridge Rectifier Using OpAmp
-I tested it for many times and worked great
+## Precision Half Wave Rectifier Using Op Amp
 
-### Folders and Files Description
-It has included:
-- Hardware (Included hardware layers)
+### Simulate
+v1.1, Schematic  
+![](Simulate/v1.1_Schematic.png)
 
-### Schematic: v1.0
-![](Hardware/v1.0.png)
+v1.1, Plot  
+![](Simulate/v1.1_Plot.png)
+
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
