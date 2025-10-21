@@ -1,12 +1,12 @@
 ## Differential Amplifier
-I tested it for many times and worked great.
 
-It has included:
-- Hardware (Included hardware layers)
-- Simulate (Included simulator file)
+### Simulate
+v1.0, Schematic  
+![](Simulate/v1.0_Schematic.png)
 
-### Schematic: v1.0
-![](Hardware/v1.0.png)
+v1.0, Plot  
+![](Simulate/v1.0_Plot.png)
 
-My GitHub: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
