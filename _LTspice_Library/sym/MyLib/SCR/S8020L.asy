@@ -9,10 +9,11 @@ LINE Normal 16 44 16 64
 LINE Normal -12 64 -32 64
 LINE Normal -12 64 8 44
 WINDOW 0 48 16 Left 2
+WINDOW 38 48 39 Left 2
 SYMATTR Prefix X
 SYMATTR Description SCR
-SYMATTR SpiceModel CS223-4M
-SYMATTR ModelFile MyLib/SCR/CentralSemi_CS223-4M.lib
+SYMATTR SpiceModel S8020L
+SYMATTR ModelFile MyLib/SCR/S8020L.lib
 PIN 16 0 NONE 0
 PINATTR PinName A
 PINATTR SpiceOrder 1

@@ -15,8 +15,8 @@ LINE Normal 0 64 20 44
 WINDOW 0 80 16 Left 2
 SYMATTR Prefix X
 SYMATTR Description TRIAC
-SYMATTR SpiceModel 2N6071B
-SYMATTR ModelFile MyLib/TRIAC/CentralSemi_2N6071B.lib
+SYMATTR SpiceModel L4004L3
+SYMATTR ModelFile MyLib/TRIAC/TRIAC_Littelfuse.lib
 PIN 32 0 NONE 0
 PINATTR PinName MT2
 PINATTR SpiceOrder 1
