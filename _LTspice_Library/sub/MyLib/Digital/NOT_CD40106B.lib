@@ -1,4 +1,4 @@
-.param speed1=1
+.param speed1=10
 .param tripdt1=100n
 
 * Inverting buffer with Schmitt trigger input
