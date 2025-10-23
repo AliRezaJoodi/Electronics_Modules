@@ -1,4 +1,4 @@
-## Triac Gate Driver With MOC30xx
+## Triac Gate Driver Using MOC30xx
 Note: MOC302x series have no zero-cross  
 Note: MOC304x series have zero-cross  
 
