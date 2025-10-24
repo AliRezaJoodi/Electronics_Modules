@@ -10,3 +10,4 @@
 - `.param Fs = 16k`
 - `{1/Fs}`
 - `.model MOSFET SW(Ron=1u Roff=100Meg Vt=90)`
+- `.model SW SW(Ron=1u Roff=100Meg Vt=90)`
